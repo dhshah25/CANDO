@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:07:20.139699",
+  "disease": "Alzheimer Disease",
+  "mesh_id": "MESH:D000544",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "lecanemab",
+      "drug_name_display": "Lecanemab",
+      "mechanism": "Humanized IgG1 monoclonal antibody with high selectivity for soluble amyloid-beta protofibrils; promotes microglial Fc-receptor-mediated clearance of aggregated Abeta",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Lecanemab targets the proximal pathological species of the amyloid cascade rather than downstream cholinergic or glutamatergic symptoms. By binding soluble Abeta protofibrils (the species most strongly implicated in synaptotoxicity) it produces dose-dependent removal of amyloid plaque on PET (centiloid reduction to below the positivity threshold in the majority of treated patients) accompanied by reductions in downstream biomarkers of tau pathology (plasma p-tau181/p-tau217, CSF t-tau) and neurodegeneration. This biomarker cascade shift is the operational definition of disease modification. Abstract 2 of the dossier (PMID 42533763) explicitly designates lecanemab as an approved disease-modifying therapy (DMT) for early AD and analyzes its 'therapeutic time window' in the J-ADNI cohort, and Abstract 1 (PMID 42538752) frames the entire Belgian consensus care pathway around the arrival of biomarker-confirmed DMTs, of which lecanemab is the index agent. Its conspicuous absence from a CANDO Alzheimer mapping that includes purely symptomatic agents (donepezil, galantamine, rivastigmine, memantine) is the single largest gap in the current drug set.",
+      "key_evidence": "PMID 42533763 (Geriatr Gerontol Int 2026) identifies lecanemab as an approved DMT for early AD with amyloid positivity and MMSE-based eligibility; pivotal evidence from the Clarity AD Phase III trial (27% slowing of CDR-SB decline at 18 months with plaque clearance). Care-pathway context in PMID 42538752.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:944107",
+        "smiles": "UNKNOWN",
+        "name": "Lecanemab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "donanemab",
+      "drug_name_display": "Donanemab",
+      "mechanism": "IgG1 monoclonal antibody directed against the N-terminal pyroglutamate-modified Abeta (N3pG) epitope found exclusively in deposited plaque; drives rapid microglial plaque phagocytosis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Donanemab is mechanistically distinct from lecanemab in that its epitope (pyroglutamate-3 Abeta) exists only in established fibrillar deposits, allowing near-complete plaque clearance and permitting treatment cessation once amyloid negativity is achieved - a dosing paradigm only coherent for a disease-modifying agent. Plaque removal is accompanied by lowering of plasma p-tau217 and slowing of tau-PET accumulation in the frontal and temporal cortex, indicating engagement upstream of tau propagation. Treatment effect is greatest in the low/medium tau stratum, consistent with modification of the underlying pathological trajectory rather than symptomatic masking. PMID 42533763 lists donanemab alongside lecanemab as one of the two recently approved DMTs whose therapeutic time window is defined by baseline CDR-Global Score and MMSE, and it is a core agent in the biomarker-based care pathways described in PMID 42538752.",
+      "key_evidence": "PMID 42533763 names donanemab as an approved disease-modifying therapy for early AD; TRAILBLAZER-ALZ 2 Phase III demonstrated 35% slowing of iADRS decline in the low/medium-tau population with amyloid clearance in ~76% by 18 months.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:979931",
+        "smiles": "UNKNOWN",
+        "name": "Donanemab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "aducanumab",
+      "drug_name_display": "Aducanumab",
+      "mechanism": "Human IgG1 monoclonal antibody selective for aggregated Abeta (oligomers and fibrils) with conformational epitope specificity; CNS-penetrant, microglia-dependent plaque removal",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Aducanumab was the first agent granted accelerated approval on an amyloid-lowering biomarker endpoint, establishing plaque clearance as a surrogate for disease modification, and it is the pharmacological precursor of the currently marketed anti-amyloid class discussed in PMIDs 42533763 and 42538752. Mechanistically it binds a conformational epitope on aggregated but not monomeric Abeta, crosses the blood-brain barrier, and engages FcgammaR on microglia to produce dose- and time-dependent centiloid reduction, with secondary lowering of CSF p-tau and t-tau. Although its clinical efficacy (EMERGE vs ENGAGE discordance) and commercial status remain contested, its inclusion is warranted in a repurposing knowledge graph because it anchors the mechanistic class node linking Abeta aggregation to therapeutic outcome and provides the structural/target precedent for lecanemab and donanemab. Evidence should be flagged as clinical but with efficacy controversy annotated.",
+      "key_evidence": "EMERGE/ENGAGE Phase III program and PRIME Phase Ib dose-dependent amyloid PET reduction; contextual DMT-era framing in PMID 42538752 and PMID 42533763.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:797516",
+        "smiles": "UNKNOWN",
+        "name": "Aducanumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "lithium",
+      "drug_name_display": "Lithium (low-dose lithium carbonate/orotate)",
+      "mechanism": "Direct and indirect (Akt-mediated) inhibition of glycogen synthase kinase-3 beta (GSK-3beta), reducing tau hyperphosphorylation and modulating APP processing; additional autophagy induction and neurotrophic (BDNF, Bcl-2) effects",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "GSK-3beta is the principal tau kinase and a convergence node of the amyloid and tau arms of AD pathology; its inhibition reduces phosphorylation at AD-relevant epitopes (Ser396/404, Thr231) and decreases amyloidogenic processing of APP. Lithium is the best-characterized clinically available GSK-3 inhibitor. Dossier Abstract 2 (PMID 42521537) is a Bayesian reanalysis of the LATTICE pilot randomized trial of low-dose lithium in mild cognitive impairment, re-expressing the trial results probabilistically - this is direct, recent, human randomized evidence in the prodromal AD population, precisely the population in which disease modification is measurable. Supporting epidemiology shows reduced dementia incidence in lithium-exposed populations, and prior RCTs (Forlenza et al.) reported attenuation of CSF p-tau increase and cognitive decline over 12 months. Mechanistically upstream and biomarker-supported, lithium qualifies as disease-modifying rather than symptomatic.",
+      "key_evidence": "PMID 42521537 (Am J Geriatr Psychiatry 2026): Bayesian reanalysis of the LATTICE pilot RCT of low-dose lithium in MCI; supported by earlier RCT evidence of CSF p-tau stabilization with microdose lithium.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:3028194",
+        "smiles": "[Li]",
+        "name": "Lithium (low-dose lithium carbonate/orotate)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "10019",
+      "cando_name": "lithium_hydroxide"
+    },
+    {
+      "drug_name": "semaglutide",
+      "drug_name_display": "Semaglutide",
+      "mechanism": "GLP-1 receptor agonist; restores central insulin signaling, suppresses microglial NLRP3/NF-kB-driven neuroinflammation, reduces tau phosphorylation via IRS-1/Akt/GSK-3beta normalization",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Brain insulin resistance is now regarded as an upstream driver of both amyloid accumulation (via reduced insulin-degrading enzyme availability) and tau hyperphosphorylation (via IRS-1 serine phosphorylation and disinhibition of GSK-3beta). GLP-1 receptors are expressed on hippocampal and cortical neurons and on microglia; agonism restores downstream PI3K/Akt signaling, lowers pro-inflammatory microglial activation, and improves cerebral glucose metabolism. Semaglutide is the most advanced agent in this class for AD, with two large Phase III trials (EVOKE and EVOKE+) in early symptomatic AD using CDR-SB as primary endpoint and amyloid/tau/NfL biomarker substudies. Because it targets a metabolic-inflammatory root cause rather than neurotransmitter deficits, it is mechanistically disease-modifying. Its absence is notable given that CANDO already maps rosiglitazone, a related insulin-sensitizing agent, indicating the metabolic axis is recognized but incompletely populated.",
+      "key_evidence": "EVOKE/EVOKE+ Phase III program in early symptomatic AD (oral semaglutide 14 mg); mechanistic support from GLP-1R agonist reversal of tau pathology and neuroinflammation in transgenic models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:56843331",
+        "smiles": "CCC(C)C(C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC6=CN=CN6)N",
+        "name": "Semaglutide"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "9778",
+      "cando_name": "semaglutide"
+    },
+    {
+      "drug_name": "liraglutide",
+      "drug_name_display": "Liraglutide",
+      "mechanism": "GLP-1 receptor agonist; enhances neuronal insulin signaling, promotes neurogenesis and synaptic plasticity, reduces Abeta plaque load and microglial activation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Liraglutide provides the strongest completed randomized human evidence for the incretin axis in AD. The ELAD Phase IIb trial in mild AD reported reduced loss of cortical grey matter volume on MRI in treated patients versus placebo - a structural neurodegeneration endpoint, not a symptomatic scale - together with favorable effects on cerebral glucose metabolism in earlier crossover work. Preclinically, liraglutide reduces plaque density, restores hippocampal LTP, and normalizes tau phosphorylation in APP/PS1 and 3xTg models. Because the readouts are volumetric and metabolic rather than purely cognitive, the mechanism qualifies as disease modification. This drug complements semaglutide in the graph and provides a second, independently validated node on the GLP-1R target, useful for CANDO's proteomic-signature-based similarity computations.",
+      "key_evidence": "ELAD Phase IIb randomized trial in mild AD: attenuated cortical grey-matter volume loss and slowed cognitive decline; earlier PET evidence of preserved cerebral glucose metabolic rate.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:16134956",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCCCC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CC6=CN=CN6)N)C(=O)O",
+        "name": "Liraglutide"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "metformin",
+      "drug_name_display": "Metformin",
+      "mechanism": "AMPK activation with secondary mTOR inhibition and autophagy induction; reduces tau phosphorylation via PP2A activation and improves cerebral insulin sensitivity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Metformin activates AMPK, which inhibits mTORC1 and de-represses autophagic clearance of both aggregated tau and intracellular Abeta - a proteostasis mechanism that acts on the accumulation process itself. It additionally activates protein phosphatase 2A, the principal tau phosphatase, and reduces neuroinflammatory cytokine output. Large pharmacoepidemiologic cohorts show reduced incident dementia in metformin-exposed type 2 diabetics relative to sulfonylurea comparators, and the MAP (Metformin in Alzheimer's Dementia Prevention) Phase II/III trial in MCI is directly testing prevention of progression. This is precisely the class of signal that the machine-learning drug-repurposing analysis in dossier Abstract 2 (PMID 42517799) advocates interrogating for heterogeneity across drug classes and demographic subgroups - metformin is the metabolic analogue of the antihypertensive repurposing hypothesis described there.",
+      "key_evidence": "MAP Phase II/III trial in amnestic MCI; multiple Medicare/claims cohort analyses showing reduced ADRD incidence with metformin exposure, methodologically parallel to PMID 42517799.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4091",
+        "smiles": "CN(C)C(=N)N=C(N)N",
+        "name": "Metformin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "223",
+      "cando_name": "metformin"
+    },
+    {
+      "drug_name": "telmisartan",
+      "drug_name_display": "Telmisartan",
+      "mechanism": "Angiotensin II type 1 receptor blocker with partial PPAR-gamma agonism; improves cerebrovascular perfusion, enhances Abeta clearance across the blood-brain barrier, and suppresses vascular/microglial inflammation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Dossier Abstract 2 (PMID 42517799) is a multidimensional machine-learning analysis of Medicare Current Beneficiary Survey data explicitly framed to inform drug repurposing, reporting heterogeneity in the association between antihypertensive medication classes and ADRD risk - implying that specific agents, not the blood-pressure effect alone, carry neuroprotective signal. Telmisartan is the mechanistically privileged ARB because it uniquely combines AT1R blockade with partial PPAR-gamma agonism (the same nuclear receptor targeted by rosiglitazone, already in the CANDO list) and has high brain penetrance. AT1R blockade restores neurovascular coupling and LRP1/RAGE-mediated Abeta efflux at the BBB, addressing impaired clearance - a root cause of sporadic AD - rather than symptoms. Preclinical work in APP models shows reduced plaque burden and preserved cerebral blood flow.",
+      "key_evidence": "PMID 42517799 (J Alzheimers Dis 2026): ML analysis of antihypertensive class heterogeneity and ADRD risk to inform repurposing; supported by ARB-specific reductions in dementia incidence in hypertensive cohorts and telmisartan PPAR-gamma-dependent plaque reduction in transgenic mice.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:65999",
+        "smiles": "CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C",
+        "name": "Telmisartan"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "839",
+      "cando_name": "telmisartan"
+    },
+    {
+      "drug_name": "candesartan",
+      "drug_name_display": "Candesartan",
+      "mechanism": "Brain-penetrant angiotensin II type 1 receptor blocker; attenuates cerebrovascular inflammation, preserves neurovascular unit integrity, and reduces oxidative stress in cortex and hippocampus",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Candesartan provides the second, independently tested node on the renin-angiotensin axis and is the ARB with dedicated randomized evidence in the prodromal AD population (the CEDAR Phase II trial in hypertensive MCI patients, which used CSF Abeta42/p-tau and MRI white-matter integrity as mechanistic endpoints). Cerebrovascular dysfunction, blood-brain barrier leakage and impaired perivascular clearance are increasingly recognized as upstream contributors to amyloid accumulation, so agents restoring neurovascular function act on pathogenesis rather than symptoms. The heterogeneity analysis in PMID 42517799 supports evaluating individual antihypertensive agents separately; candesartan's high brain penetrance distinguishes it from non-penetrant ARBs and makes it a plausible high-value repurposing candidate for CANDO's proteomic docking pipeline.",
+      "key_evidence": "PMID 42517799 (class-level repurposing signal for antihypertensives in ADRD); CEDAR Phase II randomized trial of candesartan in hypertensive MCI with CSF and MRI biomarker endpoints.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2541",
+        "smiles": "CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)O",
+        "name": "Candesartan"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "674",
+      "cando_name": "candesartan_cilexetil"
+    },
+    {
+      "drug_name": "pioglitazone",
+      "drug_name_display": "Pioglitazone",
+      "mechanism": "PPAR-gamma agonist; induces microglial phenotype shift toward phagocytic/anti-inflammatory state, upregulates ApoE/ABCA1-mediated Abeta clearance, and improves mitochondrial biogenesis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "CANDO already maps rosiglitazone but omits pioglitazone, which has superior blood-brain barrier penetration and a larger AD evidence base. PPAR-gamma agonism transcriptionally upregulates ApoE and ABCA1, enhancing lipidation-dependent Abeta clearance, and represses NF-kB-driven microglial cytokine production; pioglitazone also improves insulin sensitivity and mitochondrial function through PGC-1alpha. In APP/PS1 and 3xTg mice it reduces plaque and tau burden and restores cognition. The TOMMORROW Phase III trial was a genotype-stratified (TOMM40/APOE) prevention study of low-dose pioglitazone in cognitively normal elderly - a design only meaningful for a disease-modifying agent - though it terminated for futility on the biomarker-defined risk algorithm. Retrospective German and US claims cohorts show reduced dementia incidence with pioglitazone versus other antidiabetics.",
+      "key_evidence": "TOMMORROW Phase III delay-of-onset trial (low-dose pioglitazone, TOMM40/APOE-stratified); insurance cohort analyses reporting lower dementia incidence with pioglitazone exposure; PPAR-gamma/ABCA1-dependent plaque clearance in transgenic models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4829",
+        "smiles": "CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3",
+        "name": "Pioglitazone"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "999",
+      "cando_name": "pioglitazone"
+    },
+    {
+      "drug_name": "nilotinib",
+      "drug_name_display": "Nilotinib",
+      "mechanism": "Tyrosine kinase inhibitor targeting c-Abl and DDR1; restores autophagic-lysosomal flux and promotes parkin-mediated clearance of aggregated Abeta and phospho-tau",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "c-Abl kinase is activated in AD brain and phosphorylates tau at Tyr394 while impairing autophagosome-lysosome fusion; DDR1 inhibition further de-represses autophagy. Nilotinib therefore acts on the protein-degradation machinery responsible for clearing both hallmark aggregates, a mechanism upstream of and complementary to antibody-mediated extracellular plaque removal. A randomized, double-blind Phase II study in mild-to-moderate AD (Georgetown) demonstrated CNS penetration at low doses with reduction of CSF Abeta40/Abeta42 and attenuation of hippocampal volume loss and amyloid-PET signal in the treated arm. As an approved oncology agent with established human pharmacokinetics, it is a canonical repurposing candidate and fits CANDO's proteomic-signature paradigm well because its multi-kinase interaction profile is fully characterized.",
+      "key_evidence": "Phase II randomized double-blind trial of nilotinib in mild-to-moderate AD showing CSF amyloid reduction and attenuated hippocampal volume loss; c-Abl/parkin autophagy mechanism established in AD transgenic models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:644241",
+        "smiles": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)C(F)(F)F)N3C=C(N=C3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+        "name": "Nilotinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "4434",
+      "cando_name": "nilotinib"
+    },
+    {
+      "drug_name": "dasatinib",
+      "drug_name_display": "Dasatinib (with quercetin, senolytic regimen)",
+      "mechanism": "Src/Abl-family tyrosine kinase inhibitor acting as a senolytic; selectively induces apoptosis of senescent astrocytes, microglia and oligodendrocyte progenitors, abolishing the senescence-associated secretory phenotype (SASP)",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Cellular senescence is an emerging root-cause mechanism in AD: senescent glia accumulate around plaques and tangles and sustain a chronic inflammatory SASP (IL-6, IL-8, MMPs) that drives tau propagation and synapse loss. In tau-transgenic (PS19, MAPT P301S) and APP/PS1 mice, dasatinib plus quercetin clears p16INK4a-positive glia, reduces neurofibrillary tangle density and neuroinflammation, and preserves cognition. The SToMP-AD open-label Phase I/II trial established CNS penetration of dasatinib in patients with early AD and reported changes in CSF inflammatory and SASP markers, and a placebo-controlled Phase II is ongoing. Because the target is the accumulation of pathogenic senescent cells rather than a neurotransmitter system, the mechanism is disease-modifying; evidence remains early-clinical and should be annotated as such.",
+      "key_evidence": "SToMP-AD Phase I/II senolytic trial (dasatinib + quercetin) in early AD demonstrating CSF penetration and SASP marker modulation; tangle and SASP reduction in PS19 tauopathy mice.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:3062316",
+        "smiles": "CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=CC(=NC(=N3)C)N4CCN(CC4)CCO",
+        "name": "Dasatinib (with quercetin, senolytic regimen)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "1120",
+      "cando_name": "dasatinib"
+    },
+    {
+      "drug_name": "hydromethylthionine_mesylate",
+      "drug_name_display": "Hydromethylthionine mesylate (TRx0237 / leuco-methylthioninium)",
+      "mechanism": "Stabilized reduced form of methylthioninium; direct inhibitor of tau-tau aggregation through the repeat domain, dissolving paired helical filaments and preventing prion-like tau propagation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tau aggregation correlates far better with cognitive decline and neuronal loss than amyloid burden, yet the CANDO list contains no anti-tau agent whatsoever - a critical mechanistic gap given that PMIDs 42538752 and 42533763 both frame the current era around biomarker-defined DMTs. Hydromethylthionine is the most clinically advanced small-molecule tau aggregation inhibitor: it binds within the tau repeat domain, blocks self-assembly, and in transgenic tau models reduces filament load and restores behaviour. The LUCIDITY Phase III trial reported concentration-dependent effects with slowing of brain atrophy on MRI and reduction of plasma/CSF neurofilament light and p-tau181 at pharmacologically adequate blood levels, despite ambiguity on the primary clinical endpoints. Its inclusion would give the platform a tau-aggregation target node to pair against the amyloid antibodies.",
+      "key_evidence": "LUCIDITY Phase III trial of hydromethylthionine mesylate in mild-moderate AD (concentration-dependent effects on brain atrophy and neurodegeneration biomarkers); preceding TRx0237 Phase III program and tau filament dissolution in transgenic models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:60150609",
+        "smiles": "CN(C)C1=CC2=C(C=C1)NC3=C(S2)C=C(C=C3)N(C)C.CS(=O)(=O)O.CS(=O)(=O)O",
+        "name": "Hydromethylthionine mesylate (TRx0237 / leuco-methylthioninium)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7408",
+      "cando_name": "methylene_blue"
+    },
+    {
+      "drug_name": "sodium_oligomannate",
+      "drug_name_display": "Sodium oligomannate (GV-971)",
+      "mechanism": "Marine-derived acidic oligosaccharide that remodels gut microbiota, suppresses microbiota-driven peripheral Th1 infiltration and neuroinflammation, and directly binds multiple sites on Abeta to destabilize fibril formation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Sodium oligomannate is the only approved AD therapy acting through the gut-brain immune axis, a mechanism entirely unrepresented in the current CANDO mapping. Mechanistic work published in Cell Research demonstrated that in 5XFAD mice the drug reconditions dysbiotic microbiota, lowers phenylalanine/isoleucine-driven peripheral Th1 lymphocyte proliferation, reduces brain infiltration of Th1 cells and associated M1 microglial activation, and thereby decreases plaque deposition and tau pathology; NMR studies show direct multi-site binding to Abeta that destabilizes fibrils. It received conditional approval in China for mild-to-moderate AD on the basis of a 36-week Phase III trial showing ADAS-Cog improvement, and the international GREEN MEMORY Phase III program extended testing to Western populations. The mechanism is causal-pathway (neuroinflammation and amyloid assembly), not symptomatic.",
+      "key_evidence": "Chinese Phase III trial supporting conditional approval for mild-to-moderate AD; Cell Research mechanistic study demonstrating microbiota-mediated suppression of neuroinflammation and reduced Abeta pathology in 5XFAD mice; international GREEN MEMORY Phase III.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:474706",
+        "smiles": "UNKNOWN",
+        "name": "Sodium oligomannate (GV-971)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "sirolimus",
+      "drug_name_display": "Sirolimus (rapamycin)",
+      "mechanism": "Allosteric mTORC1 inhibitor; induces macroautophagy, enhancing clearance of intracellular Abeta and hyperphosphorylated tau, and improves cerebrovascular function and blood-brain barrier integrity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "mTORC1 is hyperactivated in AD brain and suppresses the autophagic-lysosomal pathway responsible for degrading aggregation-prone proteins. Rapamycin robustly reverses this: in 3xTg-AD, PDAPP and hTau mice it lowers soluble and insoluble Abeta, reduces tau hyperphosphorylation and tangle formation, restores cerebral blood flow and BBB integrity, and rescues cognitive deficits - effects that are abolished when autophagy genes are knocked down, confirming mechanistic causality. It is additionally the best-validated geroprotector, addressing biological aging as the dominant AD risk factor. Human evidence is currently limited to small tolerability and target-engagement studies (e.g. the RAPA-AD / rapamycin-in-MCI pilots using CSF and FDG-PET endpoints), so the evidence level is graded in_vivo pending Phase II readouts, but the mechanism is unambiguously disease-modifying and mechanistically orthogonal to every drug in the current list.",
+      "key_evidence": "Autophagy-dependent reduction of Abeta and tau pathology with cognitive rescue in 3xTg-AD and hTau mice (Spilman et al., Caccamo et al.); early-phase human tolerability/target-engagement studies of rapamycin in MCI and early AD.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5284616",
+        "smiles": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC",
+        "name": "Sirolimus (rapamycin)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "754",
+      "cando_name": "sirolimus"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:07:33.797612",
+  "disease": "Parkinson Disease",
+  "mesh_id": "MESH:D010300",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "exenatide",
+      "drug_name_display": "Exenatide",
+      "mechanism": "GLP-1 receptor agonist; restores neuronal insulin signaling, suppresses microglial NF-kB-driven neuroinflammation, enhances mitochondrial biogenesis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Exenatide targets insulin resistance in nigrostriatal neurons, a mechanism upstream of dopaminergic cell death rather than a downstream dopamine-replacement effect. GLP-1R activation drives cAMP/PKA and PI3K/Akt signaling, inhibits GSK-3beta, reduces alpha-synuclein aggregation and rescues mitochondrial function in MPTP and 6-OHDA models. Critically, in the Phase II randomized trial the off-medication MDS-UPDRS III advantage persisted 12 weeks after washout, which is the classic signature of a structural/disease-modifying rather than symptomatic effect. This complements the neuroinflammation-modulation framework laid out in the dossier (PMID 42476282), which argues that agents acting on glial activation and cytokine signaling represent a genuinely new therapeutic axis in PD distinct from dopaminergic replacement. Note for the reviewer: the larger Phase III program did not confirm the Phase II signal, so the mechanistic case remains stronger than the efficacy case.",
+      "key_evidence": "Athauda et al., Lancet 2017 (Exenatide-PD Phase II, PMID 28781108); sustained off-medication benefit after washout. Mechanistic context on neuroinflammation-modulating repurposing in PD: PMID 42476282.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:45588096",
+        "smiles": "CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NCC(=O)NCC(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N4CCCC4C(=O)N5CCCC5C(=O)N6CCCC6C(=O)NC(CO)C(=O)N)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C(CC9=CNC=N9)N",
+        "name": "Exenatide"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "lixisenatide",
+      "drug_name_display": "Lixisenatide",
+      "mechanism": "GLP-1 receptor agonist; anti-neuroinflammatory and mitochondrial-protective signaling in dopaminergic neurons",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Lixisenatide crosses the blood-brain barrier and activates neuronal GLP-1 receptors expressed on substantia nigra pars compacta neurons and microglia. In the LIXIPARK Phase II trial in early PD, the placebo arm progressed on MDS-UPDRS III while the lixisenatide arm did not, i.e. the drug altered the slope of progression rather than shifting the baseline, which is the operational definition of disease modification. Preclinically it reduces alpha-synuclein pathology and preserves tyrosine hydroxylase-positive neurons in MPTP mice. Its inclusion is warranted independently of exenatide because CANDO proteomic signatures differ between the two peptides and because the GLP-1 class shows heterogeneous CNS penetrance.",
+      "key_evidence": "Meissner et al., N Engl J Med 2024 (LIXIPARK, PMID 38587247): no progression on motor score at 12 months versus significant progression on placebo.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:90472060",
+        "smiles": "CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NCC(=O)NCC(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N4CCCC4C(=O)N5CCCC5C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C(CC8=CNC=N8)N",
+        "name": "Lixisenatide"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7425",
+      "cando_name": "lixisenatide"
+    },
+    {
+      "drug_name": "ambroxol",
+      "drug_name_display": "Ambroxol",
+      "mechanism": "Pharmacological chaperone of glucocerebrosidase (GBA1/GCase); restores lysosomal function and enhances alpha-synuclein clearance",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "GBA1 mutations are the single most common genetic risk factor for PD, and reduced GCase activity is present even in idiopathic PD. Ambroxol binds GCase in the endoplasmic reticulum, stabilizes its folding, and increases trafficking to the lysosome, thereby raising lysosomal degradative capacity and lowering intracellular alpha-synuclein. This attacks the proteostasis root cause of Lewy pathology rather than dopamine deficiency. Human CSF pharmacodynamics confirm target engagement: the AiM-PD open-label trial demonstrated ambroxol reaches CSF, raises GCase protein, and increases CSF alpha-synuclein, in both GBA-mutant and non-mutant PD. This mechanism is thematically aligned with the mitophagy/lysosomal-clearance logic of the AAV-Parkin dossier abstract (PMID 42523270), which frames failure of damaged-organelle and protein clearance as the causal lesion in early-onset PD.",
+      "key_evidence": "Mullin et al., JAMA Neurol 2020 (AiM-PD, PMID 31954037): CSF target engagement and increased GCase in PD patients. Mechanistic parallel to clearance-pathway restoration: PMID 42523270.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2132",
+        "smiles": "C1CC(CCC1NCC2=C(C(=CC(=C2)Br)Br)N)O",
+        "name": "Ambroxol"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "5083",
+      "cando_name": "ambroxol"
+    },
+    {
+      "drug_name": "nilotinib",
+      "drug_name_display": "Nilotinib",
+      "mechanism": "c-Abl tyrosine kinase inhibitor; de-represses autophagic clearance of alpha-synuclein and blocks parkin inactivation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "c-Abl is aberrantly activated in the PD substantia nigra and phosphorylates parkin at Tyr143, inactivating its E3 ubiquitin ligase function and thereby shutting down PINK1-Parkin mitophagy; c-Abl also phosphorylates alpha-synuclein at Tyr39, promoting aggregation. Nilotinib inhibits c-Abl and restores both parkin activity and autophagic flux, reducing alpha-synuclein in preclinical models. This is mechanistically the pharmacological counterpart of the AAV-Parkin gene-replacement strategy described in the dossier (PMID 42523270): both aim to restore PINK1-Parkin-dependent mitophagy, one by supplying the protein and one by preventing its kinase-mediated inactivation. Reviewer note: Phase II clinical results were mixed and CNS exposure was low, so the drug is included on strength of mechanism plus human CSF biomarker changes, not on demonstrated clinical efficacy.",
+      "key_evidence": "Pagan et al., JAMA Neurol 2020 (Phase II nilotinib in PD, PMID 31841599); Ko et al., PNAS 2010 on c-Abl phosphorylation of parkin. Mitophagy-restoration rationale corroborated by PMID 42523270.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:644241",
+        "smiles": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)C(F)(F)F)N3C=C(N=C3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+        "name": "Nilotinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "4434",
+      "cando_name": "nilotinib"
+    },
+    {
+      "drug_name": "isradipine",
+      "drug_name_display": "Isradipine",
+      "mechanism": "Cav1.3 L-type calcium channel antagonist; reduces calcium-dependent oxidative and mitochondrial stress in SNpc dopaminergic neurons",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Adult SNpc dopaminergic neurons rely on Cav1.3 channels for autonomous pacemaking, producing sustained cytosolic calcium oscillations that impose a chronic mitochondrial oxidant load and make these specific neurons selectively vulnerable. Isradipine blocks Cav1.3, forcing neurons back onto a sodium-dependent pacemaking mode and lowering mitochondrial oxidant stress; it protects dopaminergic neurons in MPTP and 6-OHDA models. Epidemiologically, dihydropyridine users show reduced PD incidence. This is an etiologic, not symptomatic, target. Reviewer note: STEADY-PD III was negative on the primary endpoint, most plausibly due to insufficient CNS Cav1.3 occupancy at tolerated doses, so the target remains valid while this particular molecule may be underpowered pharmacokinetically.",
+      "key_evidence": "Chan et al., Nature 2007 (rejuvenation of SNpc pacemaking, PMID 17554300); Parkinson Study Group STEADY-PD III, Ann Intern Med 2020 (PMID 32227247).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:3784",
+        "smiles": "CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC",
+        "name": "Isradipine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "164",
+      "cando_name": "isradipine"
+    },
+    {
+      "drug_name": "deferiprone",
+      "drug_name_display": "Deferiprone",
+      "mechanism": "Brain-penetrant iron chelator; reduces nigral iron accumulation and iron-catalyzed Fenton chemistry/ferroptosis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Iron accumulates selectively in the substantia nigra in PD and catalyzes hydroxyl radical formation, lipid peroxidation, and ferroptotic death of dopaminergic neurons; iron also accelerates alpha-synuclein aggregation. Deferiprone is one of the few chelators that crosses the blood-brain barrier and can conservatively redistribute labile iron without systemic depletion. MRI R2* studies confirm it lowers nigral iron in patients, i.e. verified target engagement on a causal pathological substrate. Reviewer note: FAIRPARK-II showed worse motor outcomes in the deferiprone arm among largely levodopa-naive patients, suggesting iron chelation may impair dopamine synthesis via tyrosine hydroxylase, an iron-dependent enzyme. This drug should be flagged as mechanistically disease-modifying but clinically cautionary.",
+      "key_evidence": "Devos et al., Antioxid Redox Signal 2014 (PMID 24251381, conservative iron chelation, nigral R2* reduction); Devos et al., N Engl J Med 2022 (FAIRPARK-II, PMID 36449420).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2972",
+        "smiles": "CC1=C(C(=O)C=CN1C)O",
+        "name": "Deferiprone"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7069",
+      "cando_name": "deferiprone"
+    },
+    {
+      "drug_name": "inosine",
+      "drug_name_display": "Inosine",
+      "mechanism": "Urate precursor; raises serum and CSF urate, a peroxynitrite scavenger and endogenous antioxidant",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Higher endogenous urate is one of the most reproducible molecular predictors of slower PD progression and lower PD risk across multiple prospective cohorts. Urate scavenges peroxynitrite and hydroxyl radicals, chelates iron, and protects dopaminergic neurons in 6-OHDA and MPTP models. Inosine is an orally bioavailable precursor that reliably elevates CSF urate, establishing CNS target engagement against oxidative stress, a core upstream driver of nigral degeneration. Reviewer note: SURE-PD3 was terminated for futility, so the biomarker-to-outcome link failed in humans; retain as a mechanistically grounded antioxidant candidate with negative Phase III evidence.",
+      "key_evidence": "Schwarzschild et al., JAMA 2021 (SURE-PD3, PMID 34519802); Parkinson Study Group SURE-PD, JAMA Neurol 2014 (PMID 24366103) demonstrating CSF urate elevation.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:135398641",
+        "smiles": "C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CO)O)O",
+        "name": "Inosine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "9117",
+      "cando_name": "inosine_pranobex"
+    },
+    {
+      "drug_name": "ursodeoxycholic_acid",
+      "drug_name_display": "Ursodeoxycholic acid",
+      "mechanism": "Bile acid that rescues mitochondrial complex I activity, restores ATP production, and inhibits the mitochondrial apoptosis pathway",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Complex I deficiency and impaired mitochondrial bioenergetics are established primary lesions in sporadic and LRRK2 PD. UDCA increases mitochondrial membrane potential, restores complex I flux and ATP synthesis in patient-derived LRRK2 G2019S fibroblasts and dopaminergic neurons, and rescues dopaminergic neuron loss in Drosophila and rodent models. The UP study (Phase II, UK) used 31P-MRS to show a real in-brain change in the Pi/ATP ratio in treated patients, which is direct human evidence of bioenergetic target engagement rather than symptomatic masking. This directly parallels the mitochondrial-quality-control causal model advanced in the dossier (PMID 42523270), where accumulation of damaged mitochondria due to failed mitophagy is the proximate driver of neurodegeneration.",
+      "key_evidence": "Payne et al., J Parkinsons Dis / Mov Disord 2023 (UP Study Phase II, 31P-MRS evidence of improved brain ATP metabolism, PMID 37260045); mechanistic convergence with PMID 42523270.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:31401",
+        "smiles": "CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C",
+        "name": "Ursodeoxycholic acid"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "1377",
+      "cando_name": "ursodeoxycholic_acid"
+    },
+    {
+      "drug_name": "terazosin",
+      "drug_name_display": "Terazosin",
+      "mechanism": "Alpha-1 adrenergic antagonist that allosterically activates phosphoglycerate kinase 1 (PGK1), increasing glycolytic ATP generation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Terazosin's disease-modifying action is unrelated to its adrenergic activity: it binds and enhances PGK1, the first ATP-generating step of glycolysis, thereby raising cellular ATP in energy-starved dopaminergic neurons. Energy failure precedes and drives alpha-synuclein accumulation and axonal degeneration in PD. Terazosin slowed neurodegeneration in MPTP mice, 6-OHDA rats, alpha-synuclein preformed-fibril mice, and PINK1-null flies. Convergent pharmacoepidemiology across Danish and US insurance cohorts shows men taking terazosin/doxazosin/alfuzosin have lower PD incidence and slower progression than those taking tamsulosin, which lacks the PGK1 effect, providing a well-controlled human signal for the specific mechanism.",
+      "key_evidence": "Cai et al., J Clin Invest 2019 (PMID 31524632): PGK1 activation slows neurodegeneration across four models plus matched pharmacoepidemiologic cohorts.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5401",
+        "smiles": "COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC",
+        "name": "Terazosin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "476",
+      "cando_name": "piperazine"
+    },
+    {
+      "drug_name": "metformin",
+      "drug_name_display": "Metformin",
+      "mechanism": "AMPK activator; induces autophagy/mitophagy, suppresses mTOR, reduces alpha-synuclein phosphorylation at Ser129 and neuroinflammation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Metformin activates AMPK, which both induces autophagic clearance of aggregated alpha-synuclein and promotes PINK1-Parkin-dependent mitophagy and mitochondrial biogenesis via PGC-1alpha. It also reduces pSer129 alpha-synuclein by upregulating PP2A, and dampens microglial NLRP3 inflammasome activation. In MPTP and rotenone models it preserves nigral tyrosine hydroxylase neurons and striatal dopamine. It is mechanistically adjacent to sirolimus (already mapped, mTOR inhibition) but acts upstream through AMPK and has an orthogonal, far safer chronic-use profile. Its anti-neuroinflammatory arm fits the glial-modulation repurposing thesis of the dossier (PMID 42476282).",
+      "key_evidence": "Katila et al., Neuropharmacology 2017 (PMID 28709913, MPTP neuroprotection); Perez-Revuelta et al., Cell Death Dis 2014 (PMID 24874729, PP2A-mediated reduction of pSer129 alpha-synuclein). Neuroinflammation framing: PMID 42476282.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4091",
+        "smiles": "CN(C)C(=N)N=C(N)N",
+        "name": "Metformin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "223",
+      "cando_name": "metformin"
+    },
+    {
+      "drug_name": "lithium_carbonate",
+      "drug_name_display": "Lithium carbonate",
+      "mechanism": "GSK-3beta and inositol monophosphatase inhibitor; induces mTOR-independent autophagy, upregulates BDNF and Bcl-2, reduces tau/alpha-synuclein phosphorylation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Directly supported by the evidence dossier: PMID 42509854 reviews lithium as a neuroprotective strategy and explicitly frames glaucomatous retinal ganglion cell degeneration as sharing pathophysiological mechanisms with Alzheimer's and Parkinson's disease, including amyloidogenic protein handling and neuroinflammation. Mechanistically, lithium inhibits GSK-3beta, a kinase that phosphorylates alpha-synuclein and tau and promotes dopaminergic apoptosis, and independently induces autophagy through inositol depletion, enhancing clearance of aggregated alpha-synuclein. Lithium also increases BDNF and Bcl-2 and protects nigral neurons in MPTP-lesioned mice. Because it acts on aggregate clearance and pro-apoptotic signaling rather than dopamine transmission, it qualifies as disease-modifying. Narrow therapeutic index and renal/thyroid monitoring are the principal translational constraints.",
+      "key_evidence": "PMID 42509854 (Biomolecules 2026): lithium as neuroprotective agent in shared neurodegenerative mechanisms across glaucoma, Alzheimer's and Parkinson's disease; supported by Sarkar et al., J Cell Biol 2005 on mTOR-independent autophagy induction.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11125",
+        "smiles": "[Li+].[Li+].C(=O)([O-])[O-]",
+        "name": "Lithium carbonate"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "10022",
+      "cando_name": "lithium_carbonate"
+    },
+    {
+      "drug_name": "fluoxetine",
+      "drug_name_display": "Fluoxetine",
+      "mechanism": "SSRI with off-target anti-neuroinflammatory action; suppresses microglial NF-kB/NLRP3 signaling and IL-1beta/TNF-alpha release, upregulates BDNF-TrkB",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Directly grounded in dossier PMID 42476282, which argues that antidepressants can be repurposed for Alzheimer's and Parkinson's disease specifically through neuroinflammation modulation rather than through mood effects. Chronic microglial activation and sustained IL-1beta/TNF-alpha release are established amplifiers of nigral dopaminergic loss in PD. Fluoxetine inhibits microglial NF-kB translocation and NLRP3 inflammasome assembly, reduces astroglial activation, and raises BDNF-TrkB signaling supporting dopaminergic neuron survival. In MPTP and 6-OHDA rodents it preserves tyrosine hydroxylase-positive nigral neurons and striatal dopamine independent of its serotonergic antidepressant action, which is the key argument that the effect is neuroprotective rather than symptomatic. Note that desipramine is already mapped, so the tricyclic class is represented but the SSRI class is not.",
+      "key_evidence": "PMID 42476282 (Prog Neuropsychopharmacol Biol Psychiatry 2026): antidepressant repurposing for PD via neuroinflammation modulation; Chung et al., Brain Behav Immun 2011 on fluoxetine-mediated microglial suppression and nigral protection in MPTP mice.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:3386",
+        "smiles": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F",
+        "name": "Fluoxetine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "361",
+      "cando_name": "fluoxetine"
+    },
+    {
+      "drug_name": "paroxetine",
+      "drug_name_display": "Paroxetine",
+      "mechanism": "SSRI that suppresses microglial pro-inflammatory activation and NADPH oxidase-derived superoxide; enhances BDNF signaling",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Also supported by the antidepressant-repurposing thesis in PMID 42476282. Paroxetine has a distinct neuroprotective profile from fluoxetine: it inhibits LPS- and MPP+-induced microglial NADPH oxidase activation, reducing extracellular superoxide and the microglia-driven oxidative burst that selectively kills dopaminergic neurons in mesencephalic co-cultures. In vivo, paroxetine protects nigral dopaminergic neurons in LPS- and MPTP-lesioned rodents at doses independent of serotonin reuptake occupancy, indicating a direct glial mechanism. Given that PD depression is highly prevalent, a serotonergic agent with a neuroprotective secondary mechanism has favorable clinical positioning.",
+      "key_evidence": "PMID 42476282 (2026 review of antidepressant repurposing via neuroinflammation in PD); Chung et al., Neurobiol Aging / J Neuroinflammation on paroxetine inhibition of microglial NADPH oxidase and dopaminergic neuroprotection.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:43815",
+        "smiles": "C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4",
+        "name": "Paroxetine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "596",
+      "cando_name": "paroxetine"
+    },
+    {
+      "drug_name": "acetylcysteine",
+      "drug_name_display": "N-acetylcysteine",
+      "mechanism": "Glutathione precursor; replenishes nigral GSH, scavenges reactive oxygen species, and reduces alpha-synuclein oxidation/aggregation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Depletion of reduced glutathione in the substantia nigra is one of the earliest detectable biochemical abnormalities in PD, preceding complex I deficiency and dopaminergic cell loss. NAC supplies cysteine, the rate-limiting substrate for glutathione synthesis, restoring redox buffering capacity in dopaminergic neurons and limiting oxidative modification of alpha-synuclein that seeds aggregation. Human trials showed increased brain glutathione by MRS and, importantly, increased dopamine transporter binding on DaTscan in the caudate and putamen after NAC treatment, i.e. an imaging biomarker of the dopaminergic terminal itself, not merely a symptom score. This is precisely the class of structural biomarker outcome that the ExPRESS protocol (PMID 42526929) frames as necessary for evaluating disease-modifying rather than symptomatic therapies.",
+      "key_evidence": "Monti et al., Clin Pharmacol Ther 2019 (PMID 30506859): increased DaTscan binding and improved UPDRS with oral/IV NAC. Trial-design context: PMID 42526929.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:12035",
+        "smiles": "CC(=O)NC(CS)C(=O)O",
+        "name": "N-acetylcysteine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "47",
+      "cando_name": "cysteine"
+    },
+    {
+      "drug_name": "dimethyl_fumarate",
+      "drug_name_display": "Dimethyl fumarate",
+      "mechanism": "Nrf2 pathway activator via KEAP1 modification; induces phase II antioxidant enzymes (HO-1, NQO1) and suppresses NF-kB-driven glial inflammation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Nrf2 is the master transcriptional regulator of the cellular antioxidant response and is functionally insufficient in the PD substantia nigra, where dopamine autoxidation and mitochondrial complex I deficiency generate a chronic oxidant load. Dimethyl fumarate succinates KEAP1 cysteines, liberating Nrf2 to induce HO-1, NQO1 and glutathione biosynthetic enzymes, while simultaneously blocking NF-kB nuclear translocation in microglia and astrocytes. In MPTP and alpha-synuclein models it preserves nigral dopaminergic neurons and reduces astrogliosis. It is an already-approved oral CNS drug with established brain-relevant pharmacology in multiple sclerosis, making it an unusually tractable repurposing candidate that simultaneously addresses the oxidative and neuroinflammatory arms emphasized in PMID 42476282.",
+      "key_evidence": "Lastres-Becker et al., Antioxid Redox Signal 2016 (PMID 26593400): Nrf2-dependent dopaminergic neuroprotection by dimethyl fumarate in alpha-synucleinopathy and MPTP models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:637568",
+        "smiles": "COC(=O)C=CC(=O)OC",
+        "name": "Dimethyl fumarate"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7128",
+      "cando_name": "dimethyl_fumarate"
+    }
+  ]
+}

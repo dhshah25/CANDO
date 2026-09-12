@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:08:51.392439",
+  "disease": "Lung Neoplasms",
+  "mesh_id": "MESH:D008175",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "cisplatin",
+      "drug_name_display": "Cisplatin",
+      "mechanism": "Platinum-based DNA crosslinking agent; forms intra- and inter-strand 1,2-d(GpG) adducts that stall replication forks, trigger ATR/ATM-p53 DNA damage response and apoptosis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Cisplatin is a conspicuous omission given that the CANDO map already contains its partner agents (etoposide, gemcitabine, vinorelbine, docetaxel, paclitaxel, pemetrexed-class antifolates such as methotrexate). Platinum doublets remain the cytotoxic backbone of every first-line regimen evaluated in the Bayesian network meta-analysis of driver gene-negative NSCLC with liver metastases (PMID 42529281), where 'chemotherapy' and 'PD-1 inhibitor plus chemotherapy' arms are platinum-based; the comparator arm against which all immunotherapy combinations are benchmarked is platinum chemotherapy. It is disease-modifying rather than symptomatic because it directly kills tumor cells and produces durable cure in resectable disease as adjuvant therapy (IALT, JBR.10, ANITA), improving overall survival, not just symptom burden. Cisplatin is also mechanistically linked to the ferroptosis axis reviewed in PMID 42342297: it depletes intracellular glutathione via GSH-Pt adduct formation and thereby lowers GPX4 substrate availability, sensitizing NSCLC cells to lipid peroxidation-driven death.",
+      "key_evidence": "Cisplatin-based adjuvant chemotherapy improves 5-year overall survival in resected NSCLC (IALT, JBR.10, ANITA meta-analysis, LACE pooled analysis); platinum doublet is the reference comparator arm in the first-line NSCLC network meta-analysis (PMID 42529281).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5702198",
+        "smiles": "N.N.Cl[Pt]Cl",
+        "name": "Cisplatin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7320",
+      "cando_name": "water"
+    },
+    {
+      "drug_name": "carboplatin",
+      "drug_name_display": "Carboplatin",
+      "mechanism": "Second-generation platinum agent forming DNA-platinum adducts with slower aquation kinetics than cisplatin; induces replication stress and intrinsic apoptosis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Carboplatin is the platinum agent actually used in the majority of the trials aggregated in PMID 42529281 (driver gene-negative NSCLC, first-line) and in the extensive-stage SCLC standard of care characterized in the Hungarian real-world cohort (PMID 42534780), where platinum-etoposide with or without a PD-L1 inhibitor is the reference regimen for 2013-2022. Mechanistically it is tumor-directed: DNA adduct formation halts proliferation of the malignant clone and induces immunogenic cell death, which is the pharmacological rationale for the chemo-immunotherapy synergy that the network meta-analysis found superior to chemotherapy alone (PFS HR = 0.572; OS HR = 0.681). Its absence from the map while etoposide, its obligate SCLC partner, is present, is an internal inconsistency in the current mapping.",
+      "key_evidence": "Carboplatin-etoposide is the backbone of ES-SCLC first-line therapy in the nationwide real-world analysis (PMID 42534780) and of the chemo-immunotherapy arms in the first-line NSCLC Bayesian NMA (PMID 42529281); IMpower133 and CASPIAN both used platinum-etoposide (PMIDs 30280641, 31590988).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:426756",
+        "smiles": "C1CC(C1)(C(=O)O)C(=O)O.[NH2-].[NH2-].[Pt+2]",
+        "name": "Carboplatin"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "pemetrexed",
+      "drug_name_display": "Pemetrexed",
+      "mechanism": "Multitargeted antifolate inhibiting thymidylate synthase, dihydrofolate reductase and glycinamide ribonucleotide formyltransferase, depleting thymidine and purine pools",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Pemetrexed is the histology-defining cytotoxic for non-squamous NSCLC and is directly implicated by PMID 42529281, which reports separate efficacy conclusions for the non-squamous subgroup, where pemetrexed-platinum plus PD-1 blockade is the dominant regimen. It is disease-modifying because it arrests de novo nucleotide synthesis in tumor cells that overexpress reduced folate carrier and folate receptor alpha and that have low thymidylate synthase (characteristic of adenocarcinoma), producing tumor regression and OS benefit rather than palliation. Its selectivity is mechanistically grounded in the adenocarcinoma biology highlighted in PMID 42353258, where LUAD-specific metabolic and proliferative transcriptional programs distinguish adenocarcinoma from airway inflammatory phenotypes. The map contains methotrexate and leucovorin (folate pathway) but not pemetrexed, the agent with the strongest lung-specific evidence.",
+      "key_evidence": "Scagliotti et al. phase III demonstrated cisplatin-pemetrexed superiority over cisplatin-gemcitabine in non-squamous NSCLC (PMID 18506025); PARAMOUNT established maintenance pemetrexed OS benefit; non-squamous subgroup analysis in PMID 42529281.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:135410875",
+        "smiles": "C1=CC(=CC=C1CCC2=CNC3=C2C(=O)NC(=N3)N)C(=O)NC(CCC(=O)O)C(=O)O",
+        "name": "Pemetrexed"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "38",
+      "cando_name": "glutamic_acid"
+    },
+    {
+      "drug_name": "osimertinib",
+      "drug_name_display": "Osimertinib",
+      "mechanism": "Third-generation irreversible covalent EGFR tyrosine kinase inhibitor selective for activating (exon 19del, L858R) and T790M resistance mutations, sparing wild-type EGFR",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The map contains first- and second-generation EGFR TKIs (gefitinib, erlotinib, afatinib, neratinib, vandetanib) but omits osimertinib, which supersedes all of them. It targets the root oncogenic driver of EGFR-mutant lung adenocarcinoma: constitutive EGFR kinase activity driving RAS-MAPK and PI3K-AKT signaling. The KRAS G12C review (PMID 42511798) explicitly frames upstream RTK and SHP2-mediated bypass signaling and downstream MAPK/PI3K-AKT reactivation as the shared resistance architecture of oncogene-driven NSCLC, and identifies EGFR inhibitors as rational combination partners for KRAS G12C inhibitors, implicitly positioning osimertinib within the same target network. Osimertinib is curative-intent disease-modifying in the adjuvant setting (ADAURA), where it reduces recurrence after complete resection, and it achieves high CNS penetration, addressing intracranial disease as adagrasib does in KRYSTAL-12.",
+      "key_evidence": "FLAURA phase III: superior PFS and OS versus gefitinib/erlotinib in first-line EGFR-mutant advanced NSCLC (PMID 29151359); AURA3 for T790M; ADAURA for adjuvant disease-free survival; EGFR inhibitor combinations discussed in PMID 42511798.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:71496458",
+        "smiles": "CN1C=C(C2=CC=CC=C21)C3=NC(=NC=C3)NC4=C(C=C(C(=C4)NC(=O)C=C)N(C)CCN(C)C)OC",
+        "name": "Osimertinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7475",
+      "cando_name": "osimertinib"
+    },
+    {
+      "drug_name": "sotorasib",
+      "drug_name_display": "Sotorasib",
+      "mechanism": "Covalent inhibitor that locks KRAS G12C in the inactive GDP-bound state by binding the cryptic switch-II pocket at cysteine 12",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Directly supported by the evidence dossier. PMID 42511798 states that discovery of a cryptic binding pocket accessible in the GDP-bound state enabled covalent inhibitors, and that sotorasib has received regulatory approval for previously treated KRAS G12C-mutant NSCLC, demonstrating both progression-free and overall survival superiority over docetaxel in CodeBreaK 200. Docetaxel is already in the CANDO map; the agent shown to be superior to it is not. Sotorasib is definitionally disease-modifying: it inhibits the mutant oncoprotein that is the causal initiating lesion in roughly 13% of lung adenocarcinomas, shutting down downstream MAPK effector signaling rather than relieving symptoms.",
+      "key_evidence": "CodeBreaK 200 phase III: sotorasib PFS and OS superiority over docetaxel in previously treated KRAS G12C-mutant NSCLC, as summarized in PMID 42511798.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:137278711",
+        "smiles": "CC1CN(CCN1C2=NC(=O)N(C3=NC(=C(C=C32)F)C4=C(C=CC=C4F)O)C5=C(C=CN=C5C(C)C)C)C(=O)C=C",
+        "name": "Sotorasib"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "adagrasib",
+      "drug_name_display": "Adagrasib",
+      "mechanism": "Covalent KRAS G12C inhibitor with prolonged half-life and CNS penetration; traps KRAS in the GDP-bound inactive conformation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Also directly named in the dossier: PMID 42511798 reports that adagrasib shows meaningful intracranial activity and a progression-free survival benefit over docetaxel in KRYSTAL-12. The intracranial activity is therapeutically distinct and important, because brain metastasis is a principal driver of morbidity and mortality in NSCLC; a drug that controls CNS disease alters the natural history rather than the symptom profile. The same review catalogs the resistance mechanisms that define the durability ceiling (on-target switch-II pocket mutations, SHP2/SOS1 bypass, phenotypic plasticity, and adverse modulation by co-occurring STK11, KEAP1, and TP53 alterations), which is precisely the kind of mechanistic network information a repurposing platform should capture for this target.",
+      "key_evidence": "KRYSTAL-12: adagrasib PFS benefit over docetaxel with intracranial activity in KRAS G12C-mutant NSCLC (PMID 42511798); KRYSTAL-1 registrational cohort supporting accelerated approval.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:138611145",
+        "smiles": "CN1CCCC1COC2=NC3=C(CCN(C3)C4=CC=CC5=C4C(=CC=C5)Cl)C(=N2)N6CCN(C(C6)CC#N)C(=O)C(=C)F",
+        "name": "Adagrasib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "476",
+      "cando_name": "piperazine"
+    },
+    {
+      "drug_name": "pembrolizumab",
+      "drug_name_display": "Pembrolizumab",
+      "mechanism": "Humanized IgG4 monoclonal antibody blocking PD-1 on T cells, restoring cytotoxic T lymphocyte recognition and killing of tumor cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The strongest quantitative signal in the dossier: PMID 42529281 reports that PD-1 inhibitor plus chemotherapy significantly improved progression-free survival (HR = 0.572, 95% CI 0.435-0.754) and overall survival (HR = 0.681, 95% CI 0.559-0.830) versus chemotherapy alone in driver gene-negative NSCLC with liver metastases, a historically immune-excluded and poor-prognosis site. Pembrolizumab is the archetypal agent in that class. It is disease-modifying because it reverses a core pathological mechanism of lung carcinogenesis, adaptive immune escape via PD-L1 upregulation, producing durable multi-year responses and a plateau in the survival curve that cytotoxics do not achieve. PMID 42511798 additionally identifies PD-1 inhibitors as rational combination partners for KRAS G12C inhibitors, and PMID 42327725/42080708 frame antitumor immune surveillance as the pivotal variable in lung malignancy risk, reinforcing the causal role of the PD-1/PD-L1 checkpoint in lung tumor biology.",
+      "key_evidence": "KEYNOTE-189 (pembrolizumab plus pemetrexed-platinum, OS benefit in non-squamous NSCLC, PMID 29658856) and KEYNOTE-024 (PD-L1 >= 50% monotherapy); PD-1 plus chemotherapy PFS HR 0.572 / OS HR 0.681 in PMID 42529281.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:160710",
+        "smiles": "UNKNOWN",
+        "name": "Pembrolizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "nivolumab",
+      "drug_name_display": "Nivolumab",
+      "mechanism": "Fully human IgG4 anti-PD-1 monoclonal antibody preventing PD-1 engagement by PD-L1/PD-L2 and reversing T-cell exhaustion in the tumor microenvironment",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Nivolumab was the first checkpoint inhibitor to show OS superiority over docetaxel in previously treated NSCLC and is one of the PD-1 agents contributing to the pooled PD-1 class effect quantified in PMID 42529281. Beyond the metastatic setting it is disease-modifying in the perioperative space: neoadjuvant nivolumab plus chemotherapy produces major and complete pathologic responses in resectable NSCLC, converting the primary tumor burden before surgery and improving event-free survival, which is a direct alteration of disease course. Mechanistically it acts on the host-tumor immune interface rather than on a symptom, and its efficacy depends on tumor mutational burden and neoantigen load, i.e. on the causal genomic pathology of smoking-related lung cancer.",
+      "key_evidence": "CheckMate 017 phase III: nivolumab OS superiority over docetaxel in squamous NSCLC (PMID 26028407); CheckMate 057 in non-squamous; CheckMate 816 neoadjuvant pathologic complete response and event-free survival benefit.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:672485",
+        "smiles": "UNKNOWN",
+        "name": "Nivolumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "atezolizumab",
+      "drug_name_display": "Atezolizumab",
+      "mechanism": "Engineered IgG1 monoclonal antibody targeting PD-L1, blocking PD-L1/PD-1 and PD-L1/B7.1 interactions to restore antitumor T-cell immunity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Atezolizumab addresses both major histologic groups represented in the dossier. In extensive-stage SCLC, the disease characterized in the Hungarian nationwide real-world analysis covering 2013-2022 (PMID 42534780), atezolizumab plus carboplatin-etoposide was the first regimen in three decades to extend overall survival, and the study period spans exactly the transition from chemotherapy-only to chemo-immunotherapy standards. In NSCLC it contributes to the PD-(L)1 class benefit demonstrated in PMID 42529281 and, in the adjuvant IMpower010 setting, improves disease-free survival in resected PD-L1-positive stage II-IIIA disease, a curative-intent, disease-course-altering effect.",
+      "key_evidence": "IMpower133: atezolizumab plus carboplatin-etoposide improved OS in extensive-stage SCLC (PMID 30280641); IMpower010 adjuvant disease-free survival benefit; ES-SCLC treatment-era context in PMID 42534780.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:366763",
+        "smiles": "UNKNOWN",
+        "name": "Atezolizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "durvalumab",
+      "drug_name_display": "Durvalumab",
+      "mechanism": "Human IgG1-kappa anti-PD-L1 monoclonal antibody blocking PD-L1 binding to PD-1 and CD80, releasing checkpoint suppression of effector T cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Durvalumab is the agent most directly implicated by the ES-SCLC real-world analysis (PMID 42534780), which examines Hungarian national outcomes across 2013-2022 and is co-authored by AstraZeneca affiliates; CASPIAN established durvalumab plus platinum-etoposide as a first-line ES-SCLC standard during that window. Its most distinctive disease-modifying role, however, is consolidation after concurrent chemoradiotherapy in unresectable stage III NSCLC (PACIFIC), where it converts a historically incurable presentation into one with a substantial long-term survival plateau, roughly one third of patients alive at five years. This is a curative-fraction effect, the strongest possible form of disease modification, and it is achieved by preventing immune escape of residual micrometastatic disease after local therapy.",
+      "key_evidence": "CASPIAN: durvalumab plus platinum-etoposide OS benefit in ES-SCLC (PMID 31590988); PACIFIC: consolidation durvalumab PFS and OS benefit in unresectable stage III NSCLC; real-world ES-SCLC treatment landscape in PMID 42534780.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:842016",
+        "smiles": "UNKNOWN",
+        "name": "Durvalumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "bevacizumab",
+      "drug_name_display": "Bevacizumab",
+      "mechanism": "Recombinant humanized monoclonal antibody neutralizing vascular endothelial growth factor A, inhibiting tumor angiogenesis and normalizing aberrant tumor vasculature",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Angiogenesis is a hallmark capability required for lung tumor growth beyond the diffusion limit, and VEGF-A is the dominant driver of the hypoxia-induced neovascular program in lung adenocarcinoma. Bevacizumab targets that causal capability rather than a symptom, and was the first biologic to extend overall survival beyond 12 months in advanced non-squamous NSCLC when added to carboplatin-paclitaxel. It is directly relevant to the population in PMID 42529281, since anti-angiogenic plus chemotherapy and anti-angiogenic plus immunotherapy combinations are among the first-line regimens compared for driver gene-negative NSCLC, and VEGF-driven hepatic vascular biology is particularly salient in liver-metastatic disease. VEGF blockade also relieves VEGF-mediated dendritic cell and T-cell suppression, providing the mechanistic rationale for the atezolizumab-bevacizumab-chemotherapy synergy.",
+      "key_evidence": "ECOG 4599 phase III: bevacizumab plus carboplatin-paclitaxel improved overall survival in advanced non-squamous NSCLC (PMID 17167137); anti-angiogenic combination arms in the first-line NMA (PMID 42529281).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:400153",
+        "smiles": "UNKNOWN",
+        "name": "Bevacizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "alectinib",
+      "drug_name_display": "Alectinib",
+      "mechanism": "Highly selective, CNS-penetrant second-generation ALK tyrosine kinase inhibitor that blocks constitutive kinase activity of EML4-ALK fusion proteins",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The CANDO map contains no ALK-directed agent despite ALK rearrangement being one of the three canonical targetable drivers in lung adenocarcinoma alongside EGFR (covered) and KRAS G12C (proposed above from PMID 42511798). EML4-ALK is a genuine oncogenic addiction: the fusion kinase constitutively activates the same MAPK, PI3K-AKT and JAK-STAT3 effector arms that PMID 42511798 identifies as the shared downstream network of driver-mutant NSCLC. Alectinib is disease-modifying in both advanced disease, where it produces multi-year progression-free survival and controls CNS metastases, and in the adjuvant setting (ALINA), where it reduces recurrence after complete resection of stage IB-IIIA ALK-positive NSCLC.",
+      "key_evidence": "ALEX phase III: alectinib superior PFS and lower CNS progression versus crizotinib in untreated ALK-positive NSCLC (PMID 28586279); ALINA adjuvant disease-free survival benefit.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:49806720",
+        "smiles": "CCC1=CC2=C(C=C1N3CCC(CC3)N4CCOCC4)C(C5=C(C2=O)C6=C(N5)C=C(C=C6)C#N)(C)C",
+        "name": "Alectinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7700",
+      "cando_name": "alectinib"
+    },
+    {
+      "drug_name": "tarlatamab",
+      "drug_name_display": "Tarlatamab",
+      "mechanism": "Bispecific T-cell engager binding DLL3 on small cell lung cancer cells and CD3 on T cells, forming an immunologic synapse that redirects cytotoxic T-cell killing",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The dossier includes a dedicated nationwide analysis of extensive-stage SCLC (PMID 42534780), yet the CANDO map contains essentially no SCLC-specific modern agent. DLL3 is a Notch ligand aberrantly expressed on the surface of roughly 85-95% of SCLC cells as a direct consequence of ASCL1-driven neuroendocrine lineage programming, and is absent from most normal tissue, making it a lineage-causal target rather than a symptomatic one. Tarlatamab redirects polyclonal T cells against that lineage antigen independently of MHC presentation, which matters because SCLC characteristically downregulates antigen presentation machinery. It produced durable responses and an overall survival benefit over chemotherapy in relapsed SCLC, a setting where the real-world Hungarian data (PMID 42534780) document dismal outcomes.",
+      "key_evidence": "DeLLphi-301 phase II: durable objective responses with tarlatamab in previously treated SCLC (PMID 37861218); DeLLphi-304 phase III overall survival benefit versus second-line chemotherapy; unmet need documented in PMID 42534780.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:911271",
+        "smiles": "UNKNOWN",
+        "name": "Tarlatamab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "sorafenib",
+      "drug_name_display": "Sorafenib",
+      "mechanism": "Multikinase inhibitor of RAF, VEGFR2/3 and PDGFR-beta that additionally inhibits the system Xc- cystine/glutamate antiporter, depleting glutathione and inducing GPX4-dependent ferroptosis",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Abstract 1 of the dossier (PMID 42342297) is a comprehensive review of ferroptosis, an iron-dependent regulated cell death driven by lipid peroxidation and redox imbalance, and it specifically identifies iron metabolism, lipid peroxidation pathways, and antioxidant defenses such as GPX4 and system Xc- as the key regulators, noting that in cancer ferroptosis inducers have shown efficacy in overcoming drug resistance and enhancing immunotherapy. Sorafenib is the only clinically approved drug that is a bona fide system Xc- inhibitor, making it the most translationally advanced ferroptosis inducer available for repurposing. This is mechanistically pointed for lung cancer because KEAP1/NRF2-mutant NSCLC, flagged in PMID 42511798 as a co-occurring alteration conferring resistance to KRAS G12C inhibitors, is metabolically dependent on glutathione and system Xc- and is therefore selectively vulnerable to ferroptosis induction. Sorafenib additionally inhibits RAF, directly downstream of the KRAS node. Evidence in NSCLC is phase II/III (MISSION, BATTLE) with modest single-agent activity, so its value is as a mechanistically rational combination and resistance-reversal agent rather than a monotherapy.",
+      "key_evidence": "Sorafenib identified as a system Xc- inhibitor triggering ferroptotic death (Dixon et al., PMID 24844246); ferroptosis inducers overcome drug resistance and enhance immunotherapy in cancer (PMID 42342297); MISSION and BATTLE phase II/III evaluation in advanced NSCLC.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:216239",
+        "smiles": "CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F",
+        "name": "Sorafenib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "288",
+      "cando_name": "sorafenib"
+    },
+    {
+      "drug_name": "sulfasalazine",
+      "drug_name_display": "Sulfasalazine",
+      "mechanism": "Inhibits the xCT (SLC7A11) subunit of the system Xc- cystine/glutamate antiporter, causing cysteine starvation, glutathione depletion, GPX4 inactivation and lipid peroxidation-driven ferroptosis; also inhibits NF-kB",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vitro",
+      "reasoning": "Sulfasalazine is a repurposing candidate that sits at the intersection of three dossier abstracts. Mechanistically it is the classical pharmacological probe of system Xc-, one of the key ferroptosis regulators named in PMID 42342297, and it kills NSCLC lines by depleting the cysteine pool that sustains GPX4 and thereby permitting iron-dependent lipid peroxidation. It is also a conventional DMARD, the drug class whose lung-malignancy safety profile is the subject of PMID 42327725 and PMID 42080708, so extensive human exposure and long-term safety data already exist, which materially de-risks repurposing. Finally, PMID 42353258 identifies shared oxidative stress and chronic inflammation transcriptomic signatures between lung adenocarcinoma and asthma and explicitly proposes these overlapping co-expression networks as a basis for drug repurposing hypotheses; sulfasalazine's dual NF-kB and system Xc- activity maps onto exactly that shared inflammation-redox module. Evidence is graded in_vitro because human efficacy data in lung cancer remain preclinical and early-phase, and the drug has poor systemic bioavailability of the intact molecule, which is the principal translational obstacle.",
+      "key_evidence": "Sulfasalazine is the canonical system Xc-/xCT inhibitor inducing glutathione depletion and ferroptosis in cancer cells, including NSCLC lines with high SLC7A11 expression; mechanistic framework in PMID 42342297; shared oxidative-stress/inflammation repurposing rationale in PMID 42353258; DMARD safety context in PMIDs 42327725 and 42080708.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5339",
+        "smiles": "C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N=NC3=CC(=C(C=C3)O)C(=O)O",
+        "name": "Sulfasalazine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "673",
+      "cando_name": "sulfasalazine"
+    }
+  ]
+}

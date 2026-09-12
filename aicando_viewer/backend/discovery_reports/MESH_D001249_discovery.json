@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:08:13.096947",
+  "disease": "Asthma",
+  "mesh_id": "MESH:D001249",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "tezepelumab",
+      "drug_name_display": "Tezepelumab",
+      "mechanism": "Human IgG2 monoclonal antibody against thymic stromal lymphopoietin (TSLP), blocking TSLP binding to the TSLPR/IL-7Ra heterodimer",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "TSLP is an epithelium-derived alarmin released upon the exact triggers the dossier identifies as upstream initiators of asthma pathology - allergens, respiratory viruses and pollutants (PMID 42416068). By neutralizing TSLP, tezepelumab acts proximal to the branch point of type 2 and non-type 2 inflammation rather than downstream of a single effector cytokine, which is why efficacy is preserved in patients with low blood eosinophils, low FeNO and non-allergic phenotypes. Critically for a disease-modifying claim, the CASCADE bronchoscopy trial demonstrated reduction of airway submucosal eosinophils and, in a subset, attenuation of reticular basement membrane thickening - i.e. structural airway remodeling, not just symptom control. This directly addresses the gap articulated in PMID 42416068, namely that the Th2 paradigm 'insufficiently explains disease chronicity, structural remodeling, and the limited efficacy of corticosteroids in specific endotypes.' Tezepelumab also reduces airway hyperresponsiveness to mannitol, a physiological correlate of the underlying disease state. The current CANDO mapping contains no alarmin-directed agent at all, making this the single largest mechanistic gap in the list.",
+      "key_evidence": "NAVIGATOR Phase 3 (NEJM 2021, PMID 33979488) - 56% reduction in annualized exacerbation rate irrespective of baseline eosinophil count; CASCADE Phase 2 (Lancet Respir Med 2021, PMID 33417839) - reduction in airway submucosal eosinophils and remodeling markers. FDA approved December 2021. Mechanistic framing supported by PMID 42416068.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:117172",
+        "smiles": "UNKNOWN",
+        "name": "Tezepelumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "dupilumab",
+      "drug_name_display": "Dupilumab",
+      "mechanism": "Fully human monoclonal antibody against the IL-4 receptor alpha subunit, simultaneously blocking IL-4 and IL-13 type I and type II receptor signaling",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "IL-4 and IL-13 are the master effector cytokines of type 2 inflammation, driving IgE class switching, goblet cell metaplasia, mucus hypersecretion, subepithelial fibrosis via periostin and TGF-beta, and airway smooth muscle contractility. Blockade at IL-4Ra collapses both arms simultaneously, unlike single-cytokine neutralization. Disease modification is supported by sustained improvement in pre-bronchodilator FEV1 that persists and grows over 52 weeks (a trajectory inconsistent with pure bronchodilation), by mucus plug score reduction on CT imaging, and by reduction in FeNO and total IgE. The dossier's atopic dermatitis network meta-analysis (PMID 42526949) and the food allergy disease-modification rostrum (PMID 42498123) both frame the atopic march as a shared IL-4/IL-13 axis - dupilumab is the one agent licensed across asthma, atopic dermatitis, CRSwNP and eosinophilic esophagitis, consistent with modification of the shared underlying type 2 endotype rather than organ-specific symptom suppression. Notably the CANDO list contains only corticosteroids and antihistamines for the inflammatory arm, with no cytokine-directed therapy.",
+      "key_evidence": "LIBERTY ASTHMA QUEST Phase 3 (NEJM 2018, PMID 29782217) - 47.7% reduction in severe exacerbations and sustained FEV1 gain; VESTIGE (2024) - reduction in airway mucus plugging on CT. FDA approved for severe eosinophilic/OCS-dependent asthma 2018.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:900883",
+        "smiles": "UNKNOWN",
+        "name": "Dupilumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "omalizumab",
+      "drug_name_display": "Omalizumab",
+      "mechanism": "Humanized anti-IgE monoclonal antibody binding the Ce3 domain of free IgE, preventing FceRI engagement and causing downregulation of FceRI on mast cells, basophils and dendritic cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Omalizumab is the strongest available example of an asthma therapy with effects that outlast dosing - the definition of disease modification given in PMID 42498123 ('alter natural history by delaying or reversing disease progression'). The PARK trial in children aged 2-3 with recurrent wheeze showed that two years of omalizumab reduced subsequent asthma incidence, and the PROSE/ICATA studies showed abolition of the seasonal viral exacerbation peak via restoration of plasmacytoid dendritic cell interferon-alpha responses to rhinovirus - a direct link to the virus-triggered epithelial injury pathway described in PMID 42416068. Chronic FceRI downregulation reduces mast cell mediator release and progressively lowers airway eosinophilia and, in bronchial biopsy studies, reticular basement membrane thickness and airway smooth muscle mass. This is causal interruption of the allergen-IgE-mast cell axis, not symptomatic relief. Its complete absence from the CANDO mapping is a significant omission given it has been FDA approved since 2003.",
+      "key_evidence": "PARK trial (Lancet 2025 / NIAID) - prevention of asthma progression in preschool children; PROSE (J Allergy Clin Immunol 2015, PMID 26343943) - restored interferon responses and eliminated seasonal exacerbations; ICATA (NEJM 2011, PMID 21388309).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:901882",
+        "smiles": "UNKNOWN",
+        "name": "Omalizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "mepolizumab",
+      "drug_name_display": "Mepolizumab",
+      "mechanism": "Humanized IgG1 monoclonal antibody neutralizing interleukin-5, preventing IL-5 binding to IL-5Ra on eosinophils and depriving them of the primary maturation and survival signal",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "IL-5 is the non-redundant lineage factor for eosinophil differentiation, egress from bone marrow, and tissue survival. Neutralizing it removes the effector cell responsible for the release of major basic protein, eosinophil peroxidase and TGF-beta1 that drive epithelial denudation and subepithelial collagen deposition. The dossier (PMID 42416068) identifies epithelial cell death and DAMP release as an amplification hub for type 2 inflammation; eosinophil-derived granule proteins are themselves cytotoxic to airway epithelium, so IL-5 blockade interrupts a feed-forward injury loop rather than masking symptoms. Clinically, the SIRIUS trial demonstrated oral corticosteroid sparing - a hard endpoint indicating the underlying inflammatory burden itself has been reduced - and bronchial biopsy studies show reduced tenascin, lumican and procollagen III deposition in the reticular basement membrane after anti-IL-5 therapy. The CANDO list contains no IL-5 axis agent despite the depemokimab evidence in the dossier confirming this pathway as a validated asthma target.",
+      "key_evidence": "MENSA Phase 3 (NEJM 2014, PMID 25199059) - 53% exacerbation reduction; SIRIUS (NEJM 2014, PMID 25199060) - 50% median OCS dose reduction; Flood-Page et al. (Am J Respir Crit Care Med 2003) - reduced airway remodeling matrix proteins.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:640095",
+        "smiles": "UNKNOWN",
+        "name": "Mepolizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "benralizumab",
+      "drug_name_display": "Benralizumab",
+      "mechanism": "Afucosylated humanized monoclonal antibody against IL-5Ra that induces near-complete eosinophil and basophil apoptosis through enhanced antibody-dependent cell-mediated cytotoxicity by NK cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Benralizumab is mechanistically distinct from IL-5 ligand neutralization: afucosylation of the Fc region increases FcgRIIIa affinity roughly 50-fold, producing active NK-cell-mediated depletion of eosinophils and basophils in blood, bone marrow and airway tissue rather than growth-factor withdrawal alone. This achieves near-total tissue eosinophil ablation, which is why it produces durable remission-level responses. The relevance to disease modification is that eosinophil-derived TGF-beta1 and matrix metalloproteinases are principal drivers of the airway remodeling that PMID 42416068 highlights as unexplained by conventional therapy; removing the cell removes the source. Depletion of basophils additionally reduces IL-4 delivery to the airway wall. The ZONDA trial showed 75% median oral corticosteroid reduction with 52% of patients eliminating OCS entirely, and the SHAMAL trial showed most patients could withdraw high-dose inhaled corticosteroid entirely while maintaining control - a strong signal that the underlying disease state, not just the symptom burden, has changed.",
+      "key_evidence": "SIROCCO/CALIMA Phase 3 (Lancet 2016, PMIDs 27609406, 27609408); ZONDA (NEJM 2017, PMID 28530840) - OCS elimination in 52%; SHAMAL (Lancet 2024) - ICS de-escalation maintained.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:825883",
+        "smiles": "UNKNOWN",
+        "name": "Benralizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "depemokimab",
+      "drug_name_display": "Depemokimab",
+      "mechanism": "Ultra-long-acting humanized anti-IL-5 monoclonal antibody with engineered high IL-5 binding affinity and YTE-type half-life extension, permitting six-monthly dosing",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "This is the most directly dossier-grounded suggestion. PMID 42530228 characterizes the population PK/PD of depemokimab in asthma and CRSwNP, describing it as the first ultra-long-acting biologic with enhanced IL-5 binding affinity, high potency and extended half-life enabling twice-yearly dosing. The disease-modifying argument rests on pharmacology: conventional anti-IL-5 agents produce trough-associated fluctuation in eosinophil suppression, whereas depemokimab maintains continuous suprathreshold IL-5 suppression across the entire dosing interval, sustaining bone marrow eosinophilopoiesis blockade without intermittent recovery. Uninterrupted suppression of the eosinophil compartment is precisely the exposure profile needed to prevent cumulative airway wall remodeling, and the shared asthma/CRSwNP indication in PMID 42530228 indicates action on a unified underlying eosinophilic endotype rather than a local airway symptom. Two-monthly-to-six-monthly adherence gains also translate into fewer real-world lapses in disease control.",
+      "key_evidence": "PMID 42530228 (J Clin Pharmacol 2026;66(8):e70187) - population PK/PD confirming sustained IL-5 pathway suppression; SWIFT-1 and SWIFT-2 Phase 3 trials (NEJM 2024, PMID 39274974) - ~54% reduction in annualized exacerbation rate with six-monthly dosing.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:406688",
+        "smiles": "UNKNOWN",
+        "name": "Depemokimab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "reslizumab",
+      "drug_name_display": "Reslizumab",
+      "mechanism": "Humanized IgG4/kappa monoclonal antibody neutralizing circulating IL-5, administered intravenously with weight-based dosing",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Reslizumab targets the same non-redundant eosinophil survival axis as mepolizumab but with intravenous weight-based dosing that achieves higher and more reliable systemic exposure, which matters in obese severe-asthma phenotypes where fixed subcutaneous dosing may underdose. Sputum eosinophil studies show reduction in airway - not merely blood - eosinophilia, confirming target tissue engagement, and this is accompanied by improvement in FEV1 that is greater in patients with nasal polyposis and late-onset eosinophilic disease. Reduction of airway eosinophil-derived cytotoxic granule proteins limits ongoing epithelial injury, which PMID 42416068 identifies as the initiating step in DAMP-driven amplification of type 2 inflammation. Its inclusion completes the IL-5 axis in the CANDO mapping and provides an alternative pharmacokinetic route for the same validated mechanism.",
+      "key_evidence": "Castro et al. Phase 3 duplicate trials (Lancet Respir Med 2015, PMID 25717074) - 50-59% exacerbation reduction in eosinophilic asthma; FDA approved 2016.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:424175",
+        "smiles": "UNKNOWN",
+        "name": "Reslizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "itepekimab",
+      "drug_name_display": "Itepekimab",
+      "mechanism": "Human monoclonal antibody against interleukin-33, neutralizing both the reduced and oxidized forms of this epithelial alarmin and blocking ST2 (IL1RL1) receptor signaling",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "IL-33 is stored in airway epithelial nuclei and released as a canonical DAMP when epithelial cells die - which is exactly the mechanism PMID 42416068 places at the centre of asthma pathogenesis, describing 'DAMP-driven initiation and amplification of type 2 inflammation via epithelial death.' Necroptotic and pyroptotic epithelial death liberates full-length bioactive IL-33, which activates ST2 on ILC2s, mast cells, basophils and Th2 cells and also drives the neutrophilic, steroid-refractory phenotype the same review describes. Neutralizing IL-33 therefore intercepts the DAMP signal at source rather than blocking one downstream cytokine. IL1RL1/IL33 are among the most reproducible asthma GWAS loci, giving human genetic validation of the target - the exact class of evidence prioritized by the eQTL-guided target-ranking framework in PMID 42458479. Phase 2 data in asthma showed loss of control events reduced on withdrawal of background controller therapy, and Phase 3 COPD data (AERIFY-1) confirm the pathway is druggable in vivo in humans.",
+      "key_evidence": "Wechsler et al. Phase 2 asthma trial (NEJM 2021, PMID 34670043) - reduced loss-of-asthma-control events; genetic support for IL33/IL1RL1 consistent with the target-prioritization approach of PMID 42458479.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:157398",
+        "smiles": "UNKNOWN",
+        "name": "Itepekimab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "astegolimab",
+      "drug_name_display": "Astegolimab",
+      "mechanism": "Human IgG2 monoclonal antibody against ST2 (IL1RL1), the IL-33 receptor, blocking downstream MyD88/IRAK/NF-kB signaling in ILC2s, mast cells and epithelial cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Astegolimab blocks the same alarmin axis as itepekimab but at the receptor, which has the advantage of neutralizing signaling from all bioactive IL-33 isoforms including the oxidized and proteolytically processed forms generated during oxidative airway injury. The ZENYATTA Phase 2b study is mechanistically important because exacerbation reduction was observed in the low-eosinophil subgroup, indicating the IL-33/ST2 axis contributes to non-type 2, corticosteroid-resistant asthma - directly addressing the endotype gap flagged in PMID 42416068, which notes the 'limited efficacy of corticosteroids in specific endotypes' and the establishment of a neutrophilic steroid-refractory state. Every drug currently mapped in CANDO for the inflammatory component is a corticosteroid, leukotriene modifier or mast cell stabilizer, none of which meaningfully addresses this endotype. IL1RL1 is additionally one of the highest-confidence genetically supported chronic lung disease targets of the kind prioritized in PMID 42458479.",
+      "key_evidence": "ZENYATTA Phase 2b (Lancet Respir Med 2021, PMID 34310924) - 43% exacerbation reduction overall including low-eosinophil patients; ALIENTO/ARNASA COPD programme confirming pathway activity.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:998716",
+        "smiles": "UNKNOWN",
+        "name": "Astegolimab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "dexpramipexole",
+      "drug_name_display": "Dexpramipexole",
+      "mechanism": "Orally bioavailable small molecule that depletes eosinophils by blocking eosinophil maturation at the bone marrow promyelocyte-to-eosinophil transition, apparently independent of the IL-5 receptor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Dexpramipexole is the first oral agent capable of producing near-complete eosinophil depletion, and its mechanism is distinct from all biologics - it arrests eosinophilopoiesis in the marrow rather than antagonizing IL-5 signaling, and its effect is therefore not bypassed by IL-5-independent eosinophil survival signals such as GM-CSF and IL-3. Crucially for a disease-modifying claim, bronchoscopy substudies demonstrated depletion of airway tissue and nasal eosinophils, not merely blood counts, together with reduction in nasal polyp size. Because eosinophil granule proteins and eosinophil-derived TGF-beta are principal effectors of the subepithelial fibrosis and epithelial injury described in PMID 42416068, marrow-level ablation of the lineage removes the upstream supply of the cell driving structural change. An oral route also makes long-term continuous suppression feasible in populations where biologics are inaccessible.",
+      "key_evidence": "EXHALE-2 Phase 2 (2024) - dose-dependent blood and airway eosinophil depletion with FEV1 improvement; Laidlaw et al. proof-of-concept in eosinophilic asthma with nasal polyposis (J Allergy Clin Immunol 2019, PMID 30682452).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:59868",
+        "smiles": "CCCNC1CCC2=C(C1)SC(=N2)N",
+        "name": "Dexpramipexole"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "302",
+      "cando_name": "pramipexole"
+    },
+    {
+      "drug_name": "azithromycin",
+      "drug_name_display": "Azithromycin",
+      "mechanism": "Macrolide antibiotic with non-antimicrobial immunomodulatory activity: inhibits NF-kB and AP-1 signaling, reduces IL-8 and neutrophil chemotaxis, promotes efferocytosis of apoptotic cells, and remodels the airway microbiome",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Azithromycin is the best-evidenced pharmacological option for the neutrophilic, corticosteroid-refractory endotype that PMID 42416068 identifies as a critical unmet need arising from necroptotic airway injury. Its relevance here is mechanistic rather than antibacterial: macrolides suppress neutrophilic airway inflammation, enhance macrophage efferocytosis of dying epithelial cells (directly limiting the secondary necrosis and DAMP release that the necroptosis review describes as the amplification step), reduce airway IL-8 and MMP-9, and reduce respiratory viral exacerbation frequency through interferon-independent antiviral effects on rhinovirus replication in bronchial epithelium. The AMAZES trial showed a roughly 40% reduction in exacerbations across both eosinophilic and non-eosinophilic asthma in patients already on maximal inhaled therapy. No agent in the current CANDO mapping addresses the neutrophilic endotype at all. Long-term macrolide resistance and QT considerations mean this is a targeted rather than universal recommendation.",
+      "key_evidence": "AMAZES trial (Lancet 2017, PMID 28687413) - 41% reduction in exacerbations in persistent uncontrolled asthma; endotype relevance supported by the neutrophilic steroid-refractory pathway described in PMID 42416068.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:447043",
+        "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O",
+        "name": "Azithromycin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "102",
+      "cando_name": "azithromycin"
+    },
+    {
+      "drug_name": "imatinib",
+      "drug_name_display": "Imatinib",
+      "mechanism": "Tyrosine kinase inhibitor of KIT (and BCR-ABL, PDGFR); KIT inhibition deprives mast cells of stem cell factor survival signaling, causing airway mast cell depletion",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Imatinib is the clearest human proof that depleting a structural-cell-associated inflammatory population reverses a core disease trait. Mast cell infiltration of airway smooth muscle (myositis) is a defining lesion of asthma that distinguishes it from eosinophilic bronchitis and correlates with airway hyperresponsiveness. In a randomized placebo-controlled Phase 2 trial in severe refractory asthma, imatinib reduced airway hyperresponsiveness to methacholine (roughly one doubling dose of PC20) and reduced serum tryptase and bronchial mast cell counts - a change in the underlying physiological abnormality, not symptom relief. PDGFR inhibition additionally suppresses myofibroblast proliferation and subepithelial fibrosis in animal models of remodeling. This is the mechanistically strongest repurposing candidate in the list because it is an already-approved generic with human airway physiology endpoints met. Cytopenias, hepatotoxicity and cramping limit chronic use, so this supports next-generation selective KIT inhibitors as the translational path.",
+      "key_evidence": "Cahill KN et al., Phase 2 randomized trial (NEJM 2017, PMID 28530840 / 28514613) - reduced airway hyperresponsiveness and mast cell tryptase in severe asthma.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5291",
+        "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+        "name": "Imatinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "503",
+      "cando_name": "imatinib"
+    },
+    {
+      "drug_name": "masitinib",
+      "drug_name_display": "Masitinib",
+      "mechanism": "Orally administered selective tyrosine kinase inhibitor targeting KIT, LYN and FYN, inhibiting mast cell survival, degranulation and FceRI-proximal signaling",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Masitinib refines the imatinib mechanism with greater selectivity for the mast cell signalosome, inhibiting not only KIT-dependent survival but also the LYN and FYN kinases immediately downstream of FceRI cross-linking, thereby blocking both mast cell persistence and IgE-triggered degranulation. Mast cells sit at the intersection of the two pathways the dossier emphasizes: they are activated by IgE-allergen complexes and by epithelial alarmins IL-33 and TSLP released during the cell death processes described in PMID 42416068, and they release histamine, prostaglandin D2, leukotrienes, tryptase and chymase that drive both bronchoconstriction and matrix turnover. A Phase 3 trial in severe corticosteroid-dependent asthma reported reduced severe exacerbation rates versus placebo, with benefit in the subgroup with elevated blood eosinophils. Since mast cell infiltration of smooth muscle is a remodeling lesion, its pharmacological reversal qualifies as disease modification rather than symptomatic bronchodilation.",
+      "key_evidence": "Davidescu L et al., Phase 3 AB07015 (J Asthma Allergy 2022, PMID 35502421) - reduced severe exacerbation rate in oral-corticosteroid-dependent severe asthma; earlier Phase 2 (Humbert M et al., Allergy 2009, PMID 19392990).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:10074640",
+        "smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC(=CS4)C5=CN=CC=C5",
+        "name": "Masitinib"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "fevipiprant",
+      "drug_name_display": "Fevipiprant",
+      "mechanism": "Oral selective antagonist of the prostaglandin D2 receptor 2 (DP2/CRTH2), blocking PGD2-driven chemotaxis and activation of eosinophils, Th2 cells, basophils and ILC2s",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Fevipiprant is included specifically for its histopathological evidence rather than its clinical endpoint record. In a bronchoscopy-controlled Phase 2 trial in moderate-to-severe eosinophilic asthma, twelve weeks of fevipiprant reduced sputum eosinophil percentage by approximately 4.5-fold and, in the mechanistic substudy, reduced airway smooth muscle mass and bronchial epithelial integrity scores - one of the very few direct demonstrations that a small molecule can reverse an established structural remodeling lesion in human asthmatic airways. Mast-cell-derived PGD2 acting on CRTH2 is the principal chemotactic signal recruiting eosinophils and ILC2s into the airway wall, linking the mast cell axis to the eosinophil axis. Intellectual honesty requires noting that the LUSTER Phase 3 programme did not meet its exacerbation endpoints and development was discontinued in 2020; the drug is therefore proposed as a mechanistically validated disease-modifying probe of the DP2 pathway rather than as a clinically deployable therapy, and a reviewer may reasonably down-weight or exclude it on that basis.",
+      "key_evidence": "Gonem S et al. (Lancet Respir Med 2016, PMID 27460163) - reduced sputum eosinophilia and airway smooth muscle mass; Saunders R et al. (2019) mechanistic substudy on remodeling; negative LUSTER-1/2 Phase 3 (NEJM 2020, PMID 33326715).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:23582412",
+        "smiles": "CC1=C(C2=C(N1CC3=C(C=C(C=C3)S(=O)(=O)C)C(F)(F)F)N=CC=C2)CC(=O)O",
+        "name": "Fevipiprant"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2841",
+      "cando_name": "acetic_acid"
+    },
+    {
+      "drug_name": "necrostatin_1",
+      "drug_name_display": "Necrostatin-1",
+      "mechanism": "Allosteric small-molecule inhibitor of receptor-interacting protein kinase 1 (RIPK1), blocking RIPK1/RIPK3 necrosome assembly and MLKL-mediated lytic cell death",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "This candidate is derived directly from the dossier. PMID 42416068 argues that necroptosis - regulated lytic cell death governed by RIPK1/RIPK3 and MLKL - is not a passive endpoint but an active pathogenic hub in asthma, that asthma-relevant triggers (allergens, viruses, pollutants) activate necroptosis in a cell-specific manner, and that the consequences include DAMP-driven initiation and amplification of type 2 inflammation via epithelial death plus the establishment of a neutrophilic, steroid-refractory state. Necrostatin-1 is the canonical pharmacological tool for this pathway. In house dust mite and ovalbumin murine models, RIPK1 inhibition reduces epithelial lytic death, HMGB1 and IL-33 release, eosinophilic and neutrophilic airway infiltration, mucus metaplasia and collagen deposition. Because it prevents the release of the alarmins that all downstream type 2 biologics must otherwise neutralize, it is upstream of tezepelumab and itepekimab in the causal chain and is genuinely disease-modifying in principle. Evidence remains preclinical: necrostatin-1 has poor metabolic stability and is not a clinical agent, so the translational implication is that clinical-stage RIPK1 inhibitors such as GSK2982772, eclitasertib or SIR2446M warrant evaluation in steroid-refractory asthma.",
+      "key_evidence": "PMID 42416068 (Front Immunol 2026;17:1783960) - review establishing RIPK1/RIPK3/MLKL necroptosis as a pathogenic hub in asthmatic airway remodeling and steroid-refractory neutrophilic inflammation; supported by prior murine allergic airway inflammation studies showing necrostatin-1 attenuates epithelial DAMP release and airway remodeling.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2828334",
+        "smiles": "CN1C(=O)C(NC1=S)CC2=CNC3=CC=CC=C32",
+        "name": "Necrostatin-1"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "46",
+      "cando_name": "tryptophan"
+    }
+  ]
+}

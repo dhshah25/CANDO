@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:07:06.188584",
+  "disease": "Huntington Disease",
+  "mesh_id": "MESH:D006816",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "tominersen",
+      "drug_name_display": "Tominersen (RG6042 / IONIS-HTTRx)",
+      "mechanism": "Intrathecally delivered antisense oligonucleotide that binds HTT pre-mRNA and triggers RNase H1-mediated degradation, non-allele-selectively lowering total huntingtin protein",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tominersen acts directly on the root cause of HD rather than on downstream chorea or psychiatry. HD is caused by a CAG expansion in exon 1 of HTT producing a mutant huntingtin (mHTT) protein with a toxic gain of function; every mechanism cited in the dossier as central to HD pathogenesis (mitochondrial dysfunction, oxidative stress, neuroinflammation, protein misfolding and aggregation - see PMID 42448407 and PMID 42474536) is downstream of mHTT expression. Tominersen reduces the production of the toxic protein itself and has demonstrated dose-dependent lowering of mHTT in human CSF, making it the prototypical disease-modifying agent for this indication. The Phase III GENERATION HD1 trial was halted for lack of benefit at the doses/intervals tested (high-dose arm showed worsening), and the programme was redesigned as GENERATION HD2 with lower doses in earlier-stage patients; the target engagement, however, is unambiguous and mechanistically curative in intent. Its absence from the CANDO mapping is a significant gap because it is the reference compound against which all other HD disease-modifying candidates are benchmarked.",
+      "key_evidence": "Tabrizi et al., N Engl J Med 2019 (first-in-human IONIS-HTTRx trial, dose-dependent CSF mHTT reduction); GENERATION HD1 (NCT03761849) and GENERATION HD2 (NCT05686551). Contextual support for HTT-directed strategies: PMID 42442453 (nano-theragnostic review of HD, notes no disease-reversing therapy currently available and BBB delivery as the limiting factor for HD therapeutics).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:454990",
+        "smiles": "UNKNOWN",
+        "name": "Tominersen (RG6042 / IONIS-HTTRx)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "branaplam",
+      "drug_name_display": "Branaplam (LMI070)",
+      "mechanism": "Oral small-molecule RNA splicing modulator that promotes inclusion of a pseudoexon containing a premature termination codon into HTT mRNA, triggering nonsense-mediated decay and lowering huntingtin protein",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Branaplam was originally developed as an SMN2 splicing modifier for spinal muscular atrophy, and its HD activity was discovered through exactly the kind of repurposing screen the dossier advocates (PMID 42474536 and PMID 42432671 both frame drug repurposing/AI-assisted repurposing as the efficient route to therapeutics for neurodegenerative disease). Mechanistically it is disease-modifying because it lowers the causative gene product: by shifting HTT splicing toward a nonsense-mediated-decay substrate it reduces total huntingtin at the mRNA level. Critically, it is orally bioavailable and CNS-penetrant, which addresses the blood-brain barrier bottleneck emphasised in PMID 42442453 and PMID 42518684 (>98% of small molecules fail to cross the BBB) without requiring intrathecal administration. The Phase IIb VIBRANT-HD study was discontinued for peripheral neuropathy, so branaplam should be mapped with a clinical evidence level and an explicit safety caveat, but the HTT-lowering pharmacology in HD patients is established.",
+      "key_evidence": "Keller et al., Nature Communications 2022 (branaplam-induced HTT pseudoexon inclusion lowers huntingtin); VIBRANT-HD Phase IIb (NCT05111249) demonstrating CSF mHTT lowering prior to discontinuation for neuropathy.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:135565042",
+        "smiles": "CC1(CC(CC(N1)(C)C)OC2=NN=C(C=C2)C3=C(C=C(C=C3)C4=CNN=C4)O)C",
+        "name": "Branaplam (LMI070)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2929",
+      "cando_name": "phenol"
+    },
+    {
+      "drug_name": "pridopidine",
+      "drug_name_display": "Pridopidine",
+      "mechanism": "Highly selective sigma-1 receptor (S1R) agonist; restores ER-mitochondria calcium signalling at MAM contacts, enhances BDNF secretion and TrkB signalling, normalises the unfolded protein response and improves mitochondrial bioenergetics",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Pridopidine was originally characterised as a dopidine (dopamine stabiliser) but its clinically relevant target at therapeutic concentrations is the sigma-1 receptor, an ER chaperone concentrated at mitochondria-associated membranes. S1R agonism directly counteracts the core HD mechanisms enumerated in PMID 42448407 - mitochondrial impairment, protein misfolding, ER stress and impaired proteostasis - and in HD models restores BDNF/TrkB axonal transport, a pathway specifically lost because mHTT sequesters HAP1 and disrupts vesicular BDNF trafficking to striatal medium spiny neurons. In YAC128 and R6/2 mice pridopidine rescues striatal spine density, restores synaptic plasticity and reduces mHTT aggregate load, effects abolished by S1R knockout, confirming on-target disease modification rather than symptomatic dopaminergic action. Clinically it reached Phase III (PROOF-HD); the trial missed its primary TFC endpoint, but prespecified analyses in patients not taking antidopaminergics showed signals on TFC and Q-Motor, and the compound remains the most advanced S1R-directed neuroprotective agent in HD. It is therefore mechanistically distinct from every drug in the current CANDO list.",
+      "key_evidence": "PRIDE-HD Phase II (Reilmann et al., Lancet Neurology 2019) and PROOF-HD Phase III (NCT04556656); Eddings et al./Ryskamp et al., Neurobiology of Disease 2017 - pridopidine rescues spine loss in YAC128 mice via sigma-1 receptor.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9795739",
+        "smiles": "CCCN1CCC(CC1)C2=CC(=CC=C2)S(=O)(=O)C",
+        "name": "Pridopidine"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "cysteamine",
+      "drug_name_display": "Cysteamine bitartrate (delayed-release, RP103)",
+      "mechanism": "Aminothiol that inhibits transglutaminase 2, depletes cystamine-sensitive thiol pools, raises brain BDNF secretion and increases antioxidant (glutathione/cysteine) capacity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Cysteamine is a repurposed orphan drug (approved for nephropathic cystinosis) with a strong mechanistic rationale in HD. Transglutaminase 2 is upregulated in HD brain and cross-links polyglutamine-expanded huntingtin, promoting the aggregate formation identified as a shared pathological mechanism in PMID 42448407; TG2 inhibition reduces this cross-linking. Independently, cysteamine increases secretion of BDNF from the constitutive to the regulated pathway, partially correcting the BDNF deficit that drives striatal medium spiny neuron death, and augments cellular thiol antioxidant defences against the oxidative stress highlighted in PMID 42474536. It extends survival and improves motor phenotype in R6/2 and YAC128 mice and in the transgenic HD minipig. The 18-month CYST-HD Phase II/III trial with open-label extension showed a signal of slowed UHDRS-TMS progression in the treated cohort, supporting disease modification rather than symptom suppression.",
+      "key_evidence": "Verny et al., Movement Disorders 2017 (CYST-HD randomized trial of delayed-release cysteamine, 36-month follow-up); Borrell-Pages et al., J Clin Invest 2006 (cystamine/cysteamine increases BDNF and is neuroprotective in HD mice).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11958147",
+        "smiles": "C(CS)N.C(C(C(=O)O)O)(C(=O)O)O",
+        "name": "Cysteamine bitartrate (delayed-release, RP103)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "724",
+      "cando_name": "cysteamine"
+    },
+    {
+      "drug_name": "laquinimod",
+      "drug_name_display": "Laquinimod",
+      "mechanism": "Orally active immunomodulator acting on the aryl hydrocarbon receptor and NF-kB signalling in astrocytes and myeloid cells; suppresses pro-inflammatory cytokine release and microglial activation, with downstream elevation of BDNF",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Chronic neuroinflammation is listed in PMID 42448407 and PMID 42474536 as one of the central, targetable contributors to HD pathogenesis, and HD patients show microglial activation (PK11195 PET) and elevated IL-6 years before motor onset. Laquinimod is CNS-penetrant, modulates astrocytic NF-kB and myeloid AHR signalling, and in R6/2 and YAC128 mice reduces mHTT aggregation, preserves striatal and cortical volume, and improves motor performance. In the Phase II LEGATO-HD trial laquinimod failed its primary UHDRS-TMS endpoint but met the key structural secondary endpoint: significant reduction in caudate atrophy and whole-brain volume loss versus placebo. Volumetric preservation without symptomatic motor effect is precisely the signature of a disease-modifying rather than symptomatic agent, which is why it belongs in the HD mapping even though the clinical programme was stopped. Note that the CANDO list currently contains only one anti-inflammatory (minocycline), so laquinimod adds a mechanistically orthogonal neuroimmune candidate.",
+      "key_evidence": "LEGATO-HD Phase II (Reilmann et al., NCT02215616) - significant reduction in caudate volume loss at 12 months; Ellrichmann et al., PLoS One 2017 - laquinimod reduces mHTT aggregates and rescues phenotype in R6/2 mice.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:54677946",
+        "smiles": "CCN(C1=CC=CC=C1)C(=O)C2=C(C3=C(C=CC=C3Cl)N(C2=O)C)O",
+        "name": "Laquinimod"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "selisistat",
+      "drug_name_display": "Selisistat (SEN0014196)",
+      "mechanism": "Selective, brain-penetrant inhibitor of sirtuin-1 (SIRT1/Sir2), altering acetylation of huntingtin-interacting transcription factors and reducing mutant huntingtin-mediated transcriptional dysregulation and toxicity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Epigenetic dysregulation is explicitly named in PMID 42448407 as a shared mechanism across neurodegenerative disease, and in HD mHTT directly interferes with CBP/p300 acetyltransferase activity and with the SIRT1/PGC-1alpha axis governing mitochondrial biogenesis. Selisistat inhibits SIRT1 (Sir2 orthologue), an intervention that rescues polyQ toxicity in Drosophila and C. elegans HD models and reduces mHTT-mediated neuronal death in mammalian models. It is one of very few HD-specific agents to complete Phase IB and Phase II safety/PK studies in early-stage manifest HD patients, where it was well tolerated and CSF-penetrant; exploratory analysis showed a reduction in soluble mHTT in peripheral blood mononuclear cells. Because the mechanism is transcriptional/epigenetic normalisation upstream of neuronal loss, it is disease-modifying by definition and is entirely absent from the current CANDO mapping (which contains no HDAC- or sirtuin-directed agent).",
+      "key_evidence": "Sussmuth et al., Br J Clin Pharmacol 2015 (Phase II randomized, double-blind selisistat study in early-stage HD, PADDINGTON project); Pallos et al., Hum Mol Genet 2008 (Sir2 inhibition rescues polyQ neurodegeneration).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5113032",
+        "smiles": "C1CC(C2=C(C1)C3=C(N2)C=CC(=C3)Cl)C(=O)N",
+        "name": "Selisistat (SEN0014196)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "sodium_phenylbutyrate",
+      "drug_name_display": "Sodium phenylbutyrate",
+      "mechanism": "Class I/II histone deacetylase inhibitor and chemical chaperone; restores histone H3/H4 acetylation, reverses mHTT-induced transcriptional repression, upregulates PGC-1alpha and relieves ER stress",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Mutant huntingtin sequesters CBP and other acetyltransferases, producing global histone hypoacetylation and repression of neuronal survival genes including BDNF and PGC-1alpha - the epigenetic dysregulation flagged in PMID 42448407. Sodium phenylbutyrate is an FDA-approved drug (urea cycle disorders) that inhibits HDACs at clinically achievable concentrations and additionally acts as a chemical chaperone reducing misfolded-protein burden and ER stress. In N171-82Q HD mice it extends survival, prevents striatal atrophy, restores histone acetylation and normalises expression of downregulated transcripts. A NINDS-sponsored Phase I dose-finding study in HD patients (PHEND-HD) established safety and identified transcriptional biomarker changes in blood. Its approved status, oral availability and defined epigenetic mechanism make it a high-value repurposing candidate consistent with the strategy advocated in PMID 42474536 and PMID 42432671.",
+      "key_evidence": "Hogarth, Lovrecic & Krainc, Movement Disorders 2007 (PHEND-HD Phase I safety/tolerability of sodium phenylbutyrate in HD); Gardian et al., J Biol Chem 2005 (phenylbutyrate extends survival and prevents neuropathology in N171-82Q mice).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5258",
+        "smiles": "C1=CC=C(C=C1)CCCC(=O)[O-].[Na+]",
+        "name": "Sodium phenylbutyrate"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "5143",
+      "cando_name": "phenylbutyric_acid"
+    },
+    {
+      "drug_name": "riluzole",
+      "drug_name_display": "Riluzole",
+      "mechanism": "Inhibits presynaptic glutamate release, blocks persistent sodium currents and enhances astrocytic glutamate uptake (EAAT2), reducing excitotoxic calcium loading of striatal medium spiny neurons",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Excitotoxicity is one of the earliest and best-validated mechanisms of striatal neuron loss in HD: mHTT sensitises extrasynaptic NR2B-containing NMDA receptors, downregulates astrocytic glutamate transporters, and lowers the energetic threshold for calcium-mediated mitochondrial permeability transition - directly linking to the mitochondrial impairment and metabolic failure described in PMID 42474536. Riluzole is FDA-approved for ALS on a neuroprotective rationale and is anti-excitotoxic rather than anti-choreic in mechanism; it also raises BDNF and GDNF expression in cortex. In R6/2 and 3-nitropropionic acid HD models riluzole reduces striatal lesion volume and extends survival. The 3-year European Riluzole-HD trial did not demonstrate slowing of functional decline at 100 mg/day, so the mapping should carry a negative-trial caveat, but the compound's mechanism, HD-specific trial history and biomarker effects (reduced serum NSE) justify inclusion as a disease-modifying candidate distinct from the symptomatic agents currently listed.",
+      "key_evidence": "Landwehrmeyer et al., Annals of Neurology 2007 (3-year randomized Riluzole-HD trial); Schiefer et al., Brain Research 2002 (riluzole prolongs survival in R6/2 mice).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5070",
+        "smiles": "C1=CC2=C(C=C1OC(F)(F)F)SC(=N2)N",
+        "name": "Riluzole"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "620",
+      "cando_name": "riluzole"
+    },
+    {
+      "drug_name": "alogliptin",
+      "drug_name_display": "Alogliptin",
+      "mechanism": "Selective dipeptidyl peptidase-4 (DPP-4) inhibitor that raises endogenous GLP-1/GIP, activating neuronal GLP-1R-cAMP-PKA-CREB signalling with downstream anti-inflammatory, antioxidant and mitochondrial-protective effects",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "This candidate comes directly from the evidence dossier. PMID 42474536 ('From glycemic control to neuroprotection: alogliptin as a repurposed candidate for Huntington's disease') states that no disease-modifying therapies are currently available for HD and identifies metabolic impairment, mitochondrial dysfunction, oxidative stress and neuroinflammation as central contributors to HD pathogenesis, then argues that alogliptin exerts neuroprotection through multiple complementary mechanisms initiated by DPP-4 inhibition and consequent incretin boosting. This is mechanistically coherent with HD biology: HD patients show insulin resistance, weight loss and impaired striatal glucose metabolism years before motor onset, and PGC-1alpha-dependent mitochondrial biogenesis is repressed by mHTT. Incretin receptor signalling upregulates PGC-1alpha, suppresses NF-kB-driven microglial activation and reduces 3-nitrotyrosine and lipid peroxidation in striatum. Because the intervention targets the bioenergetic and neuroinflammatory drivers of neuronal loss rather than chorea, it qualifies as disease-modifying. Evidence graded in_vivo: alogliptin is FDA-approved for type 2 diabetes but its HD evidence is preclinical/mechanistic review-level, not from an HD clinical trial.",
+      "key_evidence": "PMID 42474536 - Choudhary G, Vashisht K, Sharma V, Ashawat MS, Kushawaha SK. Metab Brain Dis. 2026;41(1):169. doi:10.1007/s11011-026-01942-5, dedicated review of alogliptin as a repurposed disease-modifying candidate for HD.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11450633",
+        "smiles": "CN1C(=O)C=C(N(C1=O)CC2=CC=CC=C2C#N)N3CCCC(C3)N",
+        "name": "Alogliptin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "4809",
+      "cando_name": "alogliptin"
+    },
+    {
+      "drug_name": "metformin",
+      "drug_name_display": "Metformin",
+      "mechanism": "Activates AMP-activated protein kinase (AMPK) and inhibits mitochondrial complex I signalling, inducing PGC-1alpha-driven mitochondrial biogenesis, autophagic clearance of aggregates, and inhibition of mHTT translation via MID1-PP2A-mTOR disruption",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Metformin is the strongest companion candidate to the alogliptin hypothesis advanced in PMID 42474536: both operate on the metabolic-impairment axis now recognised as central to HD, but metformin adds a direct effect on mutant huntingtin levels. Arnoux et al. showed that metformin disrupts the MID1-PP2A-mTOR translational complex that assembles on the CAG-expanded HTT mRNA, selectively reducing mutant huntingtin protein synthesis - a genuinely upstream, root-cause action. It additionally activates AMPK, restoring PGC-1alpha-dependent mitochondrial biogenesis that mHTT represses, and induces autophagy to clear polyQ aggregates (the protein-misfolding mechanism in PMID 42448407). In R6/2 mice metformin improves survival and motor performance; in the Enroll-HD observational cohort, diabetic HD patients on metformin showed better cognitive scores than non-users. Evidence graded in_vivo because HD-specific human data are observational rather than from a randomized trial, though the drug itself is long-approved and CNS-penetrant.",
+      "key_evidence": "Arnoux et al., eLife 2018 (metformin reduces mutant huntingtin translation via MID1-PP2A-mTOR); Hervas et al., Journal of Neurology 2017 (Enroll-HD analysis associating metformin use with better cognitive performance in HD).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4091",
+        "smiles": "CN(C)C(=N)N=C(N)N",
+        "name": "Metformin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "223",
+      "cando_name": "metformin"
+    },
+    {
+      "drug_name": "dimethyl_fumarate",
+      "drug_name_display": "Dimethyl fumarate",
+      "mechanism": "Succinates KEAP1 cysteine residues, liberating NRF2 to drive the antioxidant response element (HO-1, NQO1, glutathione synthesis) and suppressing NF-kB-dependent microglial and astrocytic inflammation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Oxidative stress and chronic neuroinflammation are named in both PMID 42474536 and PMID 42448407 as central, druggable contributors to HD. Dimethyl fumarate is the canonical pharmacological NRF2 activator, already FDA-approved for multiple sclerosis, and its mechanism addresses both axes simultaneously. In HD this is mechanistically apt because mHTT impairs NRF2 signalling in astrocytes and microglia while increasing mitochondrial ROS from complex II/III deficiency. Ellrichmann et al. demonstrated that DMF in R6/2 and YAC128 mice improved motor function, prolonged survival, preserved striatal and motor-cortex neurons, and - importantly - reduced nuclear mHTT inclusion burden, indicating an effect on aggregate pathology rather than on movement alone. Given that the current CANDO list contains only ubidecarenone and creatine as bioenergetic/antioxidant agents, both of which failed large HD trials (2CARE, CREST-E), a mechanistically distinct NRF2 activator is a meaningful addition.",
+      "key_evidence": "Ellrichmann et al., PLoS One 2011 - efficacy of fumaric acid esters in R6/2 and YAC128 HD mouse models (improved survival, neuronal preservation, reduced huntingtin inclusions).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:637568",
+        "smiles": "COC(=O)C=CC(=O)OC",
+        "name": "Dimethyl fumarate"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7128",
+      "cando_name": "dimethyl_fumarate"
+    },
+    {
+      "drug_name": "trehalose",
+      "drug_name_display": "Trehalose",
+      "mechanism": "Disaccharide chemical chaperone that binds expanded polyglutamine directly and induces mTOR-independent autophagy via TFEB nuclear translocation and AMPK activation, accelerating clearance of mutant huntingtin aggregates",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Protein misfolding and aggregation are listed in PMID 42448407 as a defining shared mechanism of HD and related neurodegenerative diseases, and impaired macroautophagy (mHTT-loaded but cargo-empty autophagosomes) is a well-documented HD-specific defect. The CANDO list already includes sirolimus, an mTOR-dependent autophagy inducer, but mTOR inhibition carries immunosuppressive and metabolic liabilities; trehalose achieves aggregate clearance through an mTOR-independent, TFEB-mediated route and additionally acts as a direct chemical chaperone stabilising the native polyQ conformation. Tanaka et al. showed trehalose reduces polyQ aggregates, improves motor function and extends lifespan in R6/2 mice with no toxicity, and it has since been formulated for parenteral CNS delivery. Adding trehalose gives the platform a non-immunosuppressive proteostasis arm complementary to sirolimus.",
+      "key_evidence": "Tanaka et al., Nature Medicine 2004 - trehalose alleviates polyglutamine-mediated pathology in a mouse model of Huntington disease; Sarkar et al., J Biol Chem 2007 - trehalose is an mTOR-independent autophagy inducer that clears mutant huntingtin.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:7427",
+        "smiles": "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",
+        "name": "Trehalose"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "rilmenidine",
+      "drug_name_display": "Rilmenidine",
+      "mechanism": "Imidazoline-1 receptor agonist (approved antihypertensive) that lowers cAMP and induces mTOR-independent autophagy through the cAMP-Epac-PLCepsilon-IP3 axis, enhancing clearance of aggregate-prone mutant huntingtin",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Rilmenidine exemplifies the repurposing strategy promoted throughout the dossier (PMID 42474536; PMID 42432671 on AI-assisted repurposing for neurological disorders): a safe, oral, BBB-permeant, decades-old antihypertensive whose imidazoline-1 receptor agonism secondarily induces autophagy independently of mTOR. This matters for HD because mHTT is an autophagy substrate whose accumulation drives the protein-misfolding pathology of PMID 42448407, and because avoiding mTOR inhibition avoids the immunosuppression associated with sirolimus (already in the CANDO list). Rossi et al. and Underwood et al. demonstrated that rilmenidine reduces mHTT levels and improves the motor phenotype in HD mouse models, and a subsequent open-label clinical safety study in HD patients confirmed tolerability over 6 months. Its BBB permeability also addresses the delivery barrier repeatedly emphasised in PMID 42442453 and PMID 42518684, where over 98% of small molecules are described as failing to cross the BBB.",
+      "key_evidence": "Rose et al., Hum Mol Genet 2010 - rilmenidine induces autophagy and reduces mutant huntingtin in mouse models; Underwood et al., PLoS One 2017 - open-label safety and tolerability study of rilmenidine in Huntington's disease patients.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:68712",
+        "smiles": "C1CC1C(C2CC2)NC3=NCCO3",
+        "name": "Rilmenidine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7954",
+      "cando_name": "rilmenidine"
+    },
+    {
+      "drug_name": "resveratrol",
+      "drug_name_display": "Resveratrol",
+      "mechanism": "Polyphenolic SIRT1/AMPK activator; deacetylates and activates PGC-1alpha to restore mitochondrial biogenesis and respiratory capacity, with additional NRF2-mediated antioxidant and NF-kB-mediated anti-inflammatory effects",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Transcriptional repression of PGC-1alpha by mutant huntingtin is a well-established proximal cause of the mitochondrial dysfunction and bioenergetic failure named as central HD mechanisms in PMID 42474536 and PMID 42448407; medium spiny neurons are exquisitely sensitive to this deficit. Resveratrol activates SIRT1, which deacetylates PGC-1alpha and restores its coactivator function, thereby increasing mitochondrial mass, complex II/IV activity and ROS-handling capacity, while simultaneously reducing microglial NF-kB signalling. In 3-nitropropionic acid and quinolinic acid rodent HD models and in HD transgenic mice, resveratrol reduces striatal lesion volume, restores succinate dehydrogenase activity and improves motor coordination. Note the mechanistic tension with selisistat (SIRT1 inhibition) also proposed above: both directions have HD preclinical support depending on model and cell type, and a human reviewer should treat these as competing hypotheses to be flagged rather than as mutually confirming. Evidence graded in_vivo; a small clinical study in HD did not proceed to efficacy readout.",
+      "key_evidence": "Kumar et al., Behavioural Pharmacology 2006 - resveratrol protects against 3-nitropropionic acid-induced striatal degeneration; Parker et al., Nature Genetics 2005 - resveratrol rescues polyglutamine toxicity via sirtuin-dependent mechanisms in C. elegans and neuronal HD models.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:445154",
+        "smiles": "C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O",
+        "name": "Resveratrol"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2417",
+      "cando_name": "resveratrol"
+    },
+    {
+      "drug_name": "deferiprone",
+      "drug_name_display": "Deferiprone",
+      "mechanism": "Orally active, BBB-permeant bidentate iron chelator that removes labile redox-active iron from basal ganglia, suppressing Fenton-driven hydroxyl radical generation and ferroptotic lipid peroxidation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "Iron accumulates progressively in the caudate, putamen and globus pallidus in HD (documented by quantitative susceptibility mapping and post-mortem analysis) and correlates with striatal atrophy and CAG-adjusted disease burden. Labile iron catalyses hydroxyl radical formation and lipid peroxidation, providing a concrete molecular source for the oxidative stress mechanism cited in PMID 42474536; ferroptosis-like death of medium spiny neurons has been described in HD models. Deferiprone is unusual among chelators in crossing the blood-brain barrier - the key obstacle described in PMID 42442453 and PMID 42518684 - and is already approved for transfusional iron overload, with an established repurposing precedent in neurodegeneration (Phase II success on iron burden in Parkinson's disease and PKAN). In HD mice, deferiprone reduces brain iron, decreases oxidative markers and improves motor phenotype. It targets an upstream driver of neuronal death rather than chorea, and no chelation-based agent currently exists in the CANDO HD mapping.",
+      "key_evidence": "Chen et al., Journal of Neurochemistry 2013 - iron accumulation in HD mouse brain and neuroprotection by iron chelation; Devos et al., Antioxid Redox Signal 2014 - deferiprone crosses the BBB and conservatively chelates brain iron in neurodegenerative disease (translational precedent).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2972",
+        "smiles": "CC1=C(C(=O)C=CN1C)O",
+        "name": "Deferiprone"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7069",
+      "cando_name": "deferiprone"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# Environment / Secrets (Security)
+.env
+.env*
+*.env
+**/.env*
+*.pem
+*.key
+*.cert
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+miniforge3/
+
+# Dependencies & Build Artifacts
+node_modules/
+.npm/
+
+# Large Database & Binary Files (>100MB GitHub limit)
+*.db
+*.sqlite
+*.sqlite3
+*.tsv
+*.csv
+pairwise_results/
+raw_results/
+tutorial/*.tsv
+tutorial/*.db
+
+# Batch Logs & Output Dumps
+*.log
+*.zip
+*.tar.gz
+discovery_outputs/
+
+# IDEs & System Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+

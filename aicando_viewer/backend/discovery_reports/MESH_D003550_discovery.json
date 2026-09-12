@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:06:52.896936",
+  "disease": "Cystic Fibrosis",
+  "mesh_id": "MESH:D003550",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "elexacaftor",
+      "drug_name_display": "Elexacaftor (VX-445)",
+      "mechanism": "Type III CFTR corrector; binds a distinct site on CFTR TMD1 and stabilizes folding/trafficking of F508del-CFTR, acting additively with tezacaftor and a potentiator",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The dossier's review of modulator-refractory CF (PMID: 42361321) frames the current standard of care explicitly: small molecule CFTR modulators have dramatically improved outcomes for people with CF by promoting trafficking of defective CFTR protein to the cell surface and enhancing its activity. Elexacaftor is the second-generation corrector that made this possible for F508del heterozygotes, and it is the single largest omission from the current CANDO mapping, which contains ivacaftor (a potentiator) but no correctors at all. Mechanistically it acts at the root cause: it does not treat infection or inflammation downstream, but rescues the misprocessed CFTR protein itself, restoring cAMP-dependent epithelial chloride and bicarbonate conductance. PMID: 42511699 emphasizes that CFTR is structurally and clinically druggable and that CFTR-mediated bicarbonate availability governs mucin expansion, epithelial surface pH, and fluid balance \u2014 precisely the axis elexacaftor-containing triple therapy restores.",
+      "key_evidence": "Phase III trials of elexacaftor/tezacaftor/ivacaftor (Middleton et al., N Engl J Med 2019; Heijerman et al., Lancet 2019) showed ~14 and ~10 percentage-point ppFEV1 gains, large sweat chloride reductions, and reduced exacerbation rates; FDA-approved as Trikafta. Contextualized by dossier PMID: 42361321 (modulator mechanism and coverage gaps) and PMID: 42511699 (CFTR target validation).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:134587348",
+        "smiles": "CC1CC(N(C1)C2=C(C=CC(=N2)N3C=CC(=N3)OCC(C)(C)C(F)(F)F)C(=O)NS(=O)(=O)C4=CN(N=C4C)C)(C)C",
+        "name": "Elexacaftor (VX-445)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "10604",
+      "cando_name": "elexacaftor"
+    },
+    {
+      "drug_name": "tezacaftor",
+      "drug_name_display": "Tezacaftor (VX-661)",
+      "mechanism": "Type I CFTR corrector; binds TMD1 and improves co-translational folding and ER exit of F508del-CFTR",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tezacaftor addresses the primary proteostatic defect of the most common CF allele (F508del), which is a folding/trafficking defect rather than a gating defect. Because ivacaftor alone is ineffective for F508del homozygotes, a corrector is mechanistically obligatory; tezacaftor is the corrector backbone of both the double (TEZ/IVA) and triple (ELX/TEZ/IVA) regimens. This directly instantiates the mechanism described in PMID: 42361321 \u2014 promotion of trafficking of defective CFTR to the cell surface. It has a more favorable CYP3A-interaction profile than lumacaftor, which matters for a repurposing platform modeling polypharmacy.",
+      "key_evidence": "EVOLVE and EXPAND Phase III trials (Taylor-Cousar et al. and Rowe et al., N Engl J Med 2017) demonstrated ppFEV1 improvement and reduced exacerbations in F508del homozygotes and residual-function genotypes; FDA-approved as Symdeko.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:46199646",
+        "smiles": "CC(C)(CO)C1=CC2=CC(=C(C=C2N1CC(CO)O)F)NC(=O)C3(CC3)C4=CC5=C(C=C4)OC(O5)(F)F",
+        "name": "Tezacaftor (VX-661)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7935",
+      "cando_name": "tezacaftor"
+    },
+    {
+      "drug_name": "lumacaftor",
+      "drug_name_display": "Lumacaftor (VX-809)",
+      "mechanism": "First-generation CFTR corrector; stabilizes the NBD1-TMD interface of F508del-CFTR to rescue plasma-membrane expression",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Lumacaftor was the first corrector to show clinical benefit in F508del homozygotes and remains the canonical pharmacological chaperone reference compound in nearly all CF proteostasis literature and in vitro corrector screens. Its inclusion is important for a repurposing knowledge base because most published corrector mechanism-of-action work (organoid swelling assays, HBE cell rescue) is benchmarked against VX-809. It is disease-modifying rather than symptomatic: the target is the mutant CFTR protein, restoring the anion transport module described in PMID: 42511699 as linking bicarbonate availability to mucin expansion and barrier organization.",
+      "key_evidence": "TRAFFIC/TRANSPORT Phase III trials (Wainwright et al., N Engl J Med 2015) showed reduced pulmonary exacerbation rate and modest ppFEV1 gain with lumacaftor/ivacaftor; FDA-approved as Orkambi.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:16678941",
+        "smiles": "CC1=C(N=C(C=C1)NC(=O)C2(CC2)C3=CC4=C(C=C3)OC(O4)(F)F)C5=CC(=CC=C5)C(=O)O",
+        "name": "Lumacaftor (VX-809)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "3422",
+      "cando_name": "benzoic_acid"
+    },
+    {
+      "drug_name": "vanzacaftor",
+      "drug_name_display": "Vanzacaftor (VX-121)",
+      "mechanism": "Next-generation CFTR corrector used with tezacaftor and deutivacaftor; enhances folding and membrane density of mutant CFTR across a broadened genotype set",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Vanzacaftor extends corrector pharmacology to genotypes with residual or minimal function and achieves deeper sweat chloride reduction (a direct biomarker of restored CFTR anion conductance) than the previous triple combination, indicating greater functional rescue at the causal target rather than downstream symptom control. Its once-daily regimen is relevant to adherence-mediated long-term outcomes. This is exactly the class the dossier review (PMID: 42361321) positions as having transformed the disease while still leaving nonsense/splicing genotypes uncovered.",
+      "key_evidence": "SKYLINE 102/103 and RIDGELINE Phase III programs demonstrated non-inferior ppFEV1 versus ELX/TEZ/IVA with superior sweat chloride reduction; FDA-approved (December 2024) as Alyftrek.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:139399801",
+        "smiles": "CC1(CC2CCCNC3=NC(=CC=C3)S(=O)(=O)NC(=O)C4=C(N1C2)N=C(C=C4)N5C=CC(=N5)OCCC6C7(C68CC8)CC7)C",
+        "name": "Vanzacaftor (VX-121)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "deutivacaftor",
+      "drug_name_display": "Deutivacaftor (VX-561, CTP-656)",
+      "mechanism": "Deuterated CFTR potentiator; increases open probability of channel-gated CFTR with slowed CYP3A-mediated oxidative metabolism permitting once-daily dosing",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Deuteration at metabolically labile positions of ivacaftor prolongs exposure without altering the pharmacophore, so the drug acts on the same causal target (CFTR gating) with improved pharmacokinetics. It is chemically and pharmacologically distinct from ivacaftor (already mapped) and is now an approved component of the vanzacaftor triple regimen, so a platform mapping only ivacaftor systematically under-represents the potentiator chemical space and its deuterium-based structure-activity relationships.",
+      "key_evidence": "Approved as a component of vanzacaftor/tezacaftor/deutivacaftor (Alyftrek, 2024); Phase II monotherapy studies established dose-proportional ppFEV1 and sweat chloride responses comparable to ivacaftor with extended half-life.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:71470491",
+        "smiles": "CC(C)(C)C1=CC(=C(C=C1NC(=O)C2=CNC3=CC=CC=C3C2=O)O)C(C)(C)C",
+        "name": "Deutivacaftor (VX-561, CTP-656)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7065",
+      "cando_name": "ivacaftor"
+    },
+    {
+      "drug_name": "icenticaftor",
+      "drug_name_display": "Icenticaftor (QBW251)",
+      "mechanism": "Orally bioavailable CFTR potentiator that increases channel open probability of both mutant and wild-type/acquired-dysfunction CFTR",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Icenticaftor is a structurally distinct potentiator chemotype developed outside the Vertex series, and provides orthogonal validation that CFTR gating is a tractable pharmacological node. In CF patients with gating and residual-function mutations it produced sweat chloride reductions and lung function signals in Phase II; it has since been advanced for acquired CFTR dysfunction in chronic bronchitis/COPD, which supports the broader target-validation argument made in PMID: 42511699 that CFTR activation is pharmacologically tractable beyond the classic CF genotype framing. For a repurposing platform, an alternative potentiator scaffold materially expands the searchable chemical neighborhood around ivacaftor.",
+      "key_evidence": "Phase II study in CF patients with at least one gating mutation showed sweat chloride reduction and ppFEV1 improvement (Kazani et al., J Cyst Fibros 2021); subsequent Phase IIb in COPD supports CFTR potentiation in acquired dysfunction.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:58442344",
+        "smiles": "CC(CNC(=O)C1=C(C=C(C(=N1)OC)C(F)(F)F)N)(C(F)(F)F)O",
+        "name": "Icenticaftor (QBW251)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "ataluren",
+      "drug_name_display": "Ataluren (PTC124)",
+      "mechanism": "Promotes ribosomal readthrough of premature termination codons, allowing synthesis of full-length functional CFTR from nonsense alleles",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "PMID: 42361321 defines the exact unmet need ataluren targets: a substantial proportion of people with CF harbor genotypes refractory to CFTR modulators, most commonly nonsense and splicing variants that disrupt CFTR expression at the transcript or translation level, and these patients currently lack approved disease-modifying treatment. Ataluren acts upstream of protein folding \u2014 it restores CFTR expression itself rather than rescuing a mistrafficked protein \u2014 making it mechanistically disease-modifying by definition. Although the Phase III ACT CF trial did not meet its primary endpoint overall (with a confounding interaction from concomitant inhaled tobramycin, itself already mapped in CANDO), it remains the reference readthrough agent and the pharmacological anchor of the nonsense-suppression literature. Its inclusion is important for representing the modulator-refractory patient subgroup.",
+      "key_evidence": "Phase III ACT CF (Kerem et al., Lancet Respir Med 2014) and the confirmatory Study 020; mechanism and unmet-need framing in dossier PMID: 42361321.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11219835",
+        "smiles": "C1=CC=C(C(=C1)C2=NC(=NO2)C3=CC(=CC=C3)C(=O)O)F",
+        "name": "Ataluren (PTC124)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "3422",
+      "cando_name": "benzoic_acid"
+    },
+    {
+      "drug_name": "elx_02",
+      "drug_name_display": "ELX-02 (eluRNA glycoside, synthetic aminoglycoside analogue)",
+      "mechanism": "Eukaryotic ribosome-selective glycoside that induces near-cognate tRNA misincorporation at premature stop codons, producing full-length CFTR without the nephro-/ototoxicity of classical aminoglycosides",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "ELX-02 was rationally designed to separate readthrough activity from the bactericidal 30S ribosomal binding that causes aminoglycoside toxicity, addressing the principal barrier to chronic nonsense suppression in CF. In G542X and other class I genotypes it restores CFTR-mediated chloride current in primary cells and patient-derived organoids, with additive effects when combined with modulators or NMD inhibitors. This is precisely the translation-level rescue strategy reviewed in PMID: 42361321 for modulator-refractory variants, and it is absent from the CANDO mapping even though structurally related aminoglycosides (amikacin, tobramycin) are present only in their antibacterial role.",
+      "key_evidence": "Phase II studies in G542X CF patients (Eloxx Pharmaceuticals) with sweat chloride and organoid-based readthrough endpoints; preclinical readthrough in CF patient-derived intestinal organoids (Crawford et al., J Cyst Fibros 2021). Mechanistic context: dossier PMID: 42361321.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:71455937",
+        "smiles": "CC(C1C(C(C(O1)OC2C(C(CC(C2OC3C(C(C(C(O3)C(C)O)O)O)N)N)N)O)O)O)N",
+        "name": "ELX-02 (eluRNA glycoside, synthetic aminoglycoside analogue)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "eluforsen",
+      "drug_name_display": "Eluforsen (QR-010)",
+      "mechanism": "Inhaled 33-mer antisense oligonucleotide that hybridizes to the F508del region of CFTR mRNA and restores translation of functional CFTR protein",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Eluforsen is the clinical prototype of the nucleic acid-based therapeutic class that is the explicit subject of dossier PMID: 42361321 ('Nucleic acid-based therapeutic strategies for modulator-refractory cystic fibrosis-causing variants'). Unlike small-molecule modulators, it acts at the transcript level, so its efficacy is not contingent on the mutant protein retaining a druggable conformation \u2014 the key liability the review identifies for genotype-directed modulators. In Phase Ib it produced improvements in nasal potential difference, a direct electrophysiological readout of restored CFTR-mediated chloride transport, establishing target engagement at the causal defect. Adding it captures the antisense/oligonucleotide modality entirely missing from the current CANDO mapping.",
+      "key_evidence": "Phase Ib inhaled eluforsen improved nasal potential difference in F508del homozygotes (Drevinek et al., J Cyst Fibros 2020); class reviewed in dossier PMID: 42361321.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:712456",
+        "smiles": "UNKNOWN",
+        "name": "Eluforsen (QR-010)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "gentamicin",
+      "drug_name_display": "Gentamicin",
+      "mechanism": "Aminoglycoside that binds the eukaryotic ribosomal decoding site and induces readthrough of premature termination codons, restoring full-length CFTR from nonsense alleles",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Distinct from its antibacterial use, topical/systemic gentamicin was the first agent shown in humans to suppress CFTR nonsense mutations, producing partial correction of nasal potential difference and appearance of full-length CFTR at the apical membrane of nasal epithelial cells in patients carrying stop mutations. This constitutes proof-of-principle for the translation-level rescue mechanism reviewed in PMID: 42361321. Chronic use is limited by ototoxicity and nephrotoxicity, which is exactly what motivated ELX-02, but the disease-modifying mechanism (restoring CFTR expression, not treating infection) is well documented and mechanistically separable from the other aminoglycosides already mapped for anti-pseudomonal effect.",
+      "key_evidence": "Wilschanski et al., N Engl J Med 2003: intranasal gentamicin corrected nasal potential difference and increased apical full-length CFTR in patients with stop mutations; class context in dossier PMID: 42361321.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:3467",
+        "smiles": "CC(C1CCC(C(O1)OC2C(CC(C(C2O)OC3C(C(C(CO3)(C)O)NC)O)N)N)N)NC",
+        "name": "Gentamicin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "676",
+      "cando_name": "gentamicin"
+    },
+    {
+      "drug_name": "cysteamine",
+      "drug_name_display": "Cysteamine (mercaptamine)",
+      "mechanism": "Restores defective autophagy and TG2/beclin-1-dependent proteostasis in CF epithelia, rescuing F508del-CFTR trafficking and reducing NF-kB-driven inflammation; also disrupts biofilm",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "F508del-CFTR causes secondary failure of autophagy through tissue transglutaminase-mediated beclin-1 sequestration, which in turn prevents mutant CFTR from reaching the membrane and amplifies innate inflammatory signaling. Cysteamine, an approved drug for nephropathic cystinosis, reverses this proteostatic block and (with epigallocatechin gallate as a maintenance potentiator) restored CFTR function measured by sweat chloride and reduced sputum inflammatory markers in Phase II CF studies. Because it corrects a host proteostasis pathway rather than a genotype-specific protein conformation, it is mechanistically complementary to modulators and applicable to modulator-refractory patients, the gap emphasized in PMID: 42361321.",
+      "key_evidence": "De Stefano et al., Autophagy 2014 and Tosco et al., Cell Death Differ 2016: cysteamine plus EGCG rescued F508del-CFTR function (sweat chloride reduction) and reduced airway inflammation in Phase II CF cohorts.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:6058",
+        "smiles": "C(CS)N",
+        "name": "Cysteamine (mercaptamine)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "47",
+      "cando_name": "cysteine"
+    },
+    {
+      "drug_name": "sodium_phenylbutyrate",
+      "drug_name_display": "Sodium 4-phenylbutyrate (4-PBA)",
+      "mechanism": "Chemical chaperone and HDAC inhibitor that alters ER proteostasis (Hsc70/Hsp70 balance) to permit escape of F508del-CFTR from ER-associated degradation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "4-PBA is the historical proof-of-concept that pharmacological manipulation of the proteostasis network \u2014 not the CFTR protein directly \u2014 can restore mutant CFTR to the apical membrane. In a pilot clinical study it improved nasal potential difference chloride responses in F508del homozygotes, and in cell models it increases mature band C CFTR. As an approved drug (urea cycle disorders; also a component of taurursodiol/phenylbutyrate combinations) it is an ideal repurposing candidate and represents the proteostasis-regulator mechanism class, which is absent from the current CANDO CF mapping. Its target is the causal trafficking defect, so it is disease-modifying rather than symptomatic.",
+      "key_evidence": "Rubenstein & Zeitlin, Am J Respir Crit Care Med 1998: oral 4-PBA improved nasal PD chloride secretion in F508del homozygotes; Rubenstein et al., J Clin Invest 1997 for in vitro band C rescue.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5258",
+        "smiles": "C1=CC=C(C=C1)CCCC(=O)[O-].[Na+]",
+        "name": "Sodium 4-phenylbutyrate (4-PBA)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "5143",
+      "cando_name": "phenylbutyric_acid"
+    },
+    {
+      "drug_name": "vorinostat",
+      "drug_name_display": "Vorinostat (SAHA)",
+      "mechanism": "Pan-HDAC inhibitor that reprograms the CFTR proteostasis network (reducing Hsp90/Aha1-dependent degradation) to rescue folding and surface stability of F508del-CFTR",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vitro",
+      "reasoning": "Vorinostat is the best-characterized epigenetic proteostasis regulator for CF: in primary human bronchial epithelial cells from F508del homozygotes it restored a substantial fraction of wild-type CFTR-mediated chloride current and, unlike some correctors, stabilized the rescued protein at the plasma membrane. Mechanistically it acts through HDAC7 knockdown-like reprogramming of chaperone expression, a host-pathway mechanism orthogonal to direct binders such as lumacaftor, making it a strong candidate for combination correction of otherwise refractory alleles. Evidence is currently cell-based (approved drug, but in oncology), so it is graded in_vitro for the CF indication.",
+      "key_evidence": "Hutt et al., Nat Chem Biol 2010: SAHA restored ~28% of wild-type CFTR chloride transport in F508del primary HBE cells via proteostasis network reprogramming.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5311",
+        "smiles": "C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO",
+        "name": "Vorinostat (SAHA)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2268",
+      "cando_name": "vorinostat"
+    },
+    {
+      "drug_name": "dornase_alfa",
+      "drug_name_display": "Dornase alfa (recombinant human DNase I)",
+      "mechanism": "Cleaves extracellular neutrophil-derived DNA in CF sputum, reducing mucus viscoelasticity and the DNA/NET scaffold that sustains obstruction, infection and neutrophilic injury",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Dornase alfa is more than a symptomatic mucolytic: long-term randomized and registry data show it slows the rate of FEV1 decline and reduces pulmonary exacerbation frequency, i.e. it alters the natural history of CF lung disease. Its target is the neutrophil-DNA/NET scaffold that arises directly from the CFTR-driven obstruction-infection-inflammation cycle; the dossier's endstage-lung-disease immunology abstract (PMID: 42358993) and the exacerbation-outcomes analysis (PMID: 42521589) both underline that exacerbation-associated inflammatory lung injury is the principal driver of irreversible decline. Notably, the CANDO list contains many anti-infectives and anti-inflammatories but no mucoactive biologic, so this is a mechanistic class gap.",
+      "key_evidence": "Fuchs et al., N Engl J Med 1994 (pivotal Phase III: reduced exacerbations, improved FEV1) and Quan et al., J Pediatr 2001 (2-year trial in mild disease showing preserved lung function); exacerbation-outcome framing in dossier PMID: 42521589.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:593390",
+        "smiles": "UNKNOWN",
+        "name": "Dornase alfa (recombinant human DNase I)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "azithromycin",
+      "drug_name_display": "Azithromycin",
+      "mechanism": "Macrolide immunomodulator: suppresses NF-kB-driven IL-8/neutrophil recruitment, inhibits Pseudomonas quorum sensing and biofilm maturation, at sub-MIC concentrations independent of direct bactericidal action",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Chronic low-dose azithromycin is one of the few interventions shown in multiple randomized trials to reduce exacerbation rate and slow lung function decline in CF, and its benefit is seen in both Pseudomonas-infected and uninfected patients, indicating an anti-inflammatory/anti-virulence mechanism rather than simple antibiosis. The dossier abstract on endstage CF/obstructive lung disease (PMID: 42358993) shows that type 3 innate lymphoid cells dominate the ILC compartment in endstage lung disease, reinforcing that IL-17/neutrophilic innate immune programs \u2014 the axis macrolides dampen \u2014 are central to irreversible structural progression rather than incidental. CANDO currently maps many narrow-spectrum antipseudomonals but no immunomodulatory macrolide.",
+      "key_evidence": "Saiman et al., JAMA 2003 and JAMA 2010: chronic azithromycin reduced exacerbations and improved/preserved lung function in CF with and without P. aeruginosa; innate immune context from dossier PMID: 42358993.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:447043",
+        "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O",
+        "name": "Azithromycin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "102",
+      "cando_name": "azithromycin"
+    }
+  ]
+}

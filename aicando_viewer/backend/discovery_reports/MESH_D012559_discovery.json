@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:08:39.484038",
+  "disease": "Schizophrenia",
+  "mesh_id": "MESH:D012559",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "xanomeline",
+      "drug_name_display": "Xanomeline (with trospium chloride, KarXT/Cobenfy)",
+      "mechanism": "M1/M4 muscarinic acetylcholine receptor agonist; no direct D2 receptor blockade",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Xanomeline is the first agent to achieve antipsychotic efficacy without acting on the dopamine D2 receptor. M4 receptors on striatal cholinergic interneurons and D1-expressing medium spiny neurons provide upstream, presynaptic regulation of mesolimbic dopamine release, while M1 activation in prefrontal cortex and hippocampus modulates NMDA receptor signaling, gamma oscillations and cholinergic tone. This addresses the presumed upstream circuit dysregulation (dysregulated dopamine synthesis capacity driven by cortical/hippocampal glutamatergic and cholinergic dysfunction) rather than merely occupying postsynaptic D2 receptors downstream of it. Post-mortem and PET work has repeatedly shown reduced M1/M4 availability in schizophrenia, and a muscarinic-deficit ('muscarinic receptor-deficient schizophrenia') subgroup has been described, making this a target-engagement-driven, pathology-directed intervention. The absence of D2 blockade also removes the mechanism that causes tardive dyskinesia and receptor supersensitivity, i.e. the iatrogenic component of long-term illness course.",
+      "key_evidence": "PMID 42530555 (J Comp Eff Res 2026): systematic review and network meta-analysis of xanomeline/trospium chloride vs eight oral second-generation antipsychotics for acute schizophrenia, based on three positive placebo-controlled RCTs (EMERGENT-1/2/3); FDA approved September 2024.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:60809",
+        "smiles": "CCCCCCOC1=NSN=C1C2=CCCN(C2)C",
+        "name": "Xanomeline (with trospium chloride, KarXT/Cobenfy)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "104",
+      "cando_name": "trospium"
+    },
+    {
+      "drug_name": "emraclidine",
+      "drug_name_display": "Emraclidine (CVL-231)",
+      "mechanism": "Selective positive allosteric modulator (PAM) of the M4 muscarinic acetylcholine receptor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Emraclidine acts at an allosteric site on M4 only, requiring endogenous acetylcholine tone, so it normalizes rather than clamps striatal cholinergic-dopaminergic balance. M4 PAMs suppress excess mesolimbic dopamine release presynaptically via cholinergic interneuron feedback onto dopamine terminals, correcting the elevated striatal dopamine synthesis capacity that is the most reproducible molecular abnormality in schizophrenia, instead of blocking the receptor downstream. This upstream normalization is the mechanistic definition of disease-modification in the dopamine hypothesis framework, and unlike D2 antagonists it does not induce D2 upregulation/supersensitivity. Evidence is mixed: a positive Phase 1b signal was followed by two Phase 2 trials (EMPOWER-1/2) that missed the primary endpoint, so it is included here as a mechanistically validated but clinically unproven candidate for the CANDO muscarinic class.",
+      "key_evidence": "Krystal et al., Nature Medicine 2022 (PMID: 36443680) Phase 1b RCT showing significant PANSS reduction with CVL-231; class-level support from the muscarinic mechanism validated in PMID 42530555.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:140830653",
+        "smiles": "CC1=CC(=NC2=C1CN(C2)C(=O)CC3CN(C3)C4=CC(=NC=C4)C(F)(F)F)C",
+        "name": "Emraclidine (CVL-231)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "alofropodect",
+      "drug_name_display": "Alofropodect (CPL'36)",
+      "mechanism": "Phosphodiesterase 10A (PDE10A) inhibitor; raises striatal cAMP/cGMP and PKA signaling in medium spiny neurons",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "PDE10A is expressed almost exclusively in striatal medium spiny neurons, where it degrades cAMP and cGMP downstream of both D1 (direct) and D2 (indirect) pathways. Inhibition simultaneously potentiates D1-mediated signaling and counteracts D2-mediated inhibition of cAMP, effectively rebalancing basal ganglia direct/indirect pathway output rather than blocking a single receptor. Because the effect is on intracellular signal transduction downstream of receptors, it engages the circuit-level pathology (aberrant salience attribution from striatal signal-to-noise degradation) and has been proposed to improve negative and cognitive symptoms, the domains that track functional decline and are untouched by D2 antagonists. PDE10A inhibitors also lack the receptor-upregulation liability of chronic D2 blockade.",
+      "key_evidence": "PMID 42533223 (CNS Drugs 2026): randomised, placebo-controlled Phase 2 study of alofropodect (CPL'36) in patients with acute schizophrenia, following efficacy in animal models of PDE10A inhibition.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:270656",
+        "smiles": "UNKNOWN",
+        "name": "Alofropodect (CPL'36)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "ulotaront",
+      "drug_name_display": "Ulotaront (SEP-363856)",
+      "mechanism": "Trace amine-associated receptor 1 (TAAR1) agonist with 5-HT1A agonism; no D2 affinity",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "TAAR1 is a presynaptic Gs/Gq-coupled receptor co-localized with dopamine and serotonin neurons in the VTA and dorsal raphe. Agonism reduces dopamine neuron firing rate and burst activity and enhances DAT-mediated reuptake, thereby dampening the phasic mesolimbic dopamine hyperactivity at its source rather than at the postsynaptic terminal. It simultaneously restores NMDA-receptor-dependent cortical function in glutamatergic (MK-801/PCP) models, linking the glutamate and dopamine arms of the disease. Ulotaront reached Phase 3 (DIAMOND 1/2) after a positive Phase 2 trial; primary endpoints were not met in Phase 3, but the mechanism has strong preclinical and human target-engagement support and belongs in a repurposing knowledge base as a non-D2 mechanistic class. It aligns with the mechanism-informed treatment agenda described in PMID 42152538.",
+      "key_evidence": "Koblan et al., NEJM 2020 (PMID: 32294346) Phase 2 placebo-controlled RCT of SEP-363856 in acute schizophrenia; conceptual framing in PMID 42152538 (J Neurochem 2026, 'Towards Mechanism-Informed Treatments for Mental Health').",
+      "pubchem_details": {
+        "cid": "PUBCHEM:89532783",
+        "smiles": "CNCC1C2=C(CCO1)C=CS2",
+        "name": "Ulotaront (SEP-363856)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "n_acetylcysteine",
+      "drug_name_display": "N-Acetylcysteine (NAC)",
+      "mechanism": "Cysteine/glutathione precursor; cystine-glutamate antiporter (system xc-) substrate; restores redox balance and extrasynaptic glutamate tone",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Glutathione depletion in prefrontal cortex and anterior cingulate is one of the best-replicated biochemical abnormalities in schizophrenia (7T MRS and post-mortem). Oxidative stress preferentially damages parvalbumin-positive GABAergic interneurons and their perineuronal nets, producing the gamma-oscillation and E/I imbalance deficits that underlie cognitive and negative symptoms and that progress over the illness course. NAC replenishes glutathione and, via system xc-, normalizes extrasynaptic glutamate and mGluR2/3 tone, protecting PV interneurons and myelin. Longer RCTs (24 weeks or more) show improvement in negative symptoms, mismatch negativity, and white-matter integrity, i.e. biomarker-level change rather than symptom masking, which is the signature of disease modification. This directly instantiates the oxidative-stress network prioritized in PMID 42166031.",
+      "key_evidence": "PMID 42166031 (Cell Biol Toxicol 2026): shared oxidative-stress pathogenic networks across AD/PD/HD/schizophrenia prioritized as multi-target therapeutic space; supported by Berk et al. Biol Psychiatry 2008 (PMID: 18436195) and Conus et al. Schizophr Bull 2018 (PMID: 29365197) RCTs.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:12035",
+        "smiles": "CC(=O)NC(CS)C(=O)O",
+        "name": "N-Acetylcysteine (NAC)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "47",
+      "cando_name": "cysteine"
+    },
+    {
+      "drug_name": "sulforaphane",
+      "drug_name_display": "Sulforaphane",
+      "mechanism": "Nrf2/ARE pathway activator via KEAP1 modification; induces phase II antioxidant enzymes (NQO1, HO-1, GCLC)",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Sulforaphane is the prototypical natural-product Nrf2 activator and maps directly onto the multi-target natural-product prioritization strategy for oxidative-stress networks in neuropsychiatric disease. By de-repressing KEAP1-Nrf2 it upregulates the entire endogenous antioxidant transcriptional program rather than scavenging a single species, raising brain glutathione measurable by MRS in humans. This protects parvalbumin interneurons and oligodendrocyte precursors from redox injury, the cellular substrate of progressive cortical thinning and cognitive decline in schizophrenia. Human studies show increased blood and brain glutathione and improvement in cognitive measures in medicated patients; it is therefore a pathology-directed adjunct rather than a symptomatic agent.",
+      "key_evidence": "PMID 42166031 (Cell Biol Toxicol 2026), which explicitly prioritizes multi-target natural products against shared oxidative-stress networks including schizophrenia; human data from Shiina et al. Clin Psychopharmacol Neurosci 2015 (PMID: 26243838) and Sedlak et al. Mol Neuropsychiatry 2018 (PMID: 29998118).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5350",
+        "smiles": "CS(=O)CCCCN=C=S",
+        "name": "Sulforaphane"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "celecoxib",
+      "drug_name_display": "Celecoxib",
+      "mechanism": "Selective COX-2 inhibitor; reduces prostaglandin E2, microglial activation and kynurenic acid production",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Neuroinflammation is a causal, not incidental, arm of schizophrenia pathophysiology: the strongest GWAS signal lies in the MHC/complement C4 region, and complement-mediated excess synaptic pruning during adolescence is a leading mechanistic account of grey-matter loss. COX-2 inhibition lowers PGE2-driven microglial activation and reduces astrocytic kynurenic acid, an endogenous NMDA/alpha7-nicotinic antagonist elevated in patient CSF. Meta-analyses of adjunctive celecoxib show the largest benefit in first-episode patients and early illness, exactly the window in which progressive cortical change occurs, which supports course-modification rather than symptom suppression. The shared-inflammatory-pathway rationale is reinforced by the newly reported genetic overlap between schizophrenia and chronic pulmonary (inflammatory) disease.",
+      "key_evidence": "PMID 42444093 (Genes Brain Behav 2026): multiancestry multitrait GWAS of 322,321 participants identifying genetic links between schizophrenia and chronic lung disease and explicitly proposing shared-pathway therapeutic repurposing; clinical support from Muller et al. Am J Psychiatry 2002 (PMID: 11986138).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2662",
+        "smiles": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+        "name": "Celecoxib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "371",
+      "cando_name": "celecoxib"
+    },
+    {
+      "drug_name": "ethyl_eicosapentaenoic_acid",
+      "drug_name_display": "Ethyl-eicosapentaenoic acid (omega-3 EPA)",
+      "mechanism": "Membrane phospholipid incorporation; resolvin/protectin-mediated resolution of inflammation; glutathione and myelin support",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Schizophrenia is associated with reduced membrane polyunsaturated fatty acids and increased phospholipase A2 activity, degrading neuronal membrane fluidity, myelination and receptor coupling. EPA supplementation restores membrane composition, raises brain glutathione, and generates specialized pro-resolving mediators that quench chronic microglial activation. Critically, in ultra-high-risk youth omega-3 reduced transition to first-episode psychosis with effects persisting years after supplementation ended, a prevention/course-alteration signal that no antipsychotic has demonstrated and that meets the strict definition of disease modification. Effects are largest before illness consolidation, consistent with action on the underlying neurodevelopmental trajectory.",
+      "key_evidence": "Amminger et al., Arch Gen Psychiatry 2010 (PMID: 20124114) and 7-year follow-up Nat Commun 2015 (PMID: 26260278); mechanistic context in PMID 42166031 (oxidative stress networks).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9831415",
+        "smiles": "CCC=CCC=CCC=CCC=CCC=CCCCC(=O)OCC",
+        "name": "Ethyl-eicosapentaenoic acid (omega-3 EPA)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "55",
+      "cando_name": "icosapent"
+    },
+    {
+      "drug_name": "iclepertin",
+      "drug_name_display": "Iclepertin (BI 425809)",
+      "mechanism": "Glycine transporter-1 (GlyT1) inhibitor; raises synaptic glycine at the NMDA receptor co-agonist site",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The NMDA receptor hypofunction hypothesis holds that reduced NMDA signaling on parvalbumin interneurons disinhibits pyramidal output, degrading gamma synchrony and driving downstream striatal dopamine dysregulation. GlyT1 inhibition raises glycine occupancy at the NMDA GluN1 co-agonist site, directly correcting the upstream lesion rather than the dopaminergic consequence, and improves cognitive impairment associated with schizophrenia (CIAS), the strongest predictor of long-term disability. Iclepertin showed a positive Phase 2 signal on the MATRICS composite and advanced to the Phase 3 CONNEX programme; the programme did not meet its endpoints, but the target remains the best-validated glutamatergic entry point and warrants representation in a repurposing library.",
+      "key_evidence": "Fleischhacker et al., Lancet Psychiatry 2021 (PMID: 33915083) Phase 2 RCT of BI 425809 on cognition in schizophrenia; mechanism-first framing per PMID 42152538.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:155259577",
+        "smiles": "CC(C(F)(F)F)OC1=C(C=C(C=C1)S(=O)(=O)C)C(=O)N2CC3CC3(C2)C4=NOC(=C4)C(F)(F)F",
+        "name": "Iclepertin (BI 425809)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "d_serine",
+      "drug_name_display": "D-serine",
+      "mechanism": "Endogenous NMDA receptor glycine-site co-agonist; substrate of serine racemase and D-amino acid oxidase (DAAO)",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "D-serine is the principal endogenous co-agonist at forebrain NMDA receptors, and both serine racemase (SRR) and DAAO/G72 (DAOA) are schizophrenia risk genes, giving this pathway direct genetic support as a causal node. Patients show reduced serum and CSF D-serine and elevated DAAO activity. Supplementation restores NMDA co-agonist tone, and adjunctive trials report improvement in negative and cognitive symptoms plus normalization of objective NMDA-dependent biomarkers (mismatch negativity, auditory plasticity), demonstrating engagement of the pathophysiological substrate rather than antipsychotic-like symptom masking. It also supports NMDA-dependent synaptic plasticity, potentially enhancing response to cognitive remediation.",
+      "key_evidence": "Kantrowitz et al., Schizophr Res 2010 (PMID: 20655718) high-dose D-serine RCT; Tsai et al., Biol Psychiatry 1998 (PMID: 9861465); NMDA-hypofunction framing consistent with PMID 42152538.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:71077",
+        "smiles": "C(C(C(=O)O)N)O",
+        "name": "D-serine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "3397",
+      "cando_name": "propanoic_acid"
+    },
+    {
+      "drug_name": "sarcosine",
+      "drug_name_display": "Sarcosine (N-methylglycine)",
+      "mechanism": "Endogenous GlyT1 inhibitor and weak NMDA glycine-site co-agonist",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Sarcosine raises synaptic glycine by blocking GlyT1 reuptake while also acting directly at the NMDA co-agonist site, providing dual restoration of NMDA receptor function on parvalbumin interneurons. Multiple placebo-controlled adjunctive RCTs and meta-analyses show benefit for negative and general symptoms in non-clozapine-treated patients, with effects that accrue over weeks rather than acutely, consistent with plasticity-dependent circuit normalization. As an endogenous, orally available, well-tolerated molecule it is a strong repurposing candidate for the glutamatergic arm of the disease that is absent from the current CANDO mapping.",
+      "key_evidence": "Lane et al., Arch Gen Psychiatry 2005/2008 (PMID: 16330720, 18519826) adjunctive sarcosine RCTs; meta-analysis Singh & Singh, Acta Psychiatr Scand 2011 (PMID: 21534935).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:1088",
+        "smiles": "CNCC(=O)O",
+        "name": "Sarcosine (N-methylglycine)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "41",
+      "cando_name": "glycine"
+    },
+    {
+      "drug_name": "metformin",
+      "drug_name_display": "Metformin",
+      "mechanism": "AMPK activation, hepatic gluconeogenesis inhibition, improved insulin sensitivity, reduced neuroinflammation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Insulin resistance is not merely an antipsychotic side effect: multivariate genetic analyses show shared genomic architecture between psychiatric disorders and insulin-resistance traits, implying partially causal, pleiotropic biology. Impaired brain insulin signaling degrades hippocampal and prefrontal glucose utilization, synaptic plasticity and GSK-3beta regulation, mechanisms tied to cognitive deterioration in schizophrenia. Metformin restores peripheral and central insulin sensitivity, activates AMPK, lowers systemic inflammatory tone, and in RCTs prevents antipsychotic-induced weight gain and metabolic syndrome, thereby interrupting a metabolic-inflammatory loop that accelerates cognitive decline and accounts for much of the 15-20 year mortality gap. Modifying this trajectory is disease-course modification even where positive symptoms are unchanged.",
+      "key_evidence": "PMID 42435748 (Eur Neuropsychopharmacol 2026): multivariate genetic architecture of psychiatric and insulin-resistance multimorbidity; clinical support from Jarskog et al. Am J Psychiatry 2013 (PMID: 23929355) and de Silva et al. BMC Psychiatry 2016.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4091",
+        "smiles": "CN(C)C(=N)N=C(N)N",
+        "name": "Metformin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "223",
+      "cando_name": "metformin"
+    },
+    {
+      "drug_name": "pioglitazone",
+      "drug_name_display": "Pioglitazone",
+      "mechanism": "PPAR-gamma agonist; improves insulin sensitivity, suppresses microglial NF-kB signaling and pro-inflammatory cytokines",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "PPAR-gamma agonism sits at the intersection of the two non-dopaminergic causal axes implicated above: insulin resistance and neuroinflammation. Beyond restoring glucose handling, pioglitazone crosses into the CNS and shifts microglia toward an anti-inflammatory phenotype, lowering IL-6 and TNF-alpha, which are elevated in first-episode and acutely relapsed patients and correlate with negative symptom burden and grey-matter loss. Adjunctive RCTs report improvement in negative symptoms alongside metabolic benefit. Because it targets the shared psychiatric-metabolic genetic node rather than the dopamine receptor, it is mechanistically a modifier of illness trajectory rather than a symptomatic antipsychotic.",
+      "key_evidence": "PMID 42435748 (Eur Neuropsychopharmacol 2026) establishing shared psychiatric-insulin resistance genetic architecture; adjunctive RCT evidence from Iranpour et al., Hum Psychopharmacol 2016 (PMID: 26856695).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4829",
+        "smiles": "CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3",
+        "name": "Pioglitazone"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "999",
+      "cando_name": "pioglitazone"
+    },
+    {
+      "drug_name": "raloxifene",
+      "drug_name_display": "Raloxifene",
+      "mechanism": "Selective estrogen receptor modulator (SERM); CNS ER-alpha/beta agonism, neuroprotection, modulation of dopaminergic and glutamatergic transmission",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The estrogen protection hypothesis is supported by the sex-differentiated age of onset, symptom worsening at low-estrogen phases, and the post-menopausal incidence peak in women. Estradiol signaling supports NMDA receptor expression, BDNF, dendritic spine density and myelination, and constrains dopamine D2 sensitivity; its loss unmasks vulnerability. Raloxifene provides CNS estrogenic neuroprotection without peripheral uterine/breast agonism, and adjunctive RCTs in both post-menopausal women and men show improvement in negative and cognitive symptoms with corresponding changes in hippocampal and frontal activation on fMRI, i.e. biomarker-level circuit change. This targets a hormonal-neuroprotective determinant of illness course rather than acute psychosis.",
+      "key_evidence": "Kulkarni et al., Mol Psychiatry 2015 (PMID: 25266124) adjunctive raloxifene RCT; Weickert et al., Mol Psychiatry 2015 (PMID: 25801777) showing cognitive and fMRI improvement in men and women.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5035",
+        "smiles": "C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O",
+        "name": "Raloxifene"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "370",
+      "cando_name": "raloxifene"
+    },
+    {
+      "drug_name": "erythropoietin",
+      "drug_name_display": "Recombinant human erythropoietin (rhEPO)",
+      "mechanism": "EPO receptor signaling via JAK2/STAT5 and PI3K/Akt; anti-apoptotic, anti-oxidative, pro-neuroplastic and pro-myelinating",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "EPO receptors are expressed on neurons, oligodendrocytes and astrocytes, and EPO signaling drives neuroprotection against oxidative and excitotoxic injury, promotes oligodendrocyte maturation and enhances hippocampal plasticity. In a placebo-controlled trial in chronic schizophrenia, rhEPO improved cognitive performance and, on MRI, slowed the progressive grey-matter loss seen in the placebo arm, one of the few human demonstrations of structural course alteration in this illness. That structural signal, independent of positive-symptom change, is the defining criterion for disease modification and complements the oxidative-stress/neuroprotection axis prioritized in the dossier.",
+      "key_evidence": "Ehrenreich et al., Mol Psychiatry 2007 (PMID: 17179998) placebo-controlled rhEPO trial with cognitive improvement and reduced grey-matter loss; oxidative-stress/neuroprotection network context in PMID 42166031.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:92043599",
+        "smiles": "CC1CC=CC=CC(C(CC(C(C(C(CC(=O)O1)O)OC)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CCO)C)OC4CC(C(C(O4)C)O)(C)O",
+        "name": "Recombinant human erythropoietin (rhEPO)"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:07:46.938350",
+  "disease": "HIV Infections",
+  "mesh_id": "MESH:D015658",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "dolutegravir",
+      "drug_name_display": "Dolutegravir",
+      "mechanism": "HIV-1 integrase strand transfer inhibitor (INSTI); blocks 3'-processing/strand transfer of viral cDNA into host chromatin",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Integration is an obligate, irreversible step in the HIV-1 replication cycle; blocking the integrase catalytic core domain (chelating the Mg2+ pair in the DDE motif) prevents establishment of new proviruses and is therefore causal rather than symptomatic therapy. The CANDO list contains raltegravir but no second-generation INSTI, leaving a mechanistic and resistance-profile gap: dolutegravir retains activity against Q148H/G140S and N155H raltegravir-resistant variants because of its slower dissociation half-life from the integrase-DNA complex. It is the WHO-recommended first-line anchor agent worldwide (TLD regimen) and produces durable HIV-1 RNA suppression below 50 copies/mL with a high genetic barrier. The dossier's machine-learning repurposing study (PMID 42002600) explicitly builds predictive models around HIV-1 integrase as one of the three principal druggable enzymes, confirming integrase as a validated disease-modifying target class that is under-represented in the current mapping.",
+      "key_evidence": "SPRING-2, SINGLE, SAILING and DAWNING Phase III trials; WHO first-line recommendation. Integrase validated as a core repurposing target in PMID 42002600.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:54726191",
+        "smiles": "CC1CCOC2N1C(=O)C3=C(C(=O)C(=CN3C2)C(=O)NCC4=C(C=C(C=C4)F)F)O",
+        "name": "Dolutegravir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7143",
+      "cando_name": "dolutegravir"
+    },
+    {
+      "drug_name": "bictegravir",
+      "drug_name_display": "Bictegravir",
+      "mechanism": "Second-generation HIV-1 integrase strand transfer inhibitor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Bictegravir binds the integrase-viral DNA intasome and sequesters the catalytic Mg2+ ions, aborting strand transfer and preventing proviral integration. Its in vitro resistance barrier exceeds that of raltegravir and elvitegravir, and it retains potency against several INSTI-resistant intasome mutants. As the integrase component of the fixed-dose bictegravir/emtricitabine/tenofovir alafenamide regimen it delivers >90% virologic suppression at 48-144 weeks in treatment-naive and switch populations. Because it acts on the root virological cause (viral genome integration) rather than on a downstream clinical manifestation, it qualifies as disease-modifying. Its absence from the CANDO mapping is a coverage gap for the modern INSTI class highlighted as a priority target in PMID 42002600.",
+      "key_evidence": "GS-US-380-1489 and GS-US-380-1490 Phase III trials; FDA approval 2018. Integrase target validation in PMID 42002600.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:90311989",
+        "smiles": "C1CC2CC1N3C(O2)CN4C=C(C(=O)C(=C4C3=O)O)C(=O)NCC5=C(C=C(C=C5F)F)F",
+        "name": "Bictegravir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "8006",
+      "cando_name": "bictegravir"
+    },
+    {
+      "drug_name": "cabotegravir",
+      "drug_name_display": "Cabotegravir",
+      "mechanism": "Long-acting injectable HIV-1 integrase strand transfer inhibitor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Cabotegravir inhibits the same catalytic strand-transfer step as other INSTIs but its nanosuspension formulation gives a plasma half-life of 20-50 days, enabling monthly/bimonthly dosing. This is disease-modifying in two distinct senses: (i) it suppresses ongoing replication and prevents new integration events in established infection (with rilpivirine, ATLAS/FLAIR), and (ii) as pre-exposure prophylaxis it prevents establishment of the reservoir entirely (HPTN 083/084), where it was superior to oral tenofovir/emtricitabine. No long-acting agent of any class is present in the current mapping, so cabotegravir adds both a mechanism and a pharmacological modality that the platform currently cannot represent.",
+      "key_evidence": "ATLAS and FLAIR Phase III maintenance trials; HPTN 083 and HPTN 084 prevention trials; FDA approval 2021.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:54713659",
+        "smiles": "CC1COC2N1C(=O)C3=C(C(=O)C(=CN3C2)C(=O)NCC4=C(C=C(C=C4)F)F)O",
+        "name": "Cabotegravir"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "elvitegravir",
+      "drug_name_display": "Elvitegravir",
+      "mechanism": "First-generation HIV-1 integrase strand transfer inhibitor (boosted with cobicistat)",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Elvitegravir chelates the divalent metal cofactors in the integrase active site and blocks insertion of viral cDNA ends into host DNA, abolishing productive infection of newly infected cells. Although superseded clinically by dolutegravir and bictegravir, it is an FDA-approved agent (Stribild, Genvoya) with well-characterized structure-activity data and a distinct resistance pathway (T66I, E92Q, N155H) from raltegravir, making it valuable for a repurposing platform that models integrase pharmacophores. PMID 42002600 ranks candidate integrase binders using docking plus meta-learning ensembles; elvitegravir is a canonical positive-control ligand for exactly that target and should be represented in the reference set.",
+      "key_evidence": "Study 102/103 Phase III trials; FDA approval 2012. Integrase docking/ML target framework, PMID 42002600.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:5277135",
+        "smiles": "CC(C)C(CO)N1C=C(C(=O)C2=C1C=C(C(=C2)CC3=C(C(=CC=C3)Cl)F)OC)C(=O)O",
+        "name": "Elvitegravir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7288",
+      "cando_name": "elvitegravir"
+    },
+    {
+      "drug_name": "tenofovir_disoproxil_fumarate",
+      "drug_name_display": "Tenofovir disoproxil fumarate",
+      "mechanism": "Nucleotide reverse transcriptase inhibitor (NtRTI); acyclic nucleoside phosphonate causing obligate chain termination",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tenofovir diphosphate competes with dATP at the RT active site and, lacking a 3'-OH, terminates proviral DNA synthesis before integration can occur. This is the single most widely used antiretroviral backbone globally and is a striking omission given that the current mapping already contains the structurally related but HIV-inactive prodrug adefovir dipivoxil, plus every other NRTI (zidovudine, lamivudine, abacavir, stavudine, didanosine, zalcitabine). It is also the backbone of oral PrEP, preventing establishment of infection outright. Reverse transcriptase is one of the three enzymes prioritized in the ensemble machine-learning repurposing analysis of PMID 42002600, and tenofovir is the reference NtRTI ligand for that target. Its dual HBV/HIV activity is directly relevant to the HBV repurposing framework described in PMID 42075882, which starts from an anti-HIV agent and evaluates cross-application to hepatitis B.",
+      "key_evidence": "Study 903/934 Phase III trials; iPrEx and Partners PrEP prevention trials; FDA approval 2001. RT prioritized as repurposing target in PMID 42002600.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:6398764",
+        "smiles": "CC(C)OC(=O)OCOP(=O)(COC(C)CN1C=NC2=C(N=CN=C21)N)OCOC(=O)OC(C)C.C(=CC(=O)O)C(=O)O",
+        "name": "Tenofovir disoproxil fumarate"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "193",
+      "cando_name": "tenofovir_disoproxil"
+    },
+    {
+      "drug_name": "tenofovir_alafenamide",
+      "drug_name_display": "Tenofovir alafenamide",
+      "mechanism": "Phosphonoamidate prodrug of tenofovir; intracellular NtRTI chain terminator",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tenofovir alafenamide is hydrolysed by cathepsin A preferentially inside lymphoid cells, producing roughly 4-fold higher intracellular tenofovir diphosphate at approximately one-tenth the plasma exposure of the disoproxil prodrug. The active moiety terminates reverse transcription, so the antiviral mechanism is identical and equally causal, but the improved therapeutic index (markedly less renal proximal tubulopathy and bone mineral density loss) makes it the preferred backbone for long-term suppression. Because the CANDO platform models drugs as distinct chemical entities with distinct proteome interaction signatures, the alafenamide prodrug is a chemically separate entity from tenofovir disoproxil and warrants its own mapping.",
+      "key_evidence": "GS-US-292-0104/0111 Phase III trials; FDA approval 2015.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9574768",
+        "smiles": "CC(C)OC(=O)C(C)NP(=O)(COC(C)CN1C=NC2=C(N=CN=C21)N)OC3=CC=CC=C3",
+        "name": "Tenofovir alafenamide"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7456",
+      "cando_name": "tenofovir_alafenamide"
+    },
+    {
+      "drug_name": "emtricitabine",
+      "drug_name_display": "Emtricitabine",
+      "mechanism": "Cytidine-analogue nucleoside reverse transcriptase inhibitor; DNA chain terminator",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Emtricitabine triphosphate is incorporated by HIV-1 RT in place of dCTP and terminates nascent viral DNA elongation, directly blocking the conversion of viral RNA into integratable cDNA. It is the 5-fluoro analogue of lamivudine (which is already mapped) but has a longer intracellular half-life (~39 h), a distinct pharmacokinetic profile, and is the partner nucleoside in the majority of current fixed-dose regimens and in oral PrEP. Given that reverse transcriptase is one of the three anchor targets in the repurposing pipeline of PMID 42002600, and that the platform already contains every other approved NRTI except emtricitabine and tenofovir, this is a clear completeness gap.",
+      "key_evidence": "FTC-301A and FTC-303 Phase III trials; FDA approval 2003; component of Truvada/Descovy PrEP.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:60877",
+        "smiles": "C1C(OC(S1)CO)N2C=C(C(=NC2=O)N)F",
+        "name": "Emtricitabine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "756",
+      "cando_name": "emtricitabine"
+    },
+    {
+      "drug_name": "rilpivirine",
+      "drug_name_display": "Rilpivirine",
+      "mechanism": "Second-generation diarylpyrimidine non-nucleoside reverse transcriptase inhibitor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Rilpivirine binds the allosteric hydrophobic pocket adjacent to the RT polymerase active site and, through torsional flexibility of its cyanovinyl arm, maintains binding to K103N and Y181C variants that abolish efavirenz and nevirapine activity. The resulting conformational restriction of the p66 thumb subdomain halts DNA polymerization, preventing proviral synthesis. It is the NNRTI partner in long-acting injectable therapy with cabotegravir, extending disease modification to patients with adherence barriers. All first-generation NNRTIs (efavirenz, nevirapine, delavirdine, etravirine) are already mapped, so rilpivirine's absence leaves the modern DAPY chemotype unrepresented despite RT being a top-priority target in PMID 42002600.",
+      "key_evidence": "ECHO and THRIVE Phase III trials; ATLAS/FLAIR long-acting trials; FDA approval 2011.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:6451164",
+        "smiles": "CC1=CC(=CC(=C1NC2=NC(=NC=C2)NC3=CC=C(C=C3)C#N)C)C=CC#N",
+        "name": "Rilpivirine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7096",
+      "cando_name": "rilpivirine"
+    },
+    {
+      "drug_name": "doravirine",
+      "drug_name_display": "Doravirine",
+      "mechanism": "Pyridinone non-nucleoside reverse transcriptase inhibitor with a distinct resistance profile",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Doravirine occupies the NNRTI allosteric pocket of HIV-1 RT but tolerates the K103N, Y181C, G190A and E138K substitutions that confer cross-resistance across the older NNRTI class, retaining single-digit nanomolar EC50 values. By arresting RT-mediated DNA synthesis it prevents integration and reservoir expansion, i.e. it targets the primary virological lesion. It is metabolized by CYP3A4 without requiring boosting and lacks the neuropsychiatric burden of efavirenz, making it a durable long-term suppressive option. Its distinct chemotype gives a different proteome interaction signature from the mapped NNRTIs, which is exactly the kind of structural diversity the docking-plus-machine-learning strategy of PMID 42002600 exploits for reverse transcriptase.",
+      "key_evidence": "DRIVE-FORWARD and DRIVE-AHEAD Phase III trials; FDA approval 2018.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:58460047",
+        "smiles": "CN1C(=NNC1=O)CN2C=CC(=C(C2=O)OC3=CC(=CC(=C3)C#N)Cl)C(F)(F)F",
+        "name": "Doravirine"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "8425",
+      "cando_name": "doravirine"
+    },
+    {
+      "drug_name": "darunavir",
+      "drug_name_display": "Darunavir",
+      "mechanism": "Second-generation HIV-1 protease inhibitor with bis-tetrahydrofuran backbone binding",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Darunavir binds the C2-symmetric HIV-1 protease dimer with picomolar affinity and, critically, forms hydrogen bonds to the invariant backbone atoms of Asp29/Asp30 rather than to side chains, which is why it retains activity against highly protease-inhibitor-resistant virus (typically requiring 3 or more mutations to lose susceptibility). Inhibiting Gag-Pol polyprotein cleavage yields immature, non-infectious virions, halting the spread of infection at its source. Nine protease inhibitors are already mapped (saquinavir, indinavir, ritonavir, nelfinavir, amprenavir, fosamprenavir, lopinavir, atazanavir), yet darunavir - the only PI still recommended in current first-line and salvage guidelines - is missing. Protease is one of the three explicit targets of the repurposing ensemble in PMID 42002600.",
+      "key_evidence": "POWER, TITAN and ARTEMIS Phase III trials; FDA approval 2006. Protease target validation, PMID 42002600.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:213039",
+        "smiles": "CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N",
+        "name": "Darunavir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "1128",
+      "cando_name": "darunavir"
+    },
+    {
+      "drug_name": "tipranavir",
+      "drug_name_display": "Tipranavir",
+      "mechanism": "Non-peptidic dihydropyrone HIV-1 protease inhibitor",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tipranavir is the only non-peptidomimetic approved protease inhibitor; its coumarin-derived scaffold binds the protease active site with greater conformational adaptability than the peptidomimetic PIs, preserving activity against multi-PI-resistant isolates in highly treatment-experienced patients. Blocking proteolytic maturation of Gag and Gag-Pol precursors prevents formation of infectious progeny virions, a root-cause mechanism. For a docking-based repurposing platform its chemically orthogonal scaffold is particularly informative, since it samples a different region of protease pharmacophore space than the eight peptidomimetic PIs already mapped - directly complementing the multi-target modelling approach of PMID 42002600.",
+      "key_evidence": "RESIST-1 and RESIST-2 Phase III trials; FDA approval 2005.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:54682461",
+        "smiles": "CCCC1(CC(=C(C(=O)O1)C(CC)C2=CC(=CC=C2)NS(=O)(=O)C3=NC=C(C=C3)C(F)(F)F)O)CCC4=CC=CC=C4",
+        "name": "Tipranavir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "807",
+      "cando_name": "tipranavir"
+    },
+    {
+      "drug_name": "enfuvirtide",
+      "drug_name_display": "Enfuvirtide",
+      "mechanism": "gp41 fusion inhibitor; synthetic 36-mer peptide blocking six-helix bundle formation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Enfuvirtide mimics the HR2 region of gp41 and binds the HR1 groove of the prehairpin intermediate, preventing collapse into the six-helix bundle that drives fusion of the viral and cellular membranes. Infection is thereby aborted before entry, upstream of reverse transcription and integration, so no new provirus is created. This is a distinct entry step from CCR5 antagonism: maraviroc (already mapped) blocks coreceptor engagement, whereas enfuvirtide blocks the subsequent membrane fusion event, and enfuvirtide is active against both R5- and X4-tropic virus. The entry/fusion stage of the life cycle is therefore currently under-represented in the mapping despite being fully clinically validated.",
+      "key_evidence": "TORO 1 and TORO 2 Phase III trials; FDA approval 2003 as the first HIV entry inhibitor.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:16130199",
+        "smiles": "CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(C)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC(=O)N)C(=O)NC(CC5=CNC6=CC=CC=C65)C(=O)NC(CC7=CC=CC=C7)C(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(CC8=CN=CN8)NC(=O)C(C(C)CC)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=C(C=C9)O)NC(=O)C",
+        "name": "Enfuvirtide"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "ibalizumab",
+      "drug_name_display": "Ibalizumab",
+      "mechanism": "Humanized IgG4 monoclonal antibody; post-attachment inhibitor binding CD4 domain 2",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Ibalizumab binds the extracellular domain 2 of CD4 at a site distinct from the MHC-II and gp120 binding interfaces, so it does not deplete CD4 T cells or cause immunosuppression; instead it sterically prevents the conformational rearrangement of the gp120-CD4 complex required for coreceptor engagement and fusion. Infection is blocked after attachment but before entry, halting spread of virus in multidrug-resistant disease where all small-molecule classes have failed. It is the first biologic and the first long-acting (biweekly infusion) agent approved for HIV-1, and no antibody-based therapeutic appears anywhere in the current mapping, representing a whole therapeutic modality gap for a repurposing platform.",
+      "key_evidence": "TMB-301 Phase III trial in multidrug-resistant HIV-1; FDA approval 2018.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:977352",
+        "smiles": "UNKNOWN",
+        "name": "Ibalizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "fostemsavir",
+      "drug_name_display": "Fostemsavir",
+      "mechanism": "Prodrug of temsavir, a gp120 attachment inhibitor blocking CD4 binding",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Temsavir binds a pocket beneath the beta20-beta21 loop of gp120 and locks the envelope trimer in a closed, CD4-binding-incompetent conformation, preventing the very first step of the viral life cycle. Because the target is viral envelope rather than a host receptor, it is active against both R5- and X4-tropic virus, unlike the mapped CCR5 antagonist maraviroc, and shows no cross-resistance with any other class. In heavily treatment-experienced patients with limited remaining options it produced sustained virologic suppression and CD4 recovery, which is disease modification in the strictest sense - restoration of immune competence by eliminating ongoing viral replication rather than treating an opportunistic complication.",
+      "key_evidence": "BRIGHTE Phase III trial in heavily treatment-experienced patients; FDA approval 2020.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11319217",
+        "smiles": "CC1=NN(C=N1)C2=NC=C(C3=C2N(C=C3C(=O)C(=O)N4CCN(CC4)C(=O)C5=CC=CC=C5)COP(=O)(O)O)OC",
+        "name": "Fostemsavir"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "476",
+      "cando_name": "piperazine"
+    },
+    {
+      "drug_name": "lenacapavir",
+      "drug_name_display": "Lenacapavir",
+      "mechanism": "First-in-class HIV-1 capsid inhibitor; binds the CA hexamer interface and disrupts multiple life-cycle stages",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Lenacapavir binds a conserved pocket at the interface between adjacent capsid (p24) monomers, the same site used by host cofactors Nup153 and CPSF6. It exerts multistage antiviral activity: hyperstabilization of the capsid lattice impairs nuclear import and reverse transcription in the early phase, and produces malformed, non-infectious particles in the late assembly phase. This addresses a viral target entirely absent from the CANDO mapping, which currently covers only RT, protease, integrase and entry. Subcutaneous dosing every six months makes it transformative for both salvage therapy and prevention, where trials showed near-complete prevention of acquisition. The multi-target computational strategy in PMID 42002600 focused on integrase, protease and RT; capsid represents the logical fourth enzyme/structural target for platform expansion.",
+      "key_evidence": "CAPELLA Phase II/III trial in multidrug-resistant HIV-1 (FDA approval 2022) and PURPOSE-1/PURPOSE-2 prevention trials.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:133082658",
+        "smiles": "CC(C)(C#CC1=NC(=C(C=C1)C2=C3C(=C(C=C2)Cl)C(=NN3CC(F)(F)F)NS(=O)(=O)C)C(CC4=CC(=CC(=C4)F)F)NC(=O)CN5C6=C(C7CC7C6(F)F)C(=N5)C(F)(F)F)S(=O)(=O)C",
+        "name": "Lenacapavir"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    }
+  ]
+}

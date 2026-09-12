@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:08:00.422006",
+  "disease": "Diabetes Mellitus",
+  "mesh_id": "MESH:D003920",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "empagliflozin",
+      "drug_name_display": "Empagliflozin",
+      "mechanism": "Selective inhibitor of sodium-glucose cotransporter 2 (SLC5A2) in the renal proximal tubule, producing insulin-independent glucosuria, natriuresis, and a shift toward ketone/fatty-acid substrate utilization.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The CANDO map contains no SGLT2 inhibitor at all, which is the single largest gap in the current drug set. Empagliflozin lowers glycemia through a mechanism entirely independent of beta-cell secretory capacity and insulin sensitivity, so it reduces glucotoxicity and lipotoxicity without imposing further secretory demand on failing islets. This unloading effect is associated with preserved beta-cell function and reduced hepatic steatosis over time. Critically, it modifies the natural history of the two principal end-organ complications that define diabetic morbidity: it slows eGFR decline and albuminuria progression in diabetic kidney disease (EMPA-KIDNEY, EMPA-REG renal outcomes) and reduces cardiovascular death and heart-failure hospitalization (EMPA-REG OUTCOME). Abstract 1 of the dossier (PMID 42528157) frames diabetic atrial cardiomyopathy as converging on metabolic stress, inflammation and atrial fibrosis; SGLT2 inhibition directly attenuates NLRP3 inflammasome signaling, cardiac fibroblast activation, and Na+/H+ exchanger-1 mediated cytosolic Na+/Ca2+ overload, which are the mechanistic substrates named in that pathogenesis framework. Abstract 1 of the third block (PMID 42512887) explicitly categorizes SGLT2 inhibitors as a repurposable disease-modifying class with a mechanistic rationale extending beyond glucose lowering.",
+      "key_evidence": "PMID 42512887 (mechanistic rationale and translational evidence for SGLT2 inhibitors as disease-modifying agents beyond glycemic control); PMID 42517896 (meta-analysis of 30 RCTs, 2359 participants, showing hepatic and cardiometabolic benefit of selective SGLT2 inhibitors in T2DM-associated MASLD/MASH); EMPA-REG OUTCOME and EMPA-KIDNEY cardiorenal outcome trials.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:11949646",
+        "smiles": "C1COCC1OC2=CC=C(C=C2)CC3=C(C=CC(=C3)C4C(C(C(C(O4)CO)O)O)O)Cl",
+        "name": "Empagliflozin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7237",
+      "cando_name": "empagliflozin"
+    },
+    {
+      "drug_name": "dapagliflozin",
+      "drug_name_display": "Dapagliflozin",
+      "mechanism": "Selective SGLT2 (SLC5A2) inhibitor; blocks renal glucose reabsorption and induces glucosuria, natriuresis, and tubuloglomerular feedback-mediated reduction in intraglomerular pressure.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Dapagliflozin restores tubuloglomerular feedback by increasing macula densa sodium delivery, which constricts the afferent arteriole and relieves the glomerular hyperfiltration that is the initiating lesion of diabetic nephropathy. This is structural disease modification, not symptomatic glucose control: DAPA-CKD demonstrated slowed progression to end-stage kidney disease and reduced renal death in diabetic CKD, and the benefit persisted in patients with near-normal HbA1c, proving the effect is not merely a downstream consequence of glycemia. Dapagliflozin also reduces hepatic fat fraction and improves steatohepatitis histology in T2DM-associated MASLD, addressing the insulin-resistance/ectopic-lipid axis that drives beta-cell decompensation. The dossier meta-analysis (PMID 42517896) states that MASLD is closely linked to obesity, insulin resistance and type 2 diabetes, and that selective SGLT2 inhibitors have established glycaemic, renal and cardiovascular benefits, with the analysis extending those benefits to hepatic outcomes. Because CANDO currently maps only insulin secretagogues, sensitizers and RAAS/lipid agents, adding dapagliflozin introduces an orthogonal, insulin-independent target (SLC5A2) into the diabetes signature.",
+      "key_evidence": "PMID 42517896 (PRISMA 2020 systematic review/meta-analysis, PROSPERO CRD420261390850, 30 randomized trials of selective SGLT2 inhibitors in MASLD/MASH with T2DM); DAPA-CKD and DECLARE-TIMI 58 outcome trials.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9887712",
+        "smiles": "CCOC1=CC=C(C=C1)CC2=C(C=CC(=C2)C3C(C(C(C(O3)CO)O)O)O)Cl",
+        "name": "Dapagliflozin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "4860",
+      "cando_name": "dapagliflozin"
+    },
+    {
+      "drug_name": "canagliflozin",
+      "drug_name_display": "Canagliflozin",
+      "mechanism": "SGLT2 inhibitor with partial SGLT1 activity; reduces renal glucose reabsorption and blunts postprandial intestinal glucose absorption, enhancing GLP-1 release.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Canagliflozin was the first agent in any class to demonstrate a primary renal composite endpoint benefit in diabetic nephropathy (CREDENCE: 30% reduction in ESKD, doubling of serum creatinine, or renal death), establishing it as structurally disease-modifying for the defining microvascular complication of diabetes. Its dual SGLT1/SGLT2 activity adds an incretin-mediated component: local intestinal SGLT1 inhibition raises endogenous GLP-1 and PYY, indirectly supporting beta-cell function and satiety. Mechanistically it also lowers renal cortical oxygen consumption, reduces HIF-1alpha-driven tubulointerstitial fibrosis, and decreases proximal tubular hypertrophy, all of which are causal lesions of diabetic kidney disease rather than symptoms. The dossier's repurposing framework (PMID 42512887) supports SGLT2 inhibitors as agents whose mechanistic reach extends into fibrotic and hemodynamic remodeling pathways, which is precisely the pharmacology that justifies a disease-modifying label.",
+      "key_evidence": "PMID 42512887 (mechanistic and translational case for SGLT2 inhibition beyond glycemia); CREDENCE trial renal composite outcome in type 2 diabetic nephropathy.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:24812758",
+        "smiles": "CC1=C(C=C(C=C1)C2C(C(C(C(O2)CO)O)O)O)CC3=CC=C(S3)C4=CC=C(C=C4)F",
+        "name": "Canagliflozin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7127",
+      "cando_name": "canagliflozin"
+    },
+    {
+      "drug_name": "semaglutide",
+      "drug_name_display": "Semaglutide",
+      "mechanism": "Long-acting GLP-1 receptor agonist; glucose-dependent potentiation of beta-cell insulin secretion, suppression of glucagon, delayed gastric emptying, and hypothalamic appetite suppression.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The CANDO list contains no incretin-based agent, omitting the pathway that has produced the largest recent shift in diabetes disease course. Semaglutide acts on GLP1R, a Gs-coupled receptor on beta cells, raising cAMP/PKA/Epac2 signaling; unlike the sulfonylureas and meglitinides already mapped (glyburide, glipizide, gliclazide, chlorpropamide, nateglinide, repaglinide), its secretagogue effect is strictly glucose-dependent, so it does not drive the chronic depolarization and ER stress implicated in accelerated beta-cell exhaustion. Preclinical and human data show increased beta-cell mass markers, reduced beta-cell apoptosis, and improved proinsulin:insulin ratio, indicating preservation of the failing islet rather than exploitation of it. Semaglutide additionally produces 10-15% weight loss, which in the DiRECT paradigm is sufficient to induce remission of type 2 diabetes by clearing intrapancreatic and hepatic triglyceride, the twin-cycle root cause. It reduces MACE (SUSTAIN-6, SELECT), slows kidney disease progression (FLOW), and resolves MASH histologically (ESSENCE), addressing the same MASLD/insulin-resistance axis characterized in the dossier meta-analysis.",
+      "key_evidence": "PMID 42517896 (establishes MASLD/MASH as mechanistically continuous with insulin resistance and T2DM, the axis semaglutide reverses); SUSTAIN-6, FLOW, and ESSENCE outcome trials; DiRECT remission data supporting weight-loss-mediated reversal of beta-cell dysfunction.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:56843331",
+        "smiles": "CCC(C)C(C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC6=CN=CN6)N",
+        "name": "Semaglutide"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "9778",
+      "cando_name": "semaglutide"
+    },
+    {
+      "drug_name": "tirzepatide",
+      "drug_name_display": "Tirzepatide",
+      "mechanism": "Dual GIP and GLP-1 receptor agonist; combined incretin receptor activation enhances glucose-dependent insulin secretion, improves adipocyte insulin sensitivity and lipid buffering, and suppresses appetite.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Tirzepatide targets a pathway absent from the current CANDO map entirely: GIPR agonism combined with GLP1R agonism. GIPR signaling in white adipose tissue improves subcutaneous lipid storage capacity and blood flow, diverting fatty acids away from ectopic deposition in liver, muscle and pancreas. Because ectopic lipid is the proximate cause of both hepatic insulin resistance and beta-cell dedifferentiation in type 2 diabetes, this is mechanism-level disease modification rather than glycemic masking. SURPASS-2/3/4 showed HbA1c reductions and, importantly, improvement in HOMA2-B and disposition index alongside reductions in fasting proinsulin, biomarkers of restored beta-cell function. SURPASS-3 MRI substudy demonstrated reduction in liver fat content, consistent with the MASLD/T2DM linkage described in PMID 42517896; SYNERGY-NASH showed MASH resolution. In SURMOUNT-1 the drug reduced progression from prediabetes to overt type 2 diabetes by roughly 94%, which is the definitional test of a disease-modifying agent: alteration of incidence, not just of a surrogate marker.",
+      "key_evidence": "PMID 42517896 (MASLD-insulin resistance-T2DM triad as therapeutic target); SURPASS-2/3 beta-cell function and hepatic fat endpoints; SURMOUNT-1 3-year data on prevention of progression to type 2 diabetes.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:166567236",
+        "smiles": "CCC(C)C(C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCCCC(=O)O)C(=O)NC(C)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NCC(=O)NCC(=O)N4CCCC4C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N5CCCC5C(=O)N6CCCC6C(=O)N7CCCC7C(=O)NC(CO)C(=O)N)NC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C)(C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC8=CC=C(C=C8)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=CC=C9)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC1=CC=C(C=C1)O)N",
+        "name": "Tirzepatide"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "liraglutide",
+      "drug_name_display": "Liraglutide",
+      "mechanism": "GLP-1 receptor agonist (acylated GLP-1 analogue) providing glucose-dependent insulinotropic action, glucagonostatic effect, and beta-cell anti-apoptotic signaling.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Liraglutide is included alongside semaglutide because it carries the strongest mechanistic evidence base for direct islet protection: GLP1R activation in beta cells engages PI3K/Akt and CREB-dependent transcription of IRS-2 and Bcl-2 while suppressing caspase-3 activation and ER stress markers (CHOP, ATF4) induced by glucolipotoxicity. In the LEADER trial it reduced cardiovascular death and, in prespecified analysis, slowed the progression of nephropathy driven by new-onset persistent macroalbuminuria. It is also the only GLP-1 RA with a dedicated diabetes-prevention outcome trial in prediabetes (SCALE Prediabetes), where it reduced progression to type 2 diabetes and reversed prediabetes in the majority of participants. The dossier repeatedly frames diabetic complications as arising from metabolic stress and inflammation converging on fibrosis (PMID 42528157); liraglutide attenuates that convergence by lowering NF-kB-driven cytokine output and cardiac/renal fibroblast activation in preclinical diabetic models.",
+      "key_evidence": "PMID 42528157 (metabolic stress and inflammation as convergent drivers of diabetic organ remodeling that GLP-1 RAs attenuate); LEADER cardiovascular and renal outcomes; SCALE Prediabetes progression-prevention data.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:16134956",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCCCC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CC6=CN=CN6)N)C(=O)O",
+        "name": "Liraglutide"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "teplizumab",
+      "drug_name_display": "Teplizumab",
+      "mechanism": "Humanized non-FcR-binding anti-CD3 monoclonal antibody; induces partial T-cell receptor signaling that expands exhausted/anergic CD8+ T cells and regulatory T cells, blunting autoimmune destruction of pancreatic beta cells.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "This is arguably the most important omission in the current CANDO map, because the entire mapped list is metabolic and contains no immunomodulator, meaning the autoimmune root cause of type 1 diabetes is unrepresented. Dossier Abstract 2 (PMID 42517907) states directly that type 1 diabetes begins as an autoimmune disease, can be diagnosed presymptomatically by detection of at least two islet autoantibodies (stage 1, ICD-10-GM R76.80; stage 2, R73.00), and that immunomodulatory therapies can slow disease progression and delay clinical manifestation. Teplizumab is the FDA-approved embodiment of that statement: a single 14-day course in stage 2 disease delayed progression to clinical (stage 3) type 1 diabetes by a median of approximately two years, and PROTECT confirmed preservation of stimulated C-peptide in newly diagnosed stage 3 patients. It does not lower glucose acutely at all, which is the cleanest possible demonstration that its action is on disease pathogenesis rather than on symptoms. Its target, CD3E/T-cell receptor complex signaling, introduces an entirely new mechanistic axis to the diabetes drug signature.",
+      "key_evidence": "PMID 42517907 (review of immunotherapy and cell therapy in type 1 diabetes; immunomodulatory therapy slows progression and delays clinical manifestation of presymptomatic T1D); TN-10 delay-of-onset trial and PROTECT C-peptide preservation trial.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:975864",
+        "smiles": "UNKNOWN",
+        "name": "Teplizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "verapamil",
+      "drug_name_display": "Verapamil",
+      "mechanism": "L-type calcium channel blocker that lowers beta-cell intracellular calcium and thereby suppresses thioredoxin-interacting protein (TXNIP) expression, reducing glucotoxicity-driven beta-cell apoptosis.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Verapamil is a repurposing candidate with a target mechanism no drug in the current CANDO list shares. Chronic hyperglycemia induces TXNIP in beta cells via a carbohydrate-response-element-binding-protein-dependent mechanism; TXNIP inhibits thioredoxin, permits oxidative stress, activates the NLRP3 inflammasome and the intrinsic apoptotic pathway, and is one of the most strongly glucose-induced transcripts in human islets. Verapamil suppresses TXNIP by lowering CACNA1C-mediated calcium influx, and in randomized placebo-controlled trials in newly diagnosed type 1 diabetes it preserved mixed-meal-stimulated C-peptide at 12 months and maintained the benefit through 24 months on continued therapy, with proteomic analysis showing normalization of immune and beta-cell stress markers. Preserving endogenous C-peptide is the canonical disease-modification endpoint in type 1 diabetes, and it is a beta-cell-intrinsic effect that complements the immunological approach of teplizumab described in PMID 42517907. Notably, CANDO already maps several cardiovascular drugs used for diabetic comorbidity (ramipril, telmisartan, indapamide) but not this calcium channel blocker whose evidence is islet-protective rather than hemodynamic.",
+      "key_evidence": "PMID 42517907 (contextualizes beta-cell preservation strategies in type 1 diabetes); Ovalle et al. randomized verapamil trial showing preserved stimulated C-peptide in new-onset T1D, and the Ver-A-T1D confirmatory trial.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:2520",
+        "smiles": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "name": "Verapamil"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "545",
+      "cando_name": "verapamil"
+    },
+    {
+      "drug_name": "baricitinib",
+      "drug_name_display": "Baricitinib",
+      "mechanism": "Selective JAK1/JAK2 inhibitor; blocks interferon-gamma and IL-21 driven JAK-STAT signaling in islet-infiltrating T cells and in beta cells, reducing MHC class I hyperexpression and CXCL10-mediated immune recruitment.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Baricitinib addresses the same autoimmune root cause highlighted in dossier Abstract 2 (PMID 42517907) but through an orally available small molecule rather than a biologic, making it an attractive CANDO repurposing entry since its structure is already well characterized for proteomic docking approaches. Interferon-driven JAK-STAT1 signaling upregulates beta-cell MHC class I and CXCL10, rendering islets visible and attractive to autoreactive CD8+ T cells; JAK inhibition interrupts this feed-forward loop at both the immune and the target-cell side. The BANDIT phase 2 randomized placebo-controlled trial in recent-onset type 1 diabetes met its primary endpoint, preserving mixed-meal-tolerance-test C-peptide AUC at 48 weeks with lower insulin requirements, the same disease-modification metric used for teplizumab. The mechanism is causal (halting ongoing beta-cell destruction) rather than glycemic, which satisfies the disease-modifying rather than symptomatic criterion.",
+      "key_evidence": "PMID 42517907 (immunomodulatory therapy as a disease-course-altering strategy in type 1 diabetes); BANDIT phase 2 trial, NEJM 2023, preservation of C-peptide in new-onset T1D.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:44205240",
+        "smiles": "CCS(=O)(=O)N1CC(C1)(CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3",
+        "name": "Baricitinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "8022",
+      "cando_name": "baricitinib"
+    },
+    {
+      "drug_name": "abatacept",
+      "drug_name_display": "Abatacept",
+      "mechanism": "CTLA-4-Ig fusion protein; blocks CD80/CD86-CD28 costimulation, preventing full activation of naive autoreactive T cells against islet autoantigens.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Abatacept targets the costimulatory checkpoint (signal 2) required for autoreactive T-cell priming, a node upstream of the effector destruction that teplizumab and baricitinib address. TrialNet studies showed slowed C-peptide decline in new-onset type 1 diabetes, with the divergence from placebo established early, consistent with an effect on ongoing T-cell priming rather than on established memory clones. This mechanistic detail is itself informative for CANDO: it predicts benefit is greatest in the presymptomatic window that PMID 42517907 defines by two or more islet autoantibodies (stage 1/stage 2 disease), and abatacept has been formally evaluated in that autoantibody-positive at-risk population. Including it gives the diabetes signature representation of the CD28/CTLA4 costimulatory pathway, which is entirely absent from the current 23-drug map. Evidence graded clinical based on completed phase 2 randomized controlled trials, though the drug is not FDA-approved for this indication.",
+      "key_evidence": "PMID 42517907 (staging framework for presymptomatic T1D and rationale for early immunomodulation); TrialNet abatacept trials in new-onset and at-risk autoantibody-positive type 1 diabetes.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:94161",
+        "smiles": "UNKNOWN",
+        "name": "Abatacept"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "caficrestat",
+      "drug_name_display": "Caficrestat (AT-001)",
+      "mechanism": "Potent selective aldose reductase (AKR1B1) inhibitor; blocks flux through the polyol pathway, preventing sorbitol and fructose accumulation, NADPH depletion, and consequent oxidative and osmotic tissue injury.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "This drug is drawn directly from the dossier: Abstract 1 of the third block (PMID 42538062) reports racial outcomes in patients with diabetic cardiomyopathy treated with an aldose reductase inhibitor in the ARISE-HF trial, a phase 3 program in diabetic cardiomyopathy. Aldose reductase is the rate-limiting enzyme of the polyol pathway and becomes pathologically active only under hyperglycemia, when hexokinase is saturated and excess glucose is shunted to sorbitol. The resulting NADPH consumption depletes reduced glutathione, and the downstream fructose feeds advanced glycation end-product formation, providing a unified mechanistic explanation for retinopathy, neuropathy, nephropathy and cardiomyopathy. Inhibiting AKR1B1 therefore intervenes at the biochemical origin of diabetic tissue damage rather than at its glycemic surrogate, which is the strictest definition of disease-modifying. No aldose reductase inhibitor appears in the current CANDO map, leaving this entire complication-driving pathway unrepresented; the ARISE-HF program in diabetic cardiomyopathy also directly complements the diabetic-cardiomyopathy pathogenesis framework of PMID 42528157.",
+      "key_evidence": "PMID 42538062 (ARISE-HF trial of an aldose reductase inhibitor in diabetic cardiomyopathy, Open Heart 2026); PMID 42528157 (diabetic atrial cardiomyopathy pathogenesis converging on metabolic stress and fibrosis).",
+      "pubchem_details": {
+        "cid": "PUBCHEM:56639723",
+        "smiles": "C1=CC2=C(C=C1C(F)(F)F)N=C(S2)CN3C(=O)C4=NC=CN=C4C(=N3)CC(=O)O",
+        "name": "Caficrestat (AT-001)"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2841",
+      "cando_name": "acetic_acid"
+    },
+    {
+      "drug_name": "epalrestat",
+      "drug_name_display": "Epalrestat",
+      "mechanism": "Carboxylic-acid aldose reductase (AKR1B1) inhibitor; reduces intraneural sorbitol accumulation and restores Na+/K+-ATPase activity and nerve conduction velocity.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Epalrestat is the only aldose reductase inhibitor with sustained regulatory approval (Japan, India, China) and long-term human outcome data, making it a well-validated anchor for the polyol-pathway mechanism identified in the ARISE-HF report (PMID 42538062). The ADCT 3-year randomized study demonstrated not merely symptomatic relief but slowed deterioration of median motor nerve conduction velocity and vibration perception threshold, i.e. preservation of nerve structure and function, which is complication-level disease modification. Mechanistically it prevents the NADPH drain that cripples glutathione reductase, so it also raises the intracellular redox buffer; secondary effects include reduced AGE/RAGE signaling and lower NF-kB activation. Because it acts on the enzymatic consequence of hyperglycemia rather than on glucose itself, it is complementary to, and mechanistically non-redundant with, every drug currently in the CANDO diabetes map.",
+      "key_evidence": "PMID 42538062 (contemporary phase 3 validation of aldose reductase inhibition as a disease-modifying strategy in diabetic end-organ disease); ADCT study of epalrestat showing slowed progression of diabetic peripheral neuropathy over 3 years.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:1549120",
+        "smiles": "CC(=CC1=CC=CC=C1)C=C2C(=O)N(C(=S)S2)CC(=O)O",
+        "name": "Epalrestat"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "finerenone",
+      "drug_name_display": "Finerenone",
+      "mechanism": "Non-steroidal selective mineralocorticoid receptor antagonist; blocks MR overactivation in renal, cardiac and vascular tissue, suppressing pro-inflammatory and pro-fibrotic gene programs independent of blood pressure.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Dossier Abstract 1 of the third block (PMID 42512887) explicitly pairs mineralocorticoid receptor antagonists with SGLT2 inhibitors as repurposable therapies with a defined mechanistic rationale for fibrotic and remodeling pathology. In diabetes, MR is overactivated by hyperglycemia and by Rac1-dependent ligand-independent signaling even when aldosterone is normal, driving galectin-3, TGF-beta and osteopontin expression, macrophage recruitment and interstitial fibrosis. Finerenone, unlike the steroidal MRAs, has balanced cardiorenal tissue distribution and higher MR selectivity. FIDELIO-DKD and FIGARO-DKD demonstrated slowed progression of diabetic kidney disease (sustained eGFR decline, kidney failure) and reduced heart-failure hospitalization on top of maximal RAAS blockade, meaning the benefit is additive to the ACE inhibitors and ARB already in the CANDO map (ramipril, perindopril, telmisartan). The anti-fibrotic mechanism maps directly onto the atrial fibrosis endpoint described as the convergence point of diabetic atrial cardiomyopathy in PMID 42528157.",
+      "key_evidence": "PMID 42512887 (mineralocorticoid receptor antagonists as mechanistically justified repurposing candidates for fibrotic cardiopulmonary remodeling); PMID 42528157 (atrial fibrosis as convergent endpoint of diabetic metabolic stress); FIDELIO-DKD and FIGARO-DKD renal and cardiovascular outcomes.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:60150535",
+        "smiles": "CCOC1=NC=C(C2=C1C(C(=C(N2)C)C(=O)N)C3=C(C=C(C=C3)C#N)OC)C",
+        "name": "Finerenone"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "acarbose",
+      "drug_name_display": "Acarbose",
+      "mechanism": "Competitive inhibitor of intestinal brush-border alpha-glucosidase and pancreatic alpha-amylase; delays polysaccharide hydrolysis, blunting postprandial glucose excursions and increasing distal-gut GLP-1 release.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Acarbose earns disease-modifying status on the strength of a formal prevention endpoint: in STOP-NIDDM, acarbose reduced the incidence of new-onset type 2 diabetes in people with impaired glucose tolerance by roughly 25% and increased reversion to normal glucose tolerance, together with a reduction in cardiovascular events and new hypertension. Preventing incident disease is the defining property of disease modification. Mechanistically it attenuates postprandial glucose spikes, which are the principal driver of oxidative stress, endothelial dysfunction and beta-cell glucotoxicity; by shifting carbohydrate delivery distally it also increases endogenous GLP-1 and alters the gut microbiome toward SCFA-producing taxa. That microbiome effect is directly relevant to the dossier, since PMID 42528157 names gut microbiota dysregulation as one of the convergent mechanisms in diabetic atrial cardiomyopathy. No alpha-glucosidase inhibitor is present in the current CANDO map, so this adds an unrepresented target class (MGAM, SI, AMY2A).",
+      "key_evidence": "PMID 42528157 (gut microbiota dysregulation as a mechanistic contributor to diabetic organ disease); STOP-NIDDM randomized trial showing reduced progression from impaired glucose tolerance to type 2 diabetes.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9811704",
+        "smiles": "CC1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC(C(CO)O)C(C(C=O)O)O)CO)O)O)NC3C=C(C(C(C3O)O)O)CO",
+        "name": "Acarbose"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "178",
+      "cando_name": "acarbose"
+    },
+    {
+      "drug_name": "sitagliptin",
+      "drug_name_display": "Sitagliptin",
+      "mechanism": "Selective DPP-4 inhibitor; increases circulating active GLP-1 and GIP, enhancing glucose-dependent insulin release and suppressing inappropriate glucagon secretion from alpha cells.",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Sitagliptin is included as the reference DPP-4 inhibitor with the deepest preclinical evidence for islet-level effects: in rodent models it increases beta-cell mass, raises PDX-1 and Ki-67 expression, and reduces beta-cell apoptosis, effects mediated through sustained endogenous GLP1R signaling rather than pharmacologic receptor saturation. In humans it improves the disposition index and proinsulin:insulin ratio, markers of beta-cell functional quality rather than of glucose level alone. Because incretin degradation is accelerated in type 2 diabetes, restoring physiological incretin tone corrects a genuine pathophysiological deficit, which distinguishes this from purely symptomatic glucose lowering. The dossier's docking study (PMID 42536936) illustrates the methodology CANDO uses, evaluating binding energetics between an antidiabetic combination and a transporter target (OCT-1) with a reported binding energy of -10.2 kcal/mol; DPP-4 is a comparably well-resolved structural target with numerous co-crystallized ligands, making sitagliptin a strong structural-proteomic candidate for inclusion in the diabetes signature.",
+      "key_evidence": "PMID 42536936 (molecular docking of antidiabetic agents against a defined protein target, demonstrating the structural-interaction evidence framework); TECOS cardiovascular safety trial and preclinical beta-cell mass preservation studies with DPP-4 inhibition.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4369359",
+        "smiles": "C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N",
+        "name": "Sitagliptin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "1125",
+      "cando_name": "sitagliptin"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-08-01T15:08:26.528334",
+  "disease": "Colitis, Ulcerative",
+  "mesh_id": "MESH:D003093",
+  "mode": "manual_gemini_web",
+  "status": "EXPORTED",
+  "discoveries": [
+    {
+      "drug_name": "infliximab",
+      "drug_name_display": "Infliximab",
+      "mechanism": "Chimeric IgG1 monoclonal antibody neutralizing soluble and transmembrane TNF-alpha; induces apoptosis of lamina propria activated T cells and macrophages",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "TNF-alpha is a central effector cytokine of the mucosal inflammatory cascade in UC, driving NF-kB-dependent transcription of IL-1beta, IL-6, IL-8, MMP-1/3 and adhesion molecules, and directly disrupting epithelial tight junctions. Infliximab blocks this node rather than palliating symptoms: it produces endoscopic and histologic mucosal healing, reduces colectomy rates and steroid dependence, and alters the natural history of the disease. This matches the disease-modification paradigm explicitly framed in PMID 42231903, which defines intestinal reparative therapy by objective endpoints (endoscopic and histologic healing) rather than symptom control, and notes that the landscape has expanded to biologics and small molecules. It is also the class implicitly referenced as 'advanced therapy' in PMID 42214439. The CANDO list currently contains only 5-ASAs, corticosteroids, thiopurines and nutraceuticals, so the entire anti-TNF class is a systematic gap.",
+      "key_evidence": "ACT 1 and ACT 2 randomized placebo-controlled trials (N Engl J Med 2005; PMID 16339095) demonstrated clinical response, remission and mucosal healing at weeks 8, 30 and 54 in moderate-to-severe UC; long-term follow-up showed reduced colectomy. Contextual framing of endoscopic/histologic healing as disease modification: PMID 42231903.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:370281",
+        "smiles": "UNKNOWN",
+        "name": "Infliximab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "adalimumab",
+      "drug_name_display": "Adalimumab",
+      "mechanism": "Fully human IgG1 anti-TNF-alpha monoclonal antibody; blocks TNF binding to TNFR1/TNFR2 and induces regulatory macrophage differentiation",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Same mechanistic node as infliximab but with subcutaneous delivery and lower immunogenicity. Adalimumab achieves deep remission (combined clinical remission plus mucosal healing) in moderate-to-severe UC and reduces hospitalization and colectomy in registration and real-world cohorts. Because it targets the upstream cytokine driving epithelial barrier breakdown and neutrophil recruitment, it modifies the underlying pathology rather than controlling diarrhea or bleeding symptomatically. It belongs to the biologic armamentarium described as the current standard-of-care backdrop in PMID 42231903 and PMID 42214439, neither of which is represented in the CANDO mapping.",
+      "key_evidence": "ULTRA 1 and ULTRA 2 randomized controlled trials (Gastroenterology 2012; ULTRA 2 PMID 22326435) showed induction and maintenance of remission and mucosal healing in anti-TNF-naive and experienced UC patients.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:95296",
+        "smiles": "UNKNOWN",
+        "name": "Adalimumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "golimumab",
+      "drug_name_display": "Golimumab",
+      "mechanism": "Human IgG1 anti-TNF-alpha monoclonal antibody with high affinity for soluble and membrane-bound TNF",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Golimumab is FDA- and EMA-approved specifically for moderate-to-severe UC and delivers mucosal healing as a co-primary endpoint, satisfying the objective-endpoint definition of intestinal reparative/disease-modifying therapy articulated in PMID 42231903. Mechanistically it suppresses TNF-driven NF-kB signaling in lamina propria mononuclear cells and epithelium, restoring barrier integrity and reducing the chronic relapsing inflammatory cycle that leads to dysplasia and colectomy. Its absence from the CANDO list is notable because it is one of only three anti-TNF agents with a UC-specific label.",
+      "key_evidence": "PURSUIT-SC induction and PURSUIT-Maintenance phase 3 trials (Gastroenterology 2014) demonstrated clinical response, remission and mucosal healing versus placebo in moderate-to-severe UC.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:969414",
+        "smiles": "UNKNOWN",
+        "name": "Golimumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "vedolizumab",
+      "drug_name_display": "Vedolizumab",
+      "mechanism": "Humanized monoclonal antibody against alpha4beta7 integrin; blocks lymphocyte binding to MAdCAM-1 on gut endothelium, producing gut-selective leukocyte trafficking blockade",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Vedolizumab interrupts the root pathogenic step of UC: the continuous homing of memory effector T cells from the circulation into intestinal lamina propria via the alpha4beta7-MAdCAM-1 axis. By preventing recruitment rather than merely suppressing downstream cytokines, it produces durable endoscopic and histologic remission with an unusually clean systemic safety profile (no systemic immunosuppression, no PML signal). Histologic healing under vedolizumab is associated with reduced relapse and hospitalization, precisely the long-term outcome linkage emphasized in PMID 42231903. Gut-selective anti-trafficking is a mechanism entirely unrepresented in the current CANDO drug set.",
+      "key_evidence": "GEMINI 1 randomized placebo-controlled trial (N Engl J Med 2013; PMID 23964932) showed induction and maintenance of clinical remission and mucosal healing in moderate-to-severe UC; VARSITY head-to-head trial versus adalimumab (N Engl J Med 2019) showed superior clinical remission and endoscopic improvement.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:790970",
+        "smiles": "UNKNOWN",
+        "name": "Vedolizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "ustekinumab",
+      "drug_name_display": "Ustekinumab",
+      "mechanism": "Monoclonal antibody against the shared p40 subunit of IL-12 and IL-23; blocks Th1 and Th17 differentiation and downstream IL-17/IFN-gamma production",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The IL-23/Th17 axis is a genetically validated driver of UC (IL23R polymorphisms are among the strongest GWAS signals in IBD). Ustekinumab neutralizes IL-12p40, collapsing both Th1 and Th17 effector programs upstream of the tissue-destructive cytokines. It achieves histo-endoscopic mucosal improvement and steroid-free remission maintained to at least 4 years, meeting the disease-modification criterion of objective healing rather than symptom control set out in PMID 42231903. No IL-12/23 or IL-23 pathway agent is present in the current CANDO mapping, which is a major mechanistic blind spot.",
+      "key_evidence": "UNIFI induction and maintenance phase 3 program (N Engl J Med 2019; PMID 31553833) demonstrated clinical remission, endoscopic improvement and histo-endoscopic mucosal healing in moderate-to-severe UC.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:317521",
+        "smiles": "UNKNOWN",
+        "name": "Ustekinumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "mirikizumab",
+      "drug_name_display": "Mirikizumab",
+      "mechanism": "Humanized IgG4 monoclonal antibody selectively targeting the p19 subunit of IL-23; spares IL-12/Th1 while abolishing pathogenic IL-23-dependent Th17 and ILC3 responses",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Selective IL-23p19 blockade removes the survival and maintenance signal for pathogenic IL-17A/IL-17F/GM-CSF-producing T cells and innate lymphoid cells that sustain chronic colonic inflammation, while preserving IL-12-dependent host defense. Mirikizumab is the first UC therapy to demonstrate histologic-endoscopic mucosal improvement as a formal endpoint together with sustained bowel-urgency remission, directly instantiating the shift toward objective reparative endpoints described in PMID 42231903. It is FDA-approved for moderately-to-severely active UC and is absent from the CANDO list.",
+      "key_evidence": "LUCENT-1 and LUCENT-2 phase 3 trials (N Engl J Med 2023; PMID 37379135) showed clinical remission at weeks 12 and 40 plus histologic-endoscopic mucosal improvement, including in biologic-experienced patients.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:545232",
+        "smiles": "UNKNOWN",
+        "name": "Mirikizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "risankizumab",
+      "drug_name_display": "Risankizumab",
+      "mechanism": "Humanized IgG1 anti-IL-23 p19 monoclonal antibody blocking IL-23 receptor engagement and downstream STAT3 activation in Th17/ILC3 cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Risankizumab is approved for moderately-to-severely active UC on the basis of induction and maintenance trials showing clinical remission with concurrent endoscopic improvement and histologic-endoscopic mucosal healing, including in patients who failed anti-TNF or other advanced therapies. By silencing IL-23-driven STAT3 signaling it addresses the upstream immunologic driver of chronic mucosal injury rather than the symptomatic consequences, and it provides an option for the substantial fraction of patients who, as PMID 42231903 notes, fail to achieve durable remission despite existing therapy.",
+      "key_evidence": "INSPIRE (induction) and COMMAND (maintenance) phase 3 trials showed superiority over placebo for clinical remission, endoscopic improvement and histologic-endoscopic mucosal improvement in UC.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:900551",
+        "smiles": "UNKNOWN",
+        "name": "Risankizumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "guselkumab",
+      "drug_name_display": "Guselkumab",
+      "mechanism": "Human IgG1 anti-IL-23 p19 monoclonal antibody that also binds CD64 on IL-23-producing myeloid cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Guselkumab combines IL-23 neutralization with binding to CD64-expressing IL-23-producing monocytes/macrophages, potentially concentrating the drug at the cellular source of the cytokine in inflamed mucosa. Phase 3 data in moderately-to-severely active UC demonstrated clinical remission together with endoscopic improvement and histologic remission, including after failure of prior advanced therapy. This is disease modification in the sense defined in PMID 42231903 - alteration of the inflammatory course with objective healing endpoints - and represents a third distinct IL-23p19 agent missing from CANDO.",
+      "key_evidence": "QUASAR induction and maintenance phase 3 program in moderately-to-severely active ulcerative colitis (Lancet/Gastroenterology 2024-2025) demonstrated clinical remission, endoscopic improvement and histo-endoscopic mucosal healing.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:524091",
+        "smiles": "UNKNOWN",
+        "name": "Guselkumab"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "tofacitinib",
+      "drug_name_display": "Tofacitinib",
+      "mechanism": "Oral pan-Janus kinase inhibitor (preferentially JAK1/JAK3) that blocks JAK phosphorylation and interrupts JAK-STAT signaling for the gamma-chain cytokines, IL-6, IL-12/23 and interferons",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "The evidence dossier explicitly states that tofacitinib has established efficacy in ulcerative colitis and that by inhibiting JAK phosphorylation it modulates cytokine-mediated inflammatory responses through interference with the JAK-STAT pathway (PMID 42200734). Because JAK-STAT is the convergent intracellular hub for dozens of pro-inflammatory cytokines, blockade simultaneously disables multiple redundant effector arms driving crypt abscess formation and epithelial apoptosis, producing endoscopic and histologic remission rather than symptom relief. Its clinical relevance in UC is further underscored by PMID 42214439, where the COSTA study used switching to a JAK inhibitor as the active comparator arm in patients with active disease under advanced therapy. Tofacitinib is FDA-approved for moderately-to-severely active UC and is absent from the CANDO mapping.",
+      "key_evidence": "PMID 42200734 (efficacy in ulcerative colitis via JAK-STAT interference); OCTAVE Induction 1 and 2 and OCTAVE Sustain phase 3 trials (N Engl J Med 2017; PMID 28467869); JAK inhibitor comparator arm in the COSTA study cited in PMID 42214439.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:9926791",
+        "smiles": "CC1CCN(CC1N(C)C2=NC=NC3=C2C=CN3)C(=O)CC#N",
+        "name": "Tofacitinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "7119",
+      "cando_name": "tofacitinib"
+    },
+    {
+      "drug_name": "upadacitinib",
+      "drug_name_display": "Upadacitinib",
+      "mechanism": "Oral selective JAK1 inhibitor; blocks JAK1-dependent STAT activation downstream of IL-6, IFN-gamma, IL-2 family and IL-22 receptors",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "JAK1 selectivity retains suppression of the dominant colitogenic cytokine signals while reducing JAK2-mediated hematopoietic effects. Upadacitinib achieves the highest reported rates of endoscopic improvement and histologic-endoscopic mucosal healing among oral agents in UC, including in patients failing biologics, and reduces the need for corticosteroids. This is precisely the population highlighted in PMID 42231903 as failing to achieve durable remission despite advances in therapy, and PMID 42214439 frames JAK inhibitors as the standard escalation step for active disease on advanced therapy. Its mechanism of interrupting JAK-STAT signaling is the same one credited with disease control in PMID 42200734.",
+      "key_evidence": "U-ACHIEVE and U-ACCOMPLISH induction plus U-ACHIEVE maintenance phase 3 trials (Lancet 2022; PMID 35247359) demonstrated clinical remission, endoscopic improvement and histologic-endoscopic mucosal improvement in moderate-to-severe UC.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:58557659",
+        "smiles": "CCC1CN(CC1C2=CN=C3N2C4=C(NC=C4)N=C3)C(=O)NCC(F)(F)F",
+        "name": "Upadacitinib"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "10384",
+      "cando_name": "upadacitinib"
+    },
+    {
+      "drug_name": "filgotinib",
+      "drug_name_display": "Filgotinib",
+      "mechanism": "Oral preferential JAK1 inhibitor interrupting STAT-dependent transcription of pro-inflammatory mediators in mucosal immune cells",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Filgotinib is approved in the EU and Japan for moderately-to-severely active UC and produces endoscopic and histologic remission in both biologic-naive and biologic-experienced cohorts. Mechanistically it acts at the same JAK-STAT node that PMID 42200734 identifies as the basis for JAK inhibitor efficacy in ulcerative colitis, damping IL-6, IFN-gamma and common gamma-chain cytokine signaling that sustains the Th1/Th17 skew and epithelial injury. As an oral small molecule with a disease-course-altering endpoint profile it belongs in a disease-modifying mapping for UC.",
+      "key_evidence": "SELECTION phase 2b/3 randomized trial (Lancet 2021) demonstrated induction and maintenance of clinical remission with endoscopic and histologic improvement in moderate-to-severe UC; mechanistic rationale for JAK-STAT blockade per PMID 42200734.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:49831257",
+        "smiles": "C1CC1C(=O)NC2=NN3C(=N2)C=CC=C3C4=CC=C(C=C4)CN5CCS(=O)(=O)CC5",
+        "name": "Filgotinib"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "ozanimod",
+      "drug_name_display": "Ozanimod",
+      "mechanism": "Oral sphingosine-1-phosphate receptor 1 and 5 modulator; induces S1P1 internalization causing functional antagonism and sequestration of CCR7+ naive and central memory lymphocytes in lymph nodes",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Ozanimod prevents lymphocyte egress from secondary lymphoid organs, cutting off the supply of autoreactive T cells to the colonic mucosa - an upstream, trafficking-level intervention comparable to vedolizumab but achieved orally. It delivers endoscopic improvement and histologic remission (Geboes score based) as prespecified endpoints, satisfying the objective-healing definition of disease modification in PMID 42231903. S1P modulation is a mechanistic class with zero representation in the current CANDO drug set for UC, despite FDA approval for moderately-to-severely active disease.",
+      "key_evidence": "True North phase 3 randomized trial (N Engl J Med 2021; PMID 34379922) demonstrated clinical remission, endoscopic improvement and mucosal healing at induction week 10 and maintenance week 52.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:52938427",
+        "smiles": "CC(C)OC1=C(C=C(C=C1)C2=NC(=NO2)C3=C4CCC(C4=CC=C3)NCCO)C#N",
+        "name": "Ozanimod"
+      },
+      "db_status": "NOT_IN_DB",
+      "cando_id": null,
+      "cando_name": null
+    },
+    {
+      "drug_name": "etrasimod",
+      "drug_name_display": "Etrasimod",
+      "mechanism": "Oral selective sphingosine-1-phosphate receptor 1, 4 and 5 modulator sparing S1P2 and S1P3, limiting lymphocyte trafficking to inflamed gut",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "clinical",
+      "reasoning": "Etrasimod's receptor selectivity (avoiding S1P3-mediated cardiac and fibrotic effects) allows sustained lymphocyte sequestration with a favorable cardiovascular profile. In phase 3 it produced clinical remission alongside endoscopic improvement and histologic remission, including in patients with isolated proctitis who are frequently excluded from other programs. By reducing the mucosal lymphocyte burden at its source it alters the inflammatory course rather than the symptom set, meeting the disease-modification framework of PMID 42231903, and it is FDA-approved for moderately-to-severely active UC but missing from CANDO.",
+      "key_evidence": "ELEVATE UC 52 and ELEVATE UC 12 phase 3 trials (Lancet 2023; PMID 36871574) showed clinical remission, endoscopic improvement and histologic remission versus placebo.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:44623998",
+        "smiles": "C1CCC(C1)C2=C(C=C(C=C2)COC3=CC4=C(C=C3)NC5=C4CCC5CC(=O)O)C(F)(F)F",
+        "name": "Etrasimod"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "2841",
+      "cando_name": "acetic_acid"
+    },
+    {
+      "drug_name": "metformin",
+      "drug_name_display": "Metformin",
+      "mechanism": "AMPK activation with downstream inhibition of mTOR and NF-kB signaling, NLRP3 inflammasome suppression, Th17/Treg rebalancing, enhancement of intestinal tight junction proteins and modulation of gut microbiota",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "The dossier contains a dedicated systematic review and meta-analysis of preclinical and limited clinical evidence for metformin as a repurposed therapy for ulcerative colitis (PMID 42503524), which quantitatively synthesized controlled animal studies by random-effects meta-analysis and interrogated candidate mechanisms with network pharmacology, molecular docking, molecular dynamics, single-cell RNA sequencing and spatial transcriptomics. Metformin's AMPK-dependent suppression of NF-kB and NLRP3 reduces IL-1beta, TNF-alpha and IL-6 production, while restoration of occludin and ZO-1 repairs the epithelial barrier - an epithelial repair mechanism aligned with the reparative-therapy paradigm of PMID 42231903. This is causal, pathway-level intervention rather than symptom control, making metformin a strong repurposing candidate for the CANDO mapping. Evidence graded in_vivo because human RCT data remain limited and heterogeneous per PMID 42503524.",
+      "key_evidence": "PMID 42503524 - systematic review and meta-analysis of preclinical efficacy with multi-omics and in silico mechanistic exploration; supported by DSS and TNBS colitis models showing reduced disease activity index, histologic score and pro-inflammatory cytokines.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:4091",
+        "smiles": "CN(C)C(=N)N=C(N)N",
+        "name": "Metformin"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "223",
+      "cando_name": "metformin"
+    },
+    {
+      "drug_name": "teduglutide",
+      "drug_name_display": "Teduglutide",
+      "mechanism": "DPP-4-resistant glucagon-like peptide-2 analog acting on subepithelial GLP-2 receptor-bearing enteric neurons and myofibroblasts to release IGF-1, KGF and VEGF, driving crypt cell proliferation, villus/crypt trophism and tight junction assembly",
+      "therapeutic_status": "disease-modifying",
+      "evidence_level": "in_vivo",
+      "reasoning": "The dossier's lead review (PMID 42231903) argues that intestinal reparative therapy, defined by endoscopic and histologic healing, is strongly associated with improved long-term outcomes in IBD, and identifies GLP-1 and GLP-2 signaling as actionable epithelial repair pathways with clinical opportunity. Teduglutide is the only approved GLP-2 receptor agonist and directly instantiates this mechanism: it is intestinotrophic and anti-apoptotic for enterocytes, reduces mucosal permeability, and in rodent DSS and TNBS colitis models reduces histologic injury, myeloperoxidase activity and pro-inflammatory cytokine expression. Unlike immunosuppressants it acts on the epithelial arm of the barrier defect that permits luminal antigen translocation, addressing a root pathological process in UC. Graded in_vivo because UC-specific human trials are early; approval to date is for short bowel syndrome.",
+      "key_evidence": "PMID 42231903 (GLP-1 and GLP-2 as intestinal reparative therapies in inflammatory bowel disease: mechanisms, translation, and clinical opportunity); preclinical GLP-2 analog studies in DSS and TNBS colitis showing reduced histologic damage and restored barrier function.",
+      "pubchem_details": {
+        "cid": "PUBCHEM:16139605",
+        "smiles": "CCC(C)C(C(=O)NC(C(C)O)C(=O)NC(CC(=O)O)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)CC)NC(=O)C(CC(C)C)NC(=O)C(CC1=CNC2=CC=CC=C21)NC(=O)C(CC(=O)N)NC(=O)C(C(C)CC)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C(C)CC)NC(=O)C(C(C)O)NC(=O)C(CC(=O)N)NC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CO)NC(=O)CNC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC5=CN=CN5)N",
+        "name": "Teduglutide"
+      },
+      "db_status": "FOUND_IN_DB",
+      "cando_id": "41",
+      "cando_name": "glycine"
+    }
+  ]
+}
